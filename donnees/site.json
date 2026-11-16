@@ -2,7 +2,7 @@
   "nom": "Sarah Chaperon",
   "adresse": "https://sarah-chaperon-maquette.vercel.app",
   "siteActuel": "sarahchaperon.wixsite.com",
-  "version": 1,
+  "version": 2,
   "langues": ["fr"],
   "navigation": ["accueil", "parcours", "portraits", "demo-et-voix", "contact"],
   "actionEntete": { "page": "contact" },

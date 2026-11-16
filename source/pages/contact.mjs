@@ -1,23 +1,31 @@
-/* Contact · ouverture compacte : le numéro en très grand, bandeau des coulisses (fond clair, numéro comme élément principal).
-   Signature : le message envoyé devient un tirage qui file vers « La contacter » et reçoit le tampon « Reçu » (retour physique). */
+/* Contact (v2) · ouverture : le numéro en très grand sur le cache crème, et sur la table lumineuse la pochette de tirages
+   d'où dépasse son portrait (scindée, compacte). Signature : à l'envoi, le message file vers la pochette,
+   le tirage rentre dedans et le tampon « Reçu » s'abat sur la pochette (retour physique). */
 import { html } from '../../outils/gabarit.mjs';
 import { crayon } from '../gabarits/crayon.mjs';
 
-export const page = { cle: 'contact', fichier: 'contact', imagePartage: 'grok/coulisses-1280.webp' };
+export const page = { cle: 'contact', fichier: 'contact', imagePartage: 'robin-1120.webp' };
 
 export default (c) => html`
-<section class="co-ouverture" id="debut">
-  <div class="conteneur co-tete">
+<section class="table-ouverture co2-ouverture" id="debut">
+  <div class="to-cache">
     <p class="surtitre mono ouvre" data-anime="gsap">${c.t('contact.sur')}</p>
-    <h1 class="co-titre" data-grille="typo"><span>${c.t('contact.titre1')}</span> <span class="rouge">${c.t('contact.titre2')}</span></h1>
+    <h1 class="to-titre" data-grille="typo"><span>${c.t('contact.titre1')}</span> <span class="rouge rouge--sobre">${c.t('contact.titre2')}</span></h1>
     <p class="co-coord ouvre" data-anime="gsap">
-      <a class="co-tel" href="tel:${c.site.contact.telephoneLien}" data-info-cle data-iris-centre><span class="tel-boite"><span class="tel-num">${c.site.contact.telephone}</span>${crayon({ forme: 2, classe: 'crayon-tel', fil: true })}</span></a>
+      <a class="co-tel" href="tel:${c.site.contact.telephoneLien}" data-info-cle><span class="tel-boite"><span class="tel-num">${c.site.contact.telephone}</span>${crayon({ forme: 2, classe: 'crayon-tel', fil: true })}</span></a>
       <a class="co-mail" href="mailto:${c.site.contact.email}">${c.site.contact.email}</a>
     </p>
     <p class="ouvre" data-anime="gsap"><a class="bouton" href="#message" data-action-principale>${c.t('contact.form.titre')}</a></p>
     <p class="ouvre co-intro masque-ecran-bas" data-anime="gsap">${c.t('contact.texte')}</p>
   </div>
-  ${c.media({ nom: 'grok/coulisses', alt: c.s('contact.alt'), priorite: true, classe: 'co-bandeau', sizes: '100vw', cadrage: '50% 50%', attrs: 'data-fx="parallaxe"' })}
+  <div class="to-table">
+    <div class="to-lumiere" aria-hidden="true"></div>
+    <div class="pochette" data-effet="pochette" data-iris-centre>
+      <figure class="pochette-tirage">${c.media({ nom: 'robin', alt: c.donnees.images.robin.alt, classe: 'to-media', sizes: '(max-width: 760px) 50vw, 20vw', priorite: true, ratio: '4/5' })}</figure>
+      <div class="pochette-avant" aria-hidden="true"><span class="pochette-nom">Sarah Chaperon</span><span class="mono">Tirages · Photo Fabrice Robin</span></div>
+      <span class="pochette-tampon" aria-hidden="true" data-superpose>${c.t('contact.recu')}</span>
+    </div>
+  </div>
 </section>
 
 <section class="co-form-zone conteneur" id="message">
@@ -43,8 +51,8 @@ export default (c) => html`
     <span class="co-tampon" aria-hidden="true" data-superpose>${c.t('contact.recu')}</span>
   </form>
   <aside class="co-direct">
-    ${c.media({ nom: 'robin', alt: c.donnees.images.robin.alt, classe: 'co-portrait', sizes: '(max-width: 760px) 60vw, 26vw', attrs: 'data-anime="rideau"' })}
-    <p class="mono co-credit">Photo Fabrice Robin</p>
+    ${c.media({ nom: 'bouillard-pied', alt: c.donnees.images['bouillard-pied'].alt, classe: 'co-portrait', sizes: '(max-width: 760px) 50vw, 20vw', ratio: '2/3', attrs: 'data-anime="rideau"' })}
+    <p class="mono co-credit">Photo Laurent Bouillard</p>
     <h2 data-anime="lignes">${c.t('contact.direct.titre')}</h2>
     <p data-anime><a class="bouton bouton--contour" href="tel:${c.site.contact.telephoneLien}">${c.t('contact.direct.appel')} ${c.site.contact.telephone}</a></p>
     <p data-anime><a class="lien-fleche" href="mailto:${c.site.contact.email}">${c.t('contact.direct.mail')}</a></p>

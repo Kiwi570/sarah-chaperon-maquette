@@ -1,13 +1,13 @@
 {
- "id": "20261113-170726-standard-partiel",
- "date": "2026-11-13T17:09:32.306Z",
+ "id": "20261116-133745-standard-cible-partiel",
+ "date": "2026-11-16T13:38:34.861Z",
  "niveau": "standard",
- "pages": "toutes",
+ "pages": "/,/parcours",
  "etapes": [
   "fichiers",
   "mesures"
  ],
- "version": "1",
+ "version": "2",
  "echecs": 0,
  "aRegarder": 1,
  "nonLances": 0,

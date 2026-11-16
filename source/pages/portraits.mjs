@@ -56,7 +56,7 @@ export default (c) => {
 
 <section class="po2-demande" id="demande">
   <div class="conteneur po2-demande-grille">
-    ${c.media({ nom: 'grok/coulisses', alt: c.s('contact.alt'), classe: 'po2-demande-media', sizes: '(max-width: 760px) 100vw, 45vw', attrs: 'data-fx="parallaxe"' })}
+    ${c.media({ nom: 'slk-jardin', alt: c.donnees.images['slk-jardin'].alt, classe: 'po2-demande-media', sizes: '(max-width: 760px) 100vw, 45vw', cadrage: '50% 25%', attrs: 'data-fx="parallaxe"' })}
     <div>
       <h2 data-anime="lignes">${c.t('portraits.demande.titre')}</h2>
       <p data-anime>${c.t('portraits.demande.texte')}</p>

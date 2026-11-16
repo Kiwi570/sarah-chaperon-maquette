@@ -307,5 +307,53 @@
   "priorite": "Conseillée",
   "beaute": 4,
   "consigne_scene": "An empty black theatre stage with a single wooden chair standing alone in a narrow pool of warm light, the rest of the stage in deep shadow, faint haze, nobody"
+ },
+ {
+  "source": "recu/site/maxresdefault.webp",
+  "nom": "video-veni",
+  "role": "vignette",
+  "ratio": "16:9",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "cadrage": [
+   50,
+   50
+  ],
+  "beaute": 3,
+  "alt": "Image de la vidéo Veni Vidi Bibi, Cie PILE"
+ },
+ {
+  "source": "recu/site/maxresdefault-2.webp",
+  "nom": "video-sacrees",
+  "role": "vignette",
+  "ratio": "16:9",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "cadrage": [
+   50,
+   50
+  ],
+  "beaute": 3,
+  "alt": "Image de la vidéo Sacrées Championnes, Cie PILE"
+ },
+ {
+  "source": "recu/site/maxresdefault-3.webp",
+  "nom": "video-lombri",
+  "role": "vignette",
+  "ratio": "16:9",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "cadrage": [
+   50,
+   50
+  ],
+  "beaute": 3,
+  "alt": "Image de la vidéo Les Lombricontes, Cie PILE"
  }
 ]

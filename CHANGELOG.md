@@ -1,5 +1,18 @@
 # Journal des versions
 
+## v2 — 16 novembre 2026
+
+Les pages d'onglet reprennent la direction de l'accueil, avec ses vraies photos.
+
+- **Parcours** : l'ouverture devient la table lumineuse, avec le cache crème à gauche. Y sont posés son portrait (Laurent Bouillard), les 3 affiches de la Cie PILE et une fiche « À venir : Les voix de l'eau, décembre 2026 » entourée au crayon. Les tirages glissent au défilement. Le répertoire devient un index typographique, sans cartes à bordure. Les filtres sont maintenant Grand répertoire, Contemporain et Spectacles de compagnie. Dans la frise des tournages, le rôle passe en titre (« L'infirmière », « Wanda »…). « Demander le CV » est présent dès le premier écran.
+- **Démo & voix** : une bande de film est posée sur la table, ses 3 images sont les vraies vidéos de la Cie PILE (liens YouTube), et elle avance de côté au défilement. Le portrait collé sur l'écran de cinéma est retiré. Pour la voix, une onde tracée au crayon court sur son portrait en plein air (Ana Slk).
+- **Contact** : la pochette de tirages est posée sur la table, son portrait (Fabrice Robin) en dépasse. À l'envoi, le message file, la page remonte, le tirage rentre dans la pochette et un grand tampon « Reçu » s'abat dessus. Le formulaire a deux nouveaux objets, « La bande-démo » et « Des extraits de voix ».
+- **Images générées** : il n'en reste qu'une, la chaise de la page 404. Le plateau, la salle de projection, le studio, le texte annoté, le tournage et les coulisses sont retirés.
+- **Accueil** : l'ouverture est désempilée. Le tirage « Col roulé » est posé sur une zone libre de la table, la loupe tient entière dans l'écran et le surtitre passe sur deux lignes. Les tirages de « Ses visages » ne suivent plus l'ordre de la planche.
+- **Démo & voix** : l'onde au crayon court sous le portrait, jamais sur le visage. Les extraits sans fichier n'affichent plus d'onde.
+- **Titres** : Parcours, Démo & voix et Contact ont perdu leur mot en italique rouge.
+- **Partout** : les boutons d'écriture mènent droit au formulaire, avec l'objet déjà choisi. Le portrait sans crédit est indiqué « Photographe non crédité ». Un clic ou un toucher retourne les tirages.
+
 ## v1 — 13 novembre 2026
 
 La base de la maquette.

@@ -1,0 +1,16 @@
+{
+ "id": "20261116-131709-standard-cible-partiel",
+ "date": "2026-11-16T13:18:16.746Z",
+ "niveau": "standard",
+ "pages": "/,/demo-et-voix,/parcours",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "2",
+ "echecs": 2,
+ "aRegarder": 1,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

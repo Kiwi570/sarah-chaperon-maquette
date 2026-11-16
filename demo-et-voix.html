@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/instrument-serif.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f2efe8">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -105,17 +105,36 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <p><a class="bouton" href="tel:+33611626541">Appeler 06 11 62 65 41</a></p>
 </div>
 <main id="contenu" tabindex="-1">
-<section class="dv-ouverture" id="debut">
-  <figure class="media dv-salle" data-grok style="--cadrage:60% 45%">
-  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/salle-projection-mobile-640.webp 640w, /assets/images/grok/salle-projection-mobile-1080.webp 1080w" sizes="100vw">
-    <img src="/assets/images/grok/salle-projection-1280.webp" srcset="/assets/images/grok/salle-projection-640.webp 640w, /assets/images/grok/salle-projection-1280.webp 1280w, /assets/images/grok/salle-projection-1920.webp 1920w" sizes="100vw" alt="Une petite salle de projection dans le noir, l&#39;écran allumé" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
-  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+<section class="dv2-ouverture" id="debut">
+  <div class="dv2-table" aria-hidden="true"></div>
+  <div class="dv2-bande" data-effet="bande" data-galerie data-visuel>
+    <a class="dv2-image" href="https://www.youtube.com/watch?v=c_-WWkegUUo" target="_blank" rel="noopener" aria-label="Veni Vidi Bibi : voir la vidéo sur YouTube (nouvel onglet)">
+      <figure class="media dv2-media" style="--cadrage:50% 50%;aspect-ratio:16/9">
+  <picture>
+    <img src="/assets/images/video-veni-1280.webp" srcset="/assets/images/video-veni-640.webp 640w, /assets/images/video-veni-1280.webp 1280w" sizes="(max-width: 760px) 70vw, 30vw" alt="Image de la vidéo Veni Vidi Bibi" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
 </figure>
-  <span class="dv-faisceau" data-effet="faisceau" data-souris aria-hidden="true"></span>
-  <div class="dv-texte conteneur">
+      <span class="dv2-play" aria-hidden="true" data-audit-ignorer>▶</span><span class="dv2-legende mono">Veni Vidi Bibi · YouTube ↗</span>
+    </a><a class="dv2-image" href="https://www.youtube.com/watch?v=26eZMxqoAQs" target="_blank" rel="noopener" aria-label="Sacrées Championnes : voir la vidéo sur YouTube (nouvel onglet)" data-iris-centre>
+      <figure class="media dv2-media" style="--cadrage:50% 50%;aspect-ratio:16/9">
+  <picture>
+    <img src="/assets/images/video-sacrees-1280.webp" srcset="/assets/images/video-sacrees-640.webp 640w, /assets/images/video-sacrees-1280.webp 1280w" sizes="(max-width: 760px) 70vw, 30vw" alt="Image de la vidéo Sacrées Championnes" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+      <span class="dv2-play" aria-hidden="true" data-audit-ignorer>▶</span><span class="dv2-legende mono">Sacrées Championnes · YouTube ↗</span>
+    </a><a class="dv2-image" href="https://www.youtube.com/watch?v=FAnm90GaVI0" target="_blank" rel="noopener" aria-label="Les Lombricontes : voir la vidéo sur YouTube (nouvel onglet)">
+      <figure class="media dv2-media" style="--cadrage:50% 50%;aspect-ratio:16/9">
+  <picture>
+    <img src="/assets/images/video-lombri-1280.webp" srcset="/assets/images/video-lombri-640.webp 640w, /assets/images/video-lombri-1280.webp 1280w" sizes="(max-width: 760px) 70vw, 30vw" alt="Image de la vidéo Les Lombricontes" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+      <span class="dv2-play" aria-hidden="true" data-audit-ignorer>▶</span><span class="dv2-legende mono">Les Lombricontes · YouTube ↗</span>
+    </a>
+  </div>
+  <div class="dv2-texte conteneur">
     <p class="surtitre mono ouvre" data-anime="gsap">Bande-démo et voix</p>
-    <h1 class="dv-titre" data-grille="typo" data-iris-centre><span>La voir,</span> <span class="rouge">l&#39;entendre</span></h1>
-    <p class="ouvre dv-actions" data-anime="gsap"><a class="bouton bouton--clair" href="#voix" data-action-principale>Écouter sa voix</a> <span class="mono dv-info" data-info-cle>Bande-démo 2024 · 4 extraits de voix</span></p>
+    <h1 class="dv-titre" data-grille="typo"><span>La voir,</span> <span class="rouge rouge--sobre">l&#39;entendre</span></h1>
+    <p class="ouvre dv-actions" data-anime="gsap"><a class="bouton" href="#voix" data-action-principale>Écouter sa voix</a> <span class="mono dv-info" data-info-cle>Bande-démo 2024 · 4 extraits de voix</span></p>
     <p class="ouvre dv-intro masque-ecran-bas" data-anime="gsap">Sa bande-démo de 2024 et quatre extraits de voix, dont « En mai » de Victor Hugo lu en studio.</p>
   </div>
 </section>
@@ -126,61 +145,49 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <p data-anime>Merci à Sarah Gaston, coréalisatrice de Recovery. Demandez le lien à Sarah : elle vous l&#39;envoie.</p>
     <p data-anime class="dv-demande"><a href="/contact?sujet=demo#message" class="bouton" data-libelle="Contact">Recevoir la bande-démo</a><svg class="crayon crayon-bouton" viewBox="0 0 360 110" preserveAspectRatio="none" aria-hidden="true" data-superpose data-effet="crayon" data-grille="fil"><path d="M70 8 C 200 -2, 352 6, 356 52 C 360 98, 250 108, 170 106 C 60 104, 2 90, 4 54 C 6 22, 70 8, 130 4" pathLength="1" filter="url(#gras-fil)"/></svg></p>
   </div>
-  <ol class="dv-videos" data-anime="cascade">
-    <li><a class="dv-video" href="https://www.youtube.com/watch?v=c_-WWkegUUo" target="_blank" rel="noopener">
-      <figure class="media dv-video-media" style="--cadrage:50% 50%;aspect-ratio:2/3">
+  <figure class="dv-portrait"><figure class="media dv-portrait-media" data-fx="parallaxe" style="--cadrage:50% 25%;aspect-ratio:3/2">
   <picture>
-    <img src="/assets/images/affiche-veni-vidi-bibi-480.webp" srcset="/assets/images/affiche-veni-vidi-bibi-320.webp 320w, /assets/images/affiche-veni-vidi-bibi-480.webp 480w" sizes="(max-width: 760px) 30vw, 10vw" alt="Affiche de Veni Vidi Bibi" width="480" height="720" loading="lazy" decoding="async">
+    <img src="/assets/images/slk-menton-1120.webp" srcset="/assets/images/slk-menton-480.webp 480w, /assets/images/slk-menton-800.webp 800w, /assets/images/slk-menton-1120.webp 1120w" sizes="(max-width: 760px) 70vw, 30vw" alt="Sarah Chaperon pensive, la main sous le menton, dans la verdure" width="1120" height="1680" loading="lazy" decoding="async">
   </picture>
-</figure>
-      <span><b>Veni Vidi Bibi</b> <em>« Une conférence théâtravinée », Cie PILE</em> <span class="mono">YouTube ↗</span></span></a></li><li><a class="dv-video" href="https://www.youtube.com/watch?v=26eZMxqoAQs" target="_blank" rel="noopener">
-      <figure class="media dv-video-media" style="--cadrage:50% 50%;aspect-ratio:2/3">
-  <picture>
-    <img src="/assets/images/affiche-sacrees-championnes-480.webp" srcset="/assets/images/affiche-sacrees-championnes-320.webp 320w, /assets/images/affiche-sacrees-championnes-480.webp 480w" sizes="(max-width: 760px) 30vw, 10vw" alt="Affiche de Sacrées Championnes" width="480" height="720" loading="lazy" decoding="async">
-  </picture>
-</figure>
-      <span><b>Sacrées Championnes</b> <em>Exploits féminins racontés par Sarah Chaperon et Caroline Mattei</em> <span class="mono">YouTube ↗</span></span></a></li><li><a class="dv-video" href="https://www.youtube.com/watch?v=FAnm90GaVI0" target="_blank" rel="noopener">
-      <figure class="media dv-video-media" style="--cadrage:50% 50%;aspect-ratio:2/3">
-  <picture>
-    <img src="/assets/images/affiche-lombricontes-480.webp" srcset="/assets/images/affiche-lombricontes-320.webp 320w, /assets/images/affiche-lombricontes-480.webp 480w" sizes="(max-width: 760px) 30vw, 10vw" alt="Affiche de Les Lombricontes" width="480" height="720" loading="lazy" decoding="async">
-  </picture>
-</figure>
-      <span><b>Les Lombricontes</b> <em>Cie PILE</em> <span class="mono">YouTube ↗</span></span></a></li>
-  </ol>
+</figure><figcaption class="mono">Photo Ana Slk</figcaption></figure>
 </section>
-<section class="dv-voix" id="voix" data-gouttiere="#0f0e0d">
+<section class="dv-voix" id="voix">
   <div class="conteneur dv-voix-grille">
-    <figure class="media dv-voix-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+    <figure class="dv-voix-portrait" data-effet="onde-crayon">
+      <figure class="media dv-voix-media" style="--cadrage:50% 50%;aspect-ratio:4/5">
   <picture>
-    <img src="/assets/images/grok/studio-voix-1280.webp" srcset="/assets/images/grok/studio-voix-640.webp 640w, /assets/images/grok/studio-voix-1280.webp 1280w, /assets/images/grok/studio-voix-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 42vw" alt="Un micro à ruban devant un pupitre dans une cabine d’enregistrement" width="1280" height="853" loading="lazy" decoding="async">
-  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+    <img src="/assets/images/slk-jardin-1120.webp" srcset="/assets/images/slk-jardin-480.webp 480w, /assets/images/slk-jardin-800.webp 800w, /assets/images/slk-jardin-1120.webp 1120w" sizes="(max-width: 760px) 100vw, 36vw" alt="Sarah Chaperon souriante en extérieur, feuillage vert derrière elle" width="1120" height="1680" loading="lazy" decoding="async">
+  </picture>
 </figure>
+      <svg class="dv-onde-crayon" viewBox="0 0 400 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40 L400 40"/></svg>
+      <figcaption class="mono">Photo Ana Slk</figcaption>
+    </figure>
     <div class="lrs dv-lecteur" data-module="lecteur-reactif-au-son" data-avec-son="non">
       <p class="surtitre mono">Voix</p>
       <h2 data-anime="lignes">Sa voix</h2>
       <p>Lecture en studio et enregistrements faits à la maison.</p>
       <ol class="lrs__pistes dv-pistes">
         <li class="lrs__piste dv-piste">
-          <span class="dv-onde" aria-hidden="true" data-effet="onde-voix"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+          <span class="dv-num mono" aria-hidden="true">01</span>
           <span class="lrs__corps"><span class="lrs__titre">En mai</span><span class="lrs__detail">Victor Hugo · Enregistrement studio</span></span>
           <span class="lrs__duree mono">1:54</span>
         </li><li class="lrs__piste dv-piste">
-          <span class="dv-onde" aria-hidden="true" data-effet="onde-voix"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+          <span class="dv-num mono" aria-hidden="true">02</span>
           <span class="lrs__corps"><span class="lrs__titre">Bien-être 1</span><span class="lrs__detail">Enregistrement maison</span></span>
           <span class="lrs__duree mono">1:55</span>
         </li><li class="lrs__piste dv-piste">
-          <span class="dv-onde" aria-hidden="true" data-effet="onde-voix"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+          <span class="dv-num mono" aria-hidden="true">03</span>
           <span class="lrs__corps"><span class="lrs__titre">Bien-être 2</span><span class="lrs__detail">Enregistrement maison</span></span>
           <span class="lrs__duree mono">1:55</span>
         </li><li class="lrs__piste dv-piste">
-          <span class="dv-onde" aria-hidden="true" data-effet="onde-voix"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+          <span class="dv-num mono" aria-hidden="true">04</span>
           <span class="lrs__corps"><span class="lrs__titre">Shanghai</span><span class="lrs__detail"></span></span>
           <span class="lrs__duree mono">0:39</span>
         </li>
       </ol>
       <p class="dv-note">Extraits disponibles sur demande : Sarah vous les envoie par e-mail.</p><p><a href="/contact?sujet=voix-extraits#message" class="bouton bouton--clair" data-libelle="Contact">Recevoir les extraits</a></p>
       <audio class="lrs__audio" preload="none"></audio>
-      <p class="dv-suite"><b>Un rôle, une lecture, une voix off ?</b> <a href="/contact" class="lien-fleche" data-libelle="Contact">La contacter</a></p>
+      <p class="dv-suite"><b>Un rôle, une lecture, une voix off ?</b> <a href="/contact#message" class="lien-fleche" data-libelle="Contact">La contacter</a></p>
     </div>
   </div>
 </section>

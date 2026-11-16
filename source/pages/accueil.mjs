@@ -28,7 +28,7 @@ export default (c) => {
   <div class="os-collant" data-collant>
     <div class="planche-ouverture">
       <div class="po-texte">
-        <p class="surtitre mono" data-anime="gsap">${c.t('accueil.hero.sur')}</p>
+        <p class="surtitre mono" data-anime="gsap">${c.t('accueil.hero.sur')}<br>${c.t('accueil.hero.sur2')}</p>
         <h1 class="po-titre" data-grille="typo" data-effet="revelateur"><span class="po-l1">${c.t('accueil.hero.titre1')}</span><span class="po-l2">${c.t('accueil.hero.titre2')}</span></h1>
         <p class="po-info mono" data-info-cle data-anime="gsap">${c.t('accueil.hero.info')}</p>
         <p class="po-intro masque-ecran-tres-bas" data-anime="gsap">${c.t('accueil.hero.texte')}</p>
@@ -118,7 +118,7 @@ export default (c) => {
     <div class="table-tirages" data-effet="table-tirages">
       <span class="table-tirages-lumiere" aria-hidden="true" data-effet="lumiere-table" data-souris></span>
       <ul class="tirages" data-effet="recomposition">
-        ${P.map((x, i) => html`<li class="tirage" data-photographe="${x.photographe ? slug(x.photographe) : 'aucun'}" style="--r:${[-2, 1.5, -1, 2, -1.5, 1, -2.5, 1.2, -0.8, 2.2, -1.8][i % 11]}deg">
+        ${[5, 8, 2, 11, 0, 6, 9, 3, 7, 1, 10, 4].map((k) => P[k]).map((x, i) => html`<li class="tirage" data-photographe="${x.photographe ? slug(x.photographe) : 'aucun'}" style="--r:${[-2, 1.5, -1, 2, -1.5, 1, -2.5, 1.2, -0.8, 2.2, -1.8][i % 11]}deg">
           <button type="button" class="tirage-carte" aria-label="${c.s('accueil.visages.retourner')} : ${x.titre}, ${credit(x)}" aria-pressed="false">
             <span class="tirage-face">${c.media({ nom: x.image, alt: '', classe: 'tirage-media', sizes: '(max-width: 760px) 30vw, 14vw' })}</span>
             <span class="tirage-dos" data-face="dos"><span class="mono">${c.t('accueil.visages.dos')}</span><b>${x.titre}</b><span>${credit(x)}</span></span>
@@ -176,7 +176,7 @@ export default (c) => {
 </section>
 
 <section class="appel" id="appel">
-  ${c.media({ nom: 'grok/coulisses', alt: '', classe: 'appel-fond', sizes: '100vw', attrs: 'data-fx="parallaxe" aria-hidden="true"' })}
+  ${c.media({ nom: 'slk-menton', alt: '', classe: 'appel-fond', sizes: '100vw', cadrage: '50% 25%', attrs: 'data-fx="parallaxe" aria-hidden="true"' })}
   <div class="conteneur appel-grille">
     <div>
       <p class="surtitre mono" data-anime>${c.t('accueil.appel.sur')}</p>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/instrument-serif.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f2efe8">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -109,7 +109,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="os-collant" data-collant>
     <div class="planche-ouverture">
       <div class="po-texte">
-        <p class="surtitre mono" data-anime="gsap">Comédienne · théâtre · tournages · voix</p>
+        <p class="surtitre mono" data-anime="gsap">Comédienne<br>Théâtre · tournages · voix</p>
         <h1 class="po-titre" data-grille="typo" data-effet="revelateur"><span class="po-l1">Sarah</span><span class="po-l2">Chaperon</span></h1>
         <p class="po-info mono" data-info-cle data-anime="gsap">Prochainement : Les voix de l&#39;eau, décembre 2026</p>
         <p class="po-intro masque-ecran-tres-bas" data-anime="gsap">Cinq photographes, un même visage. Promenez la loupe sur la planche, touchez le portrait qui vous parle : il s&#39;entoure de rouge.</p>
@@ -264,26 +264,26 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="table-tirages" data-effet="table-tirages">
       <span class="table-tirages-lumiere" aria-hidden="true" data-effet="lumiere-table" data-souris></span>
       <ul class="tirages" data-effet="recomposition">
-        <li class="tirage" data-photographe="roka-production" style="--r:-2deg">
-          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Le sourire posé, Photo Roka production" aria-pressed="false">
+        <li class="tirage" data-photographe="aucun" style="--r:-2deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Le rire, en grand, Photographe non crédité" aria-pressed="false">
             <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/roka-buste-1120.webp" srcset="/assets/images/roka-buste-480.webp 480w, /assets/images/roka-buste-800.webp 800w, /assets/images/roka-buste-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1991" loading="lazy" decoding="async">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/rire-mobile-640.webp 640w, /assets/images/rire-mobile-1080.webp 1080w" sizes="(max-width: 760px) 30vw, 14vw">
+    <img src="/assets/images/rire-1280.webp" srcset="/assets/images/rire-640.webp 640w, /assets/images/rire-1280.webp 1280w, /assets/images/rire-1920.webp 1920w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1280" height="853" loading="lazy" decoding="async">
   </picture>
 </figure></span>
-            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Le sourire posé</b><span>Photo Roka production</span></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Le rire, en grand</b><span>Photographe non crédité</span></span>
           </button>
-          <p class="tirage-legende">Roka production</p>
-        </li><li class="tirage" data-photographe="laurent-bouillard" style="--r:1.5deg">
-          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Face à la lumière, Photo Laurent Bouillard" aria-pressed="false">
+          <p class="tirage-legende">Photographe non crédité</p>
+        </li><li class="tirage" data-photographe="lisa-fougereux" style="--r:1.5deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Manteau bleu, Photo Lisa Fougereux" aria-pressed="false">
             <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/bouillard-sourire-1120.webp" srcset="/assets/images/bouillard-sourire-480.webp 480w, /assets/images/bouillard-sourire-800.webp 800w, /assets/images/bouillard-sourire-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="746" loading="lazy" decoding="async">
+    <img src="/assets/images/fougereux-manteau-1120.webp" srcset="/assets/images/fougereux-manteau-480.webp 480w, /assets/images/fougereux-manteau-800.webp 800w, /assets/images/fougereux-manteau-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1680" loading="lazy" decoding="async">
   </picture>
 </figure></span>
-            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Face à la lumière</b><span>Photo Laurent Bouillard</span></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Manteau bleu</b><span>Photo Lisa Fougereux</span></span>
           </button>
-          <p class="tirage-legende">Laurent Bouillard</p>
+          <p class="tirage-legende">Lisa Fougereux</p>
         </li><li class="tirage" data-photographe="ana-slk" style="--r:-1deg">
           <button type="button" class="tirage-carte" aria-label="Retourner le tirage : La rêveuse, Photo Ana Slk" aria-pressed="false">
             <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
@@ -295,36 +295,26 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           </button>
           <p class="tirage-legende">Ana Slk</p>
         </li><li class="tirage" data-photographe="laurent-bouillard" style="--r:2deg">
-          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Col roulé, Photo Laurent Bouillard" aria-pressed="false">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Les mains sur les hanches, Photo Laurent Bouillard" aria-pressed="false">
             <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/bouillard-noir-1120.webp" srcset="/assets/images/bouillard-noir-480.webp 480w, /assets/images/bouillard-noir-800.webp 800w, /assets/images/bouillard-noir-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1400" loading="lazy" decoding="async">
+    <img src="/assets/images/bouillard-hanches-1120.webp" srcset="/assets/images/bouillard-hanches-480.webp 480w, /assets/images/bouillard-hanches-800.webp 800w, /assets/images/bouillard-hanches-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="746" loading="lazy" decoding="async">
   </picture>
 </figure></span>
-            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Col roulé</b><span>Photo Laurent Bouillard</span></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Les mains sur les hanches</b><span>Photo Laurent Bouillard</span></span>
           </button>
           <p class="tirage-legende">Laurent Bouillard</p>
-        </li><li class="tirage" data-photographe="ana-slk" style="--r:-1.5deg">
-          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Plein air, Photo Ana Slk" aria-pressed="false">
+        </li><li class="tirage" data-photographe="roka-production" style="--r:-1.5deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Le sourire posé, Photo Roka production" aria-pressed="false">
             <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/slk-jardin-1120.webp" srcset="/assets/images/slk-jardin-480.webp 480w, /assets/images/slk-jardin-800.webp 800w, /assets/images/slk-jardin-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1680" loading="lazy" decoding="async">
+    <img src="/assets/images/roka-buste-1120.webp" srcset="/assets/images/roka-buste-480.webp 480w, /assets/images/roka-buste-800.webp 800w, /assets/images/roka-buste-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1991" loading="lazy" decoding="async">
   </picture>
 </figure></span>
-            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Plein air</b><span>Photo Ana Slk</span></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Le sourire posé</b><span>Photo Roka production</span></span>
           </button>
-          <p class="tirage-legende">Ana Slk</p>
-        </li><li class="tirage" data-photographe="aucun" style="--r:1deg">
-          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Le rire, en grand, Photographe non crédité" aria-pressed="false">
-            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
-  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/rire-mobile-640.webp 640w, /assets/images/rire-mobile-1080.webp 1080w" sizes="(max-width: 760px) 30vw, 14vw">
-    <img src="/assets/images/rire-1280.webp" srcset="/assets/images/rire-640.webp 640w, /assets/images/rire-1280.webp 1280w, /assets/images/rire-1920.webp 1920w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1280" height="853" loading="lazy" decoding="async">
-  </picture>
-</figure></span>
-            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Le rire, en grand</b><span>Photographe non crédité</span></span>
-          </button>
-          <p class="tirage-legende">Photographe non crédité</p>
-        </li><li class="tirage" data-photographe="laurent-bouillard" style="--r:-2.5deg">
+          <p class="tirage-legende">Roka production</p>
+        </li><li class="tirage" data-photographe="laurent-bouillard" style="--r:1deg">
           <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Les lunettes à la main, Photo Laurent Bouillard" aria-pressed="false">
             <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
   <picture>
@@ -334,7 +324,27 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
             <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Les lunettes à la main</b><span>Photo Laurent Bouillard</span></span>
           </button>
           <p class="tirage-legende">Laurent Bouillard</p>
-        </li><li class="tirage" data-photographe="roka-production" style="--r:1.2deg">
+        </li><li class="tirage" data-photographe="laurent-bouillard" style="--r:-2.5deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Trois quarts, Photo Laurent Bouillard" aria-pressed="false">
+            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bouillard-pied-1120.webp" srcset="/assets/images/bouillard-pied-480.webp 480w, /assets/images/bouillard-pied-800.webp 800w, /assets/images/bouillard-pied-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1680" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Trois quarts</b><span>Photo Laurent Bouillard</span></span>
+          </button>
+          <p class="tirage-legende">Laurent Bouillard</p>
+        </li><li class="tirage" data-photographe="laurent-bouillard" style="--r:1.2deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Col roulé, Photo Laurent Bouillard" aria-pressed="false">
+            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bouillard-noir-1120.webp" srcset="/assets/images/bouillard-noir-480.webp 480w, /assets/images/bouillard-noir-800.webp 800w, /assets/images/bouillard-noir-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1400" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Col roulé</b><span>Photo Laurent Bouillard</span></span>
+          </button>
+          <p class="tirage-legende">Laurent Bouillard</p>
+        </li><li class="tirage" data-photographe="roka-production" style="--r:-0.8deg">
           <button type="button" class="tirage-carte" aria-label="Retourner le tirage : En pied, Photo Roka production" aria-pressed="false">
             <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
   <picture>
@@ -344,24 +354,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
             <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>En pied</b><span>Photo Roka production</span></span>
           </button>
           <p class="tirage-legende">Roka production</p>
-        </li><li class="tirage" data-photographe="lisa-fougereux" style="--r:-0.8deg">
-          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Manteau bleu, Photo Lisa Fougereux" aria-pressed="false">
-            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/fougereux-manteau-1120.webp" srcset="/assets/images/fougereux-manteau-480.webp 480w, /assets/images/fougereux-manteau-800.webp 800w, /assets/images/fougereux-manteau-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1680" loading="lazy" decoding="async">
-  </picture>
-</figure></span>
-            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Manteau bleu</b><span>Photo Lisa Fougereux</span></span>
-          </button>
-          <p class="tirage-legende">Lisa Fougereux</p>
         </li><li class="tirage" data-photographe="laurent-bouillard" style="--r:2.2deg">
-          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Trois quarts, Photo Laurent Bouillard" aria-pressed="false">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Face à la lumière, Photo Laurent Bouillard" aria-pressed="false">
             <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/bouillard-pied-1120.webp" srcset="/assets/images/bouillard-pied-480.webp 480w, /assets/images/bouillard-pied-800.webp 800w, /assets/images/bouillard-pied-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1680" loading="lazy" decoding="async">
+    <img src="/assets/images/bouillard-sourire-1120.webp" srcset="/assets/images/bouillard-sourire-480.webp 480w, /assets/images/bouillard-sourire-800.webp 800w, /assets/images/bouillard-sourire-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="746" loading="lazy" decoding="async">
   </picture>
 </figure></span>
-            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Trois quarts</b><span>Photo Laurent Bouillard</span></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Face à la lumière</b><span>Photo Laurent Bouillard</span></span>
           </button>
           <p class="tirage-legende">Laurent Bouillard</p>
         </li><li class="tirage" data-photographe="fabrice-robin" style="--r:-1.8deg">
@@ -374,16 +374,16 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
             <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>De face</b><span>Photo Fabrice Robin</span></span>
           </button>
           <p class="tirage-legende">Fabrice Robin</p>
-        </li><li class="tirage" data-photographe="laurent-bouillard" style="--r:-2deg">
-          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Les mains sur les hanches, Photo Laurent Bouillard" aria-pressed="false">
+        </li><li class="tirage" data-photographe="ana-slk" style="--r:-2deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Plein air, Photo Ana Slk" aria-pressed="false">
             <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/bouillard-hanches-1120.webp" srcset="/assets/images/bouillard-hanches-480.webp 480w, /assets/images/bouillard-hanches-800.webp 800w, /assets/images/bouillard-hanches-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="746" loading="lazy" decoding="async">
+    <img src="/assets/images/slk-jardin-1120.webp" srcset="/assets/images/slk-jardin-480.webp 480w, /assets/images/slk-jardin-800.webp 800w, /assets/images/slk-jardin-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1680" loading="lazy" decoding="async">
   </picture>
 </figure></span>
-            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Les mains sur les hanches</b><span>Photo Laurent Bouillard</span></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Plein air</b><span>Photo Ana Slk</span></span>
           </button>
-          <p class="tirage-legende">Laurent Bouillard</p>
+          <p class="tirage-legende">Ana Slk</p>
         </li>
       </ul>
       <svg class="trace-libre" aria-hidden="true" data-superpose><path filter="url(#gras-fil)"/></svg>
@@ -437,10 +437,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="appel" id="appel">
-  <figure class="media appel-fond" data-grok data-fx="parallaxe" aria-hidden="true" style="--cadrage:50% 50%">
-  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/coulisses-mobile-640.webp 640w, /assets/images/grok/coulisses-mobile-1080.webp 1080w" sizes="100vw">
-    <img src="/assets/images/grok/coulisses-1280.webp" srcset="/assets/images/grok/coulisses-640.webp 640w, /assets/images/grok/coulisses-1280.webp 1280w, /assets/images/grok/coulisses-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="720" loading="lazy" decoding="async">
-  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+  <figure class="media appel-fond" data-fx="parallaxe" aria-hidden="true" style="--cadrage:50% 25%">
+  <picture>
+    <img src="/assets/images/slk-menton-1120.webp" srcset="/assets/images/slk-menton-480.webp 480w, /assets/images/slk-menton-800.webp 800w, /assets/images/slk-menton-1120.webp 1120w" sizes="100vw" alt="" width="1120" height="1680" loading="lazy" decoding="async">
+  </picture>
 </figure>
   <div class="conteneur appel-grille">
     <div>

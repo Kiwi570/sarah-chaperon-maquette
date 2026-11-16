@@ -2,8 +2,8 @@
    planche, compte-fils, revelateur, crayon (fil), plongee-portrait, ecran, affiches, table-tirages, recomposition,
    lumiere-table, onde-voix, halo-voix, poursuite, faisceau, tirage, pochette-recu.
    Le socle gère l'intro, le voile en iris, l'en-tête, les boucles et la bibliothèque d'effets. */
-import { demarrer, boucle, versObjet } from './socle/index.js?v=1';
-import { initPages } from './pages.js?v=1';
+import { demarrer, boucle, versObjet } from './socle/index.js?v=2';
+import { initPages } from './pages.js?v=2';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -140,7 +140,7 @@ function initPlanche() {
       if (Math.abs(P.cx - P.x) < 0.2) P.x = P.cx;
       if (Math.abs(P.cy - P.y) < 0.2) P.y = P.cy;
     }
-    const m = P.w / 2; P.x = borne(P.x, m * 1.02, P.tw - m * 1.02); P.y = borne(P.y, m * 0.6, P.th - m * 0.6);
+    const m = P.w / 2; P.x = borne(P.x, m * 1.02, P.tw - m * 1.02); P.y = borne(P.y, m * 1.0, P.th - m * 1.0);
     P.loupe.style.setProperty('--lx', `${(P.x - m).toFixed(1)}px`);
     P.loupe.style.setProperty('--ly', `${(P.y - m).toFixed(1)}px`);
     const fx = P.x / P.tw - 0.5, fy = P.y / P.th - 0.5;
@@ -338,7 +338,7 @@ function initVolant() {
   volant.demo = () => {
     if (!gsap || dep) return;
     const r = table.getBoundingClientRect(), q = t.getBoundingClientRect();
-    const cx = q.left + q.width / 2 - r.left, cy = q.top + q.height / 2 - r.top, rx = q.width * 0.66, ry = q.height * 0.62;
+    const cx = q.left + q.width / 2 - r.left, cy = q.top + q.height / 2 - r.top, rx = q.width * 0.6, ry = q.height * 0.6;
     const pts = Array.from({ length: 50 }, (_, k) => { const a = -Math.PI / 2 + (k / 45) * Math.PI * 2; return `${(cx + Math.cos(a) * rx).toFixed(1)} ${(cy + Math.sin(a) * ry * (1 + 0.03 * Math.sin(k * 1.7))).toFixed(1)}`; });
     trace.setAttribute('d', 'M' + pts.join(' L'));
     const L = trace.getTotalLength();

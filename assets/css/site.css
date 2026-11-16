@@ -75,7 +75,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-grille="typo"]:not(.rev
 .table-lumineuse { position: absolute; inset: 0;
   background: radial-gradient(70% 90% at 66% 46%, #ffffff 0%, #f5f9fc 38%, #e4ecf1 78%, #cfd8de 100%); }
 .planche {
-  position: absolute; left: calc(min(36%, 540px) + 3vw); right: 3vw; top: 5%; bottom: 6%; padding: 18px 10px;
+  position: absolute; left: calc(min(36%, 540px) + 17vw); right: 2.5vw; top: 5%; bottom: 6%; padding: 18px 10px;
   display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-template-rows: repeat(3, minmax(0, 1fr)); gap: 34px 12px; rotate: -.6deg;
 }
 .case { position: relative; padding: 0; border: 0; background: #0b0908; overflow: visible; cursor: zoom-in; min-width: 44px; min-height: 44px;
@@ -95,7 +95,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-grille="typo"]:not(.rev
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .22) 45%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .22) 55%, transparent); }
 
 /* Le tirage posé sur la table : le crayon l'entoure seul, il se soulève et se retourne. */
-.tirage-volant { position: absolute; z-index: 5; left: calc(min(36%, 540px) + 2.5vw); bottom: 6%; width: clamp(170px, 17vw, 250px); rotate: -6deg; touch-action: none; }
+.tirage-volant { position: absolute; z-index: 5; left: calc(min(36%, 540px) + 3.6vw); top: 50%; translate: 0 -40%; width: clamp(150px, 12.5vw, 220px); rotate: -6deg; touch-action: none; }
 .tirage-volant .tirage-face { box-shadow: 0 calc(10px + var(--leve, 0) * 26px) calc(22px + var(--leve, 0) * 40px) rgba(20, 30, 40, calc(.28 + var(--leve, 0) * .12)); }
 .tirage-volant .tirage-dos b { font-size: 1.75rem; }
 .tirage-volant .tirage-dos span:last-child { font-size: 1rem; }
@@ -266,7 +266,7 @@ html.js:not(.secours) .jeu { margin-top: -100svh; }
 
 /* ---------- Écrans bas ---------- */
 @media (max-height: 820px) and (min-width: 761px) {
-  .tirage-volant { width: clamp(150px, 14vw, 210px); }
+  .tirage-volant { width: clamp(130px, 11vw, 180px); }
   .po-titre { font-size: clamp(3rem, min(5.6vw, 11vh), 5.4rem); margin-bottom: 12px; }
   .po-actions { margin-top: 14px; }
   .po-intro { font-size: 1rem; }
@@ -287,8 +287,8 @@ html.js:not(.secours) .jeu { margin-top: -100svh; }
 /* ---------- Tablette et téléphone ---------- */
 @media (max-width: 1080px) and (min-width: 761px) {
   .po-texte { width: 40%; }
-  .planche { left: calc(40% + 2vw); grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(4, minmax(0, 1fr)); }
-  .tirage-volant { left: calc(40% - 8vw); }
+  .planche { left: calc(40% + 15vw); grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(4, minmax(0, 1fr)); }
+  .tirage-volant { left: calc(40% + 1.5vw); width: 12vw; }
   .tirages { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .visages-contenu { grid-template-columns: minmax(0, 1fr); }
 }
@@ -297,7 +297,7 @@ html.js:not(.secours) .jeu { margin-top: -100svh; }
   .planche-ouverture { display: flex; flex-direction: column; }
   .po-table { position: relative; top: auto; flex: 1; min-height: 0; }
   .planche { left: 3vw; right: 3vw; top: 4%; bottom: calc(var(--barres-h) + 4%); }
-  .tirage-volant { left: auto; right: 5vw; bottom: calc(var(--barres-h) + 3%); width: 32vw; rotate: 6deg; }
+  .tirage-volant { left: auto; right: 6vw; top: auto; translate: none; bottom: calc(var(--barres-h) + 5%); width: 28vw; rotate: 5deg; }
   .tirage-volant .tirage-dos b { font-size: 1.125rem; } .tirage-volant .tirage-dos span:last-child { font-size: .875rem; }
   .po-titre { font-size: clamp(2.9rem, 14vw, 4rem); margin-bottom: 8px; }
   .po-info { margin-bottom: 8px; }
@@ -353,7 +353,8 @@ html.js:not(.secours) .jeu { margin-top: -100svh; }
 .pa-theatre-grille { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(24px, 5vw, 72px); align-items: start; }
 .pa-theatre-media { margin-top: 24px; aspect-ratio: 3/2; }
 .pa-pieces { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
-.pa-piece { background: #fbf9f4; padding: 18px 20px; box-shadow: 0 8px 20px rgba(30, 22, 14, .08); border-left: 3px solid var(--crayon); }
+.pa-index { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 40px; }
+.pa-piece { break-inside: avoid; padding: 14px 0; border-top: 1px solid color-mix(in srgb, var(--encre) 18%, transparent); }
 .pa-piece[hidden] { display: none !important; }
 .pa-piece b { display: block; font: 400 1.375rem/1.15 var(--police-titres); margin-bottom: 4px; }
 .pa-piece span { font-size: .9375rem; color: var(--gris); }
@@ -364,11 +365,11 @@ html.js:not(.secours) .jeu { margin-top: -100svh; }
 .pa-tournages-tete h2 { margin-bottom: .2em; }
 .pa-frise { display: flex; gap: 18px; align-items: stretch; padding-inline: var(--gouttiere); width: max-content; will-change: transform; }
 .pa-frise-media { flex: none; width: min(34vw, 460px); aspect-ratio: 3/2; align-self: center; }
-.pa-film { flex: none; width: clamp(220px, 20vw, 290px); padding: 20px; background: #1f1d1b; border-top: 3px solid var(--crayon); display: flex; flex-direction: column; gap: 6px; }
+.pa-film { flex: none; align-self: center; width: clamp(220px, 18vw, 260px); padding: 18px 18px 20px; background: #1f1d1b; border-top: 3px solid var(--crayon); display: flex; flex-direction: column; gap: 6px; }
 .pa-annee { margin: 0; font: 400 3rem/1 var(--police-titres); color: #ff7a5c; font-variant-numeric: tabular-nums; }
 .pa-film h3 { margin: 0; font-size: 1.5rem; }
 .pa-film p { margin: 0; font-size: .9375rem; color: #d9d4ca; }
-.pa-role { margin-top: auto !important; font-style: italic; color: var(--papier) !important; }
+.pa-role { font-style: italic; color: var(--papier) !important; }
 .pa-frise-barre { height: 3px; margin: 0 var(--gouttiere); background: rgba(242, 239, 232, .18); }
 .pa-frise-barre span { display: block; height: 100%; background: var(--crayon); transform-origin: 0 50%; transform: scaleX(var(--progres, 0)); }
 html:not(.js) .pa-tournages, html.secours .pa-tournages { height: auto; }
@@ -401,13 +402,15 @@ html:not(.js) .pa-frise, html.secours .pa-frise { width: auto; overflow-x: auto;
 .po2-titre span { display: inline-block; }
 .po2-info { color: #e9e3d8; }
 .po2-bac { position: relative; justify-self: center; padding: 18px; background: linear-gradient(180deg, #3b3632, #24211e); border-radius: 6px; box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .05), 0 40px 80px rgba(0, 0, 0, .5); }
-.po2-tirage { width: min(32vw, 420px); aspect-ratio: 9/14; border-radius: 0; border: 10px solid #fbf9f4; }
+.po2-tirage { width: min(32vw, 420px); aspect-ratio: 9/14; border-radius: 0; }
 .po2-tirage img { width: 100%; height: 100%; object-fit: cover; }
 .po2-credit { margin: 10px 0 0; color: #c9c3b8; }
 .po2-planche { padding-block: clamp(64px, 9vw, 120px); }
 .po2-tete { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 18px; margin-bottom: 28px; }
-.po2-tete h2 { position: relative; display: inline-block; padding: 0 12px; }
-.crayon-titre { inset: -10px -22px; width: calc(100% + 44px); height: calc(100% + 16px); max-width: none; }
+.po2-tete h2 { position: relative; display: inline-block; padding: 0; margin: 0; }
+.po2-tete > div:first-child, .po2-tete > p { flex-basis: 100%; }
+.po2-planche { overflow-x: clip; }
+.crayon-titre { left: -16px; top: -8px; width: calc(100% + 32px); height: calc(100% + 16px); max-width: none; }
 .po2-grille { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; }
 .po2-item[hidden] { display: none !important; }
 .po2-lien { display: block; background: #fbf9f4; padding: 8px; box-shadow: 0 14px 28px rgba(30, 22, 14, .16); cursor: zoom-in; }
@@ -498,7 +501,6 @@ html:not(.js) .dv-texte { padding-top: 56px; }
   .dv-ecran { width: 46vw; top: 26%; left: 58%; }
   .dv-piste { grid-template-columns: 52px minmax(0, 1fr) auto; }
   .co-tel { margin-left: 22px; }
-  .co-direct { order: -1; }
   .visionneuse .vis-figure { padding: 56px 8px 12px; }
 }
 @media (max-height: 500px) and (min-width: 761px) {
@@ -518,3 +520,133 @@ html:not(.js) .dv-texte { padding-top: 56px; }
 html:not(.js) .plongee-texte .plongee-mots { line-height: 1.2; margin-bottom: 28px; }
 html:not(.js) .plongee-texte .plongee-mots span { display: inline-block; }
 html:not(.js) .introuvable { min-height: 0; overflow: visible; padding-top: 40px; }
+
+/* ================= v2 : la table lumineuse sur les pages intérieures ================= */
+.table-ouverture { position: relative; min-height: 100svh; display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); overflow: hidden; }
+.to-cache { position: relative; z-index: 3; display: flex; flex-direction: column; justify-content: center; padding: calc(var(--entete-h) + 24px) clamp(20px, 3vw, 48px) 32px var(--gouttiere);
+  background: linear-gradient(180deg, #f6f2ea, #efe9de); box-shadow: 14px 0 34px rgba(20, 24, 30, .22); }
+.to-titre { font-size: clamp(3.2rem, min(7vw, 13vh), 7.4rem); line-height: 1.02; margin: 10px 0 18px; }
+.to-titre span { display: inline-block; }
+.to-info { margin: 0 0 18px; }
+.to-intro { max-width: 30em; margin-top: 16px; color: var(--gris); }
+.to-cache .bouton { margin: 0 8px 8px 0; }
+.to-table { position: relative; min-height: 100%; background: radial-gradient(80% 90% at 50% 45%, #ffffff 0%, #f5f9fc 40%, #e3ebf0 80%, #cfd8de 100%); }
+.to-lumiere { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(40% 30% at 50% 40%, rgba(255, 255, 255, .8), transparent 70%); }
+.to-tirage { position: absolute; margin: 0; background: #fbf9f4; padding: 8px 8px 10px; box-shadow: 0 16px 32px rgba(20, 30, 40, .28); }
+.to-tirage figcaption { margin-top: 6px; font-size: .8125rem; color: var(--gris); }
+.to-media { border-radius: 0; }
+.to-media img { width: 100%; height: 100%; object-fit: cover; }
+.pa2-ouverture .to-t1 { left: 14%; top: calc(var(--entete-h) + 12%); width: min(30vw, 440px); rotate: -3deg; z-index: 2; }
+.pa2-ouverture .to-t2 { right: 8%; top: calc(var(--entete-h) + 6%); width: min(12vw, 170px); rotate: 5deg; }
+.pa2-ouverture .to-t3 { right: 18%; bottom: 10%; width: min(12vw, 170px); rotate: -6deg; }
+.pa2-ouverture .to-t4 { left: 8%; bottom: 8%; width: min(11vw, 160px); rotate: 4deg; }
+.to-fiche { position: absolute; z-index: 3; right: 6%; top: 46%; width: min(22vw, 300px); padding: 18px 20px; rotate: 2deg;
+  background: repeating-linear-gradient(0deg, #fffdf7 0 26px, #e9e4d6 26px 27px); box-shadow: 0 14px 30px rgba(20, 30, 40, .22); }
+.to-fiche p { margin: 0 0 6px; }
+.to-fiche-titre { font: 400 1.75rem/1.1 var(--police-titres); }
+.to-fiche-quand { font: 400 1.375rem/1.2 var(--police-titres); padding: 6px 0 4px 12px; }
+.crayon-fiche { left: -14px; top: -8px; width: calc(100% + 28px); height: calc(100% + 16px); }
+.to-fiche-detail { font-size: .875rem; color: var(--gris); }
+
+/* Démo et voix : la bande de film */
+.dv2-ouverture { position: relative; min-height: 100svh; display: flex; flex-direction: column; justify-content: flex-end; overflow: hidden; isolation: isolate; }
+.dv2-table { position: absolute; inset: 0; z-index: -1; background: radial-gradient(80% 70% at 50% 40%, #ffffff 0%, #f5f9fc 40%, #e2eaef 80%, #cdd6dc 100%); }
+.dv2-bande { position: absolute; left: -6vw; top: calc(var(--entete-h) + 6vh); display: flex; gap: 18px; padding: 26px 22px; rotate: -3deg; background: rgba(34, 26, 20, .9); will-change: transform;
+  box-shadow: 0 30px 60px rgba(20, 30, 40, .3), 0 0 40px 12px rgba(214, 234, 255, .5); }
+.dv2-bande::before, .dv2-bande::after { content: ''; position: absolute; left: 0; right: 0; height: 9px; background: repeating-linear-gradient(90deg, transparent 0 12px, #fbfdff 12px 22px); }
+.dv2-bande::before { top: 8px; } .dv2-bande::after { bottom: 8px; }
+.dv2-image { position: relative; display: block; width: min(34vw, 520px); text-decoration: none; }
+.dv2-media { border-radius: 0; }
+.dv2-media img { width: 100%; height: 100%; object-fit: cover; }
+.dv2-play { position: absolute; left: 50%; top: 50%; translate: -50% -50%; width: 60px; height: 60px; border-radius: 50%; display: grid; place-items: center; background: var(--papier); color: var(--encre); box-shadow: 0 10px 24px rgba(0, 0, 0, .4); }
+.dv2-legende { position: absolute; left: 10px; bottom: 10px; background: rgba(20, 19, 18, .85); color: var(--papier); padding: 4px 8px; }
+.dv2-texte { position: relative; padding: 0 var(--gouttiere) clamp(28px, 6vh, 64px); max-width: none; }
+.dv2-texte::before { content: ''; position: absolute; inset: -40px -100vw 0; z-index: -1; background: linear-gradient(180deg, transparent, rgba(246, 242, 234, .92) 30%); }
+.dv-portrait { margin: 0; } .dv-portrait figcaption, .dv-voix-portrait figcaption { margin-top: 8px; font-size: .8125rem; color: var(--gris); }
+.dv-portrait-media { box-shadow: 0 18px 36px rgba(30, 22, 14, .2); }
+.dv-voix-portrait { position: relative; margin: 0; }
+.dv-voix-media { border-radius: 2px; }
+.dv-voix-media img { width: 100%; height: 100%; object-fit: cover; }
+.dv-onde-crayon { position: relative; display: block; margin: 14px 0 0; width: 100%; max-width: none; height: 70px; overflow: visible; pointer-events: none; }
+.dv-onde-crayon path { fill: none; stroke: var(--crayon); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; filter: url(#gras-fil); }
+.dv-voix .dv-voix-portrait figcaption { color: #c9c3b8; }
+
+/* Contact : la pochette de tirages */
+.co2-ouverture .to-table { display: grid; place-items: center; }
+.pochette { position: relative; width: min(30vw, 400px); aspect-ratio: 4/3.6; margin-top: calc(var(--entete-h) + 40px); }
+.pochette-tirage { position: absolute; left: 12%; right: 12%; top: -34%; margin: 0; background: #fbf9f4; padding: 8px 8px 10px; rotate: -4deg; box-shadow: 0 14px 30px rgba(20, 30, 40, .25); will-change: transform; }
+.pochette-avant { position: absolute; inset: 22% 0 0; display: flex; flex-direction: column; justify-content: flex-end; gap: 6px; padding: 22px;
+  background: linear-gradient(160deg, #d9bf94, #c7a978); box-shadow: 0 24px 44px rgba(40, 30, 20, .35), inset 0 2px 0 rgba(255, 255, 255, .35);
+  clip-path: polygon(0 0, 38% 0, 44% 7%, 56% 7%, 62% 0, 100% 0, 100% 100%, 0 100%); color: #3a2a17; }
+.pochette-nom { font: 400 clamp(1.6rem, 2.4vw, 2.2rem)/1 var(--police-titres); }
+.pochette-avant .mono { font-size: .8125rem; color: #4a3820; }
+.pochette-tampon { position: absolute; right: 6%; top: 42%; padding: 8px 20px; border: 5px solid var(--crayon); color: var(--crayon); background: rgba(255, 250, 240, .25);
+  font: 600 clamp(2rem, 3.4vw, 3.2rem)/1 var(--police-mono); letter-spacing: .14em; text-transform: uppercase; rotate: -14deg; opacity: 0; pointer-events: none; }
+.pochette.est-recu .pochette-tampon { opacity: 1; }
+
+@media (max-width: 760px) {
+  .table-ouverture { grid-template-columns: minmax(0, 1fr); min-height: 0; }
+  .to-cache { padding-top: calc(var(--entete-h) + 14px); box-shadow: 0 12px 26px rgba(20, 24, 30, .18); }
+  .to-titre { font-size: clamp(2.8rem, 13vw, 3.8rem); }
+  .to-table { min-height: 62svh; }
+  .pa2-ouverture .to-t1 { left: 6%; top: 8%; width: 62vw; }
+  .pa2-ouverture .to-t2 { right: 5%; top: 6%; width: 26vw; } .pa2-ouverture .to-t3 { right: 4%; bottom: 6%; width: 26vw; } .pa2-ouverture .to-t4 { display: none; }
+  .to-fiche { right: auto; left: 6%; top: auto; bottom: 6%; width: 58vw; }
+  .dv2-bande { top: calc(var(--entete-h) + 3vh); padding: 18px 14px; gap: 12px; }
+  .dv2-image { width: 66vw; }
+  .pochette { width: 66vw; margin: 90px 0 40px; }
+}
+@media (max-height: 500px) and (min-width: 761px) {
+  .to-titre { font-size: 2.6rem; }
+  .to-fiche { display: none; }
+  .dv2-image { width: 26vw; }
+  .pochette { width: 22vw; margin-top: calc(var(--entete-h) + 30px); }
+}
+@media (min-width: 761px) and (max-width: 1080px) { .to-fiche { width: 30vw; } .pa2-ouverture .to-t1 { width: 40vw; left: 6%; } }
+.pa-piece b { font-size: clamp(1.5rem, 2.2vw, 2rem); }
+.pa-credit { margin-top: 8px; color: var(--gris); }
+.pa-film h3 { font-size: clamp(1.6rem, 2vw, 2.1rem); line-height: 1.05; }
+.pa-annee { font-size: .875rem !important; color: #ff9a80 !important; letter-spacing: .06em; }
+.pa-film-titre { font-style: italic; color: var(--papier) !important; }
+.pa-frise-tirage { flex: none; margin: 0; align-self: center; background: #fbf9f4; padding: 8px 8px 10px; rotate: -2deg; }
+.pa-frise-tirage .pa-frise-media { width: min(26vw, 380px); }
+.pa-frise-tirage figcaption { margin-top: 6px; color: var(--gris); font-size: .8125rem; }
+@media (max-width: 760px) { .pa-index { columns: 1; } .pa-frise-tirage .pa-frise-media { width: 66vw; } }
+.dv2-ouverture .dv-info { color: var(--encre); }
+.dv2-ouverture .surtitre { color: var(--gris); }
+
+.dv-num { color: #e2553a; font-size: 1rem; }
+.rouge--sobre { color: inherit; font-style: normal; }
+@media (max-width: 760px) { .pied-grille { grid-template-columns: repeat(2, minmax(0, 1fr)); } .pied-grille > div:first-child { grid-column: 1 / -1; } }
+.pa-theatre-media { width: min(220px, 50%); }
+
+/* v2, finitions d'audit */
+.dv2-image { padding-bottom: 30px; }
+.dv2-legende { left: 0; bottom: 0; background: none; padding: 0; color: #f2efe8; }
+.dv2-ouverture .surtitre { color: var(--encre); }
+.po2-tirage { width: min(26vw, 340px); }
+html:not(.js) .dv2-ouverture { min-height: 0; }
+html:not(.js) .dv2-bande { position: relative; top: 0; left: 0; margin: 24px 0; rotate: 0deg; overflow-x: auto; }
+@media (max-width: 760px) {
+  .dv2-ouverture { min-height: 0; padding-top: calc(var(--entete-h) + 12px); }
+  .dv2-bande { position: relative; top: 0; left: 0; margin: 10px 0 18px; }
+  .dv2-texte::before { display: none; }
+  .to-table { min-height: 560px; }
+  .pa2-ouverture .to-fiche { bottom: 4%; }
+}
+@media (min-width: 761px) { .dv2-bande { top: calc(var(--entete-h) + 3vh); } .dv2-image { width: min(30vw, 48vh, 520px); } }
+@media (max-width: 760px) {
+  .dv2-ouverture { display: flex; flex-direction: column; }
+  .dv2-texte { order: 1; padding-bottom: 8px; }
+  .dv2-bande { order: 2; }
+  .dv-titre { font-size: clamp(2.6rem, 12vw, 3.4rem); }
+  .to-table { min-height: 600px; }
+  .pa2-ouverture .to-fiche { bottom: 9%; rotate: 0deg; }
+  .pa2-ouverture .to-t3 { display: none; }
+}
+@media (max-width: 760px) {
+  .pa2-ouverture .to-table { min-height: 0; padding: 330px 6% 28px; }
+  .pa2-ouverture .to-fiche { position: relative; left: auto; right: auto; bottom: auto; top: auto; width: auto; }
+}
+.to-fiche { background: #fffdf7; isolation: isolate; }
+.to-fiche::before { content: ''; position: absolute; inset: 0; z-index: -1; background: repeating-linear-gradient(0deg, transparent 0 26px, #e9e4d6 26px 27px); }

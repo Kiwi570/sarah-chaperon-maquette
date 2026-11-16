@@ -66,7 +66,7 @@
   },
   "accueil": {
     "hero": {
-      "sur": "Comédienne · théâtre · tournages · voix",
+      "sur": "Comédienne",
       "titre1": "Sarah",
       "titre2": "Chaperon",
       "texte": "Cinq photographes, un même visage. Promenez la loupe sur la planche, touchez le portrait qui vous parle : il s'entoure de rouge.",
@@ -76,7 +76,8 @@
       "geste": "Faites glisser la loupe",
       "gesteTactile": "Faites glisser la loupe du doigt",
       "planche": "Planche de douze portraits",
-      "loupe": "Loupe sur le portrait"
+      "loupe": "Loupe sur le portrait",
+      "sur2": "Théâtre · tournages · voix"
     },
     "plongee": {
       "mot1": "Depuis",

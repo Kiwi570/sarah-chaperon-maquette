@@ -3,7 +3,7 @@
 // basses, médiums, volume). Aucun son au chargement : l'AudioContext n'est créé qu'au premier clic de lecture.
 // Sans Web Audio (ou si l'analyse reste muette, fichier d'une autre origine), le visuel suit une animation douce ;
 // en mode calme ou « réduire les animations », il est dessiné une fois et reste figé.
-import { pret } from '../socle-modules.js?v=1';
+import { pret } from '../socle-modules.js?v=2';
 
 /**
  * @param {HTMLElement} root  section.lrs

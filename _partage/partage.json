@@ -49,8 +49,49 @@
       "langue": "fr",
       "fichier": "assets/partage/contact-fr.jpg",
       "gabarit": "droite",
-      "image": "grok/coulisses-1280.webp",
-      "poids": 45480,
+      "image": "robin-1120.webp",
+      "poids": 38605,
+      "sujet": {
+        "x": 676,
+        "y": 0,
+        "l": 512,
+        "h": 504
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 68,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "demo-et-voix",
+      "langue": "fr",
+      "fichier": "assets/partage/demo-et-voix-fr.jpg",
+      "gabarit": "droite",
+      "image": "slk-jardin-1120.webp",
+      "poids": 52219,
       "sujet": {
         "x": 600,
         "y": 0,
@@ -80,52 +121,17 @@
       "recouvrement": 0
     },
     {
-      "page": "demo-et-voix",
-      "langue": "fr",
-      "fichier": "assets/partage/demo-et-voix-fr.jpg",
-      "gabarit": "droite",
-      "image": "grok/salle-projection-1280.webp",
-      "poids": 32658,
-      "sujet": {
-        "x": 600,
-        "y": 35,
-        "l": 600,
-        "h": 350
-      },
-      "textes": [
-        {
-          "x": 64,
-          "y": 56,
-          "l": 280,
-          "h": 64
-        },
-        {
-          "x": 64,
-          "y": 299,
-          "l": 480,
-          "h": 64
-        },
-        {
-          "x": 64,
-          "y": 543,
-          "l": 480,
-          "h": 35
-        }
-      ],
-      "recouvrement": 0
-    },
-    {
       "page": "parcours",
       "langue": "fr",
       "fichier": "assets/partage/parcours-fr.jpg",
       "gabarit": "droite",
-      "image": "grok/plateau-1280.webp",
-      "poids": 40021,
+      "image": "bouillard-lunettes-1120.webp",
+      "poids": 29040,
       "sujet": {
-        "x": 691,
-        "y": 35,
-        "l": 420,
-        "h": 595
+        "x": 732,
+        "y": 0,
+        "l": 335,
+        "h": 358
       },
       "textes": [
         {
@@ -149,7 +155,7 @@
         {
           "x": 600,
           "y": 0,
-          "l": 82,
+          "l": 90,
           "h": 630
         }
       ],

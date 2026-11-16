@@ -1,4 +1,4 @@
-# Sarah Chaperon — maquette v1
+# Sarah Chaperon — maquette v2
 
 Maquette du site de Sarah Chaperon, comédienne (théâtre, tournages, voix). Direction « La planche-contact » : ses portraits sur une table lumineuse, une loupe à promener, le crayon gras rouge qui entoure ce qu'il faut voir.
 
@@ -34,7 +34,8 @@ Les textes sont dans `donnees/textes/fr.json`, les données (dates, tournages, t
 
 - Photographies : Roka production, Laurent Bouillard, Ana Slk, Fabrice Robin, Lisa Fougereux (et un portrait sans crédit connu).
 - Affiches : Cie PILE (et Cie Pulsatille pour Sacrées Championnes), d'après les vidéos YouTube de la compagnie.
-- Les images marquées « Illustration générée » (plateau, salle de projection, studio voix, texte annoté, tournage, coulisses, chaise de la page 404) ont été créées par intelligence artificielle. **Garder cette mention sur le site final.**
+- Une seule image est générée par intelligence artificielle : la chaise de la page 404, marquée « Illustration générée ». **Garder cette mention sur le site final.**
+- Les images des vidéos de la Cie PILE viennent de leurs vignettes YouTube.
 
 ## À la mise en ligne définitive
 

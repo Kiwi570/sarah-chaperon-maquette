@@ -20,12 +20,14 @@
     "onde-voix",
     "halo-voix",
     "tirage-volant",
-    "poursuite",
     "dates",
     "frise",
     "tirage",
-    "faisceau",
-    "pochette-recu"
+    "pochette-recu",
+    "tirages-poses",
+    "bande",
+    "onde-crayon",
+    "pochette"
   ],
   "grille": {
     "dispenses": {}

@@ -1,7 +1,7 @@
 /* Pont entre les modules de la bibliothèque (qui attendent pret() de leur socle de démonstration)
    et le socle du projet : même GSAP, même défilement, mêmes boucles et mêmes mesures.
    Les modules ne sont pas réécrits : seul leur import pointe ici. */
-import { rafraichir } from '../socle/index.js?v=1';
+import { rafraichir } from '../socle/index.js?v=2';
 
 const html = document.documentElement;
 export const socle = {

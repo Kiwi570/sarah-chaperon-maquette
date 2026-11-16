@@ -1702,5 +1702,209 @@
       "grok/vide-1600.webp": 56066
     },
     "media": "c.media({ nom: 'grok/vide', alt: \"\", cadrage: '67% 75%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "video-veni": {
+    "nom": "video-veni",
+    "source": "recu/site/maxresdefault.webp",
+    "role": "vignette",
+    "alt": "Image de la vidéo Veni Vidi Bibi, Cie PILE",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "32411ab4a91e4481",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 28.4,
+      "y": 5.8,
+      "l": 42.8,
+      "h": 94
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.4,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.37,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.31,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "video-veni-640.webp",
+      "video-veni-1280.webp"
+    ],
+    "poids": {
+      "video-veni-640.webp": 18296,
+      "video-veni-1280.webp": 44524
+    },
+    "media": "c.media({ nom: 'video-veni', alt: \"Image de la vidéo Veni Vidi Bibi, Cie PILE\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 9' })"
+  },
+  "video-sacrees": {
+    "nom": "video-sacrees",
+    "source": "recu/site/maxresdefault-2.webp",
+    "role": "vignette",
+    "alt": "Image de la vidéo Sacrées Championnes, Cie PILE",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "41a7ed92dddb6434",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 27.3,
+      "y": 0.6,
+      "l": 42.2,
+      "h": 98.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.43,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.42,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.35,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "video-sacrees-640.webp",
+      "video-sacrees-1280.webp"
+    ],
+    "poids": {
+      "video-sacrees-640.webp": 16518,
+      "video-sacrees-1280.webp": 43320
+    },
+    "media": "c.media({ nom: 'video-sacrees', alt: \"Image de la vidéo Sacrées Championnes, Cie PILE\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 9' })"
+  },
+  "video-lombri": {
+    "nom": "video-lombri",
+    "source": "recu/site/maxresdefault-3.webp",
+    "role": "vignette",
+    "alt": "Image de la vidéo Les Lombricontes, Cie PILE",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "b9e56aa39d606027",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 27.8,
+      "y": 7.3,
+      "l": 46,
+      "h": 92.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.66,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.64,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.5,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.48,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "video-lombri-640.webp",
+      "video-lombri-1280.webp"
+    ],
+    "poids": {
+      "video-lombri-640.webp": 23724,
+      "video-lombri-1280.webp": 74656
+    },
+    "media": "c.media({ nom: 'video-lombri', alt: \"Image de la vidéo Les Lombricontes, Cie PILE\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 9' })"
   }
 }

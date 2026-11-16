@@ -4,7 +4,7 @@
 // complet, date à confirmer), compte à rebours de la prochaine date, filtres par type avec compteur, ajout à l'agenda
 // (fichier .ics fabriqué à la volée) et lien de réservation prérempli (sujet et date). L'ajout à l'agenda a son retour
 // physique : la pastille de la date se tamponne « Ajouté ».
-import { pret } from '../socle-modules.js?v=1';
+import { pret } from '../socle-modules.js?v=2';
 
 /**
  * Une date : <li class="agd__date" data-debut="2026-11-20T19:00" data-fin="2026-11-20T21:30" data-type="Stage"
