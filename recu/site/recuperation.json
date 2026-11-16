@@ -1,0 +1,537 @@
+{
+  "site": "https://sarahchaperon.wixsite.com/sarah-chaperon",
+  "date": "2026-11-13T13:41:32.847Z",
+  "pages": [
+    "https://sarahchaperon.wixsite.com/sarah-chaperon",
+    "https://sarahchaperon.wixsite.com/sarah-chaperon/contact",
+    "https://sarahchaperon.wixsite.com/sarah-chaperon/photos-spectacles",
+    "https://sarahchaperon.wixsite.com/sarah-chaperon/voix",
+    "https://sarahchaperon.wixsite.com/sarah-chaperon/video",
+    "https://sarahchaperon.wixsite.com/sarah-chaperon/portraits",
+    "https://sarahchaperon.wixsite.com/sarah-chaperon/actualit"
+  ],
+  "images": [
+    {
+      "fichier": "comedienne.jpg",
+      "nom": "comedienne",
+      "origine": "https://static.wixstatic.com/media/ce7a4d_e94865c96c694e978020b68bad022231~mv2.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Comédienne",
+        "page": "Comédienne",
+        "fichier_origine": ""
+      },
+      "largeur": 1126,
+      "hauteur": 2000,
+      "largeur_origine": 3944,
+      "hauteur_origine": 7008,
+      "poids": 143587,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "comedienne-2.jpg",
+      "nom": "comedienne-2",
+      "origine": "https://static.wixstatic.com/media/ce7a4d_317c1a5b8aef42808e20ca0126a1bc64~mv2.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Comédienne",
+        "page": "Comédienne",
+        "fichier_origine": ""
+      },
+      "largeur": 1126,
+      "hauteur": 2000,
+      "largeur_origine": 3944,
+      "hauteur_origine": 7008,
+      "poids": 162734,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-sarah-chaperon.jpg",
+      "nom": "contact-sarah-chaperon",
+      "origine": "https://static.wixstatic.com/media/ce7a4d_fcb017f3592b4ebc891dded8fa6444aa~mv2.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/contact",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1333,
+      "largeur_origine": 5184,
+      "hauteur_origine": 3456,
+      "poids": 221645,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "maxresdefault.webp",
+      "nom": "maxresdefault",
+      "origine": "https://i.ytimg.com/vi_webp/c_-WWkegUUo/maxresdefault.webp",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/photos-spectacles",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "SPECTACLES | sarah-chaperon",
+        "fichier_origine": "maxresdefault"
+      },
+      "largeur": 1280,
+      "hauteur": 720,
+      "poids": 46366,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "maxresdefault-2.webp",
+      "nom": "maxresdefault-2",
+      "origine": "https://i.ytimg.com/vi_webp/26eZMxqoAQs/maxresdefault.webp",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/photos-spectacles",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "SPECTACLES | sarah-chaperon",
+        "fichier_origine": "maxresdefault"
+      },
+      "largeur": 1280,
+      "hauteur": 720,
+      "poids": 44572,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "maxresdefault-3.webp",
+      "nom": "maxresdefault-3",
+      "origine": "https://i.ytimg.com/vi_webp/FAnm90GaVI0/maxresdefault.webp",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/photos-spectacles",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "SPECTACLES | sarah-chaperon",
+        "fichier_origine": "maxresdefault"
+      },
+      "largeur": 1280,
+      "hauteur": 720,
+      "poids": 79832,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "voix-sarah-chaperon.jpg",
+      "nom": "voix-sarah-chaperon",
+      "origine": "https://static.wixstatic.com/media/be8868a902404f0c8a2018c02f1e232a.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/voix",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Voix | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1333,
+      "largeur_origine": 5760,
+      "hauteur_origine": 3840,
+      "poids": 227397,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "voix-sarah-chaperon-2.jpg",
+      "nom": "voix-sarah-chaperon-2",
+      "origine": "https://static.wixstatic.com/media/d38128fb6a8f47fa971c2a1aefad734e.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/voix",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Voix | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1312,
+      "largeur_origine": 5500,
+      "hauteur_origine": 3609,
+      "poids": 136228,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "voix-sarah-chaperon-3.jpg",
+      "nom": "voix-sarah-chaperon-3",
+      "origine": "https://static.wixstatic.com/media/b57b6f9ff1a74c68a081315893df62cd.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/voix",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Voix | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1285,
+      "largeur_origine": 5024,
+      "hauteur_origine": 3228,
+      "poids": 151852,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "voix-sarah-chaperon-4.jpg",
+      "nom": "voix-sarah-chaperon-4",
+      "origine": "https://static.wixstatic.com/media/b565ccc1941f4cdfb608c69b9cdb5f37.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/voix",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Voix | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 1920,
+      "hauteur": 1080,
+      "poids": 202529,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "dande-demo-sarah-chaperon.jpg",
+      "nom": "dande-demo-sarah-chaperon",
+      "origine": "https://static.wixstatic.com/media/ce7a4d_37502ad8649a4832bb052607b1e00b28f000.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/video",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Dande démo Sarah Chaperon réalisé par Sarah Gaston",
+        "legende": "",
+        "titre": "",
+        "section": "Bande- démo 2024",
+        "page": "Bande-Démo | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 1920,
+      "hauteur": 1080,
+      "poids": 24701,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "photos.jpg",
+      "nom": "photos",
+      "origine": "https://static.wixstatic.com/media/ce7a4d_90dcff083b154e51b489581f9852f73c~mv2.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/portraits",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "PHOTOS",
+        "page": "PHOTOS | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1333,
+      "largeur_origine": 6000,
+      "hauteur_origine": 4000,
+      "poids": 77937,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "photos-2.jpg",
+      "nom": "photos-2",
+      "origine": "https://static.wixstatic.com/media/ce7a4d_7f7f48965b4641a4ab4e3726cb8b083d~mv2.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/portraits",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "PHOTOS",
+        "page": "PHOTOS | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1333,
+      "largeur_origine": 6000,
+      "hauteur_origine": 4000,
+      "poids": 86112,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "photos-3.jpg",
+      "nom": "photos-3",
+      "origine": "https://static.wixstatic.com/media/ce7a4d_da0f0565f55e46bd9a33c4857091ab9b~mv2.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/portraits",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "PHOTOS",
+        "page": "PHOTOS | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1333,
+      "largeur_origine": 6000,
+      "hauteur_origine": 4000,
+      "poids": 70657,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "photos-4.jpg",
+      "nom": "photos-4",
+      "origine": "https://static.wixstatic.com/media/ce7a4d_bfa91df1086c4f10a8f7a5b3f76fce08~mv2.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/portraits",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "PHOTOS",
+        "page": "PHOTOS | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 1333,
+      "hauteur": 2000,
+      "largeur_origine": 4000,
+      "hauteur_origine": 6000,
+      "poids": 88657,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "photos-5.jpg",
+      "nom": "photos-5",
+      "origine": "https://static.wixstatic.com/media/ce7a4d_cd0f2facd3854c9d9730f9a0c3a7509d~mv2.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/portraits",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "PHOTOS",
+        "page": "PHOTOS | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 1333,
+      "hauteur": 2000,
+      "largeur_origine": 3456,
+      "hauteur_origine": 5184,
+      "poids": 299070,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "photos-6.jpg",
+      "nom": "photos-6",
+      "origine": "https://static.wixstatic.com/media/ce7a4d_e43da711fe454f128f956468cabd580b~mv2.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/portraits",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "PHOTOS",
+        "page": "PHOTOS | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 1333,
+      "hauteur": 2000,
+      "largeur_origine": 3456,
+      "hauteur_origine": 5184,
+      "poids": 261475,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "photos-7.jpg",
+      "nom": "photos-7",
+      "origine": "https://static.wixstatic.com/media/ce7a4d_50bfe32ba6c64e10a51f89ebe9d43d1c~mv2.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/portraits",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "PHOTOS",
+        "page": "PHOTOS | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 1636,
+      "hauteur": 2000,
+      "largeur_origine": 2651,
+      "hauteur_origine": 3240,
+      "poids": 159638,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "photos-8.jpg",
+      "nom": "photos-8",
+      "origine": "https://static.wixstatic.com/media/ce7a4d_b3627b600f2f4085a6e7261d063da1f5~mv2.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/portraits",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "PHOTOS",
+        "page": "PHOTOS | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 1250,
+      "hauteur": 1750,
+      "poids": 347884,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "photos-9.jpg",
+      "nom": "photos-9",
+      "origine": "https://static.wixstatic.com/media/ce7a4d_7fd490e6c137482591412d9a5c355383~mv2.jpeg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/portraits",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "PHOTOS",
+        "page": "PHOTOS | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 1066,
+      "hauteur": 1600,
+      "poids": 469812,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "photos-10.jpg",
+      "nom": "photos-10",
+      "origine": "https://static.wixstatic.com/media/ce7a4d_d188fceaae7645a9bce13c679c5509dc~mv2.jpg",
+      "page": "https://sarahchaperon.wixsite.com/sarah-chaperon/portraits",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "PHOTOS",
+        "page": "PHOTOS | sarah-chaperon",
+        "fichier_origine": ""
+      },
+      "largeur": 672,
+      "hauteur": 1259,
+      "poids": 233165,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    }
+  ],
+  "ecartees": [
+    {
+      "url": "https://static.wixstatic.com/media/5d958389e0a2c86896bae087d174d385.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://www.youtube.com/generate_204?7xoLug",
+      "raison": "icone"
+    },
+    {
+      "url": "https://www.youtube.com/generate_204?faM6ig",
+      "raison": "icone"
+    },
+    {
+      "url": "https://www.youtube.com/generate_204?TD5zNw",
+      "raison": "icone"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/40d80b8089c8418a961cb75d96d491f7.png",
+      "raison": "105 px de large"
+    },
+    {
+      "url": "https://yt3.ggpht.com/bqEfMQ25TuM92QXdrtO6rfFdKWflIOtWpRFWcjaTGGGsnBHo3L2te-JTXTvqJ7jmfCO98ELJOw=s68-c-k-c0x00ffffff-no-rj",
+      "raison": "68 px de large"
+    },
+    {
+      "url": "https://yt3.ggpht.com/n6iOwLD1KmdoTEbnguRL4TpdOAyoViMoyHiklmEkcWsq3c5Om1HoNjB8h1rq7WNBsya3i3Et1Q=s68-c-k-c0x00ffffff-no-rj",
+      "raison": "68 px de large"
+    },
+    {
+      "url": "https://yt3.ggpht.com/5YiIJvVrzLL24sve3q81ZjfB3Q5zrZzwG4SJmTAhMwZFFSKnkx_kHVkOUiHEl1QG9wPhXALmQQ=s68-c-k-c0x00ffffff-no-rj",
+      "raison": "68 px de large"
+    }
+  ]
+}

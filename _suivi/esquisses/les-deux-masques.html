@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Esquisse — Les deux masques</title>
+<style>
+@font-face{font-family:"Bricolage Grotesque";src:url("polices/BricolageGrotesque.ttf");font-weight:200 800;font-stretch:75% 100%}
+@font-face{font-family:"Instrument Sans";src:url("polices/InstrumentSans[wdth,wght].ttf");font-weight:400 700}
+:root{--nuit:#14182b;--soleil:#f4cc2e;--creme:#f6f0e4;--brique:#a5341f;--t:.42}
+*{box-sizing:border-box;margin:0}
+html,body{height:100%;overflow:hidden;font-family:"Instrument Sans",sans-serif;color:var(--creme);background:linear-gradient(90deg,var(--nuit) 0 50%,var(--soleil) 50%)}
+header{position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:20px 44px;z-index:6;background:linear-gradient(90deg,rgba(20,24,43,.97),rgba(20,24,43,.97) 50%,rgba(244,204,46,.97) 50%)}
+.logo{font-family:"Bricolage Grotesque";font-weight:700;font-size:22px;letter-spacing:-.01em}
+nav{display:flex;gap:28px;font-size:14px;color:#1d1a12;position:absolute;left:calc(50% + 60px)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:13px 22px;border-radius:999px;font-size:15px;font-weight:600;text-decoration:none}
+.btn.plein{background:#1d1a12;color:var(--soleil)}
+.btn.ligne{border:1px solid rgba(29,26,18,.45);color:#1d1a12}
+main{height:100svh;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.visage{position:relative;overflow:hidden;margin:92px 0 32px 44px;border-radius:4px;box-shadow:0 40px 80px rgba(0,0,0,.45)}
+.visage img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.visage .trag{object-position:40% 22%;filter:grayscale(1) contrast(1.12) brightness(.8)}
+.visage .com{object-position:50% 25%;clip-path:inset(0 0 0 58%)}
+.poignee{position:absolute;top:0;bottom:0;left:58%;width:2px;background:var(--creme)}
+.poignee::before{content:"◂  ▸";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:62px;height:62px;border-radius:50%;background:var(--creme);color:#1d1a12;display:grid;place-items:center;font-size:15px;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.reg{position:absolute;bottom:22px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;padding:8px 12px;border-radius:3px}
+.reg.g{left:22px;background:rgba(20,24,43,.88)}
+.reg.d{right:22px;background:rgba(244,204,46,.95);color:#1d1a12}
+.reg small{display:block;text-transform:none;letter-spacing:0;font-size:13px;opacity:.85;margin-top:2px}
+.texte{padding:120px 56px 40px 60px;color:#1d1a12;display:flex;flex-direction:column;justify-content:center}
+.sur{font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--brique);margin-bottom:12px;font-weight:600}
+h1{font-family:"Bricolage Grotesque";font-size:clamp(60px,7.4vw,124px);line-height:.88;letter-spacing:-.035em;font-weight:800;font-stretch:78%}
+h1 .b{display:block;font-weight:300;font-stretch:100%;font-style:normal;letter-spacing:-.02em}
+.phrase{font-size:19px;line-height:1.45;max-width:440px;margin:22px 0 26px}
+.phrase b{font-weight:600}
+.actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.info{margin-top:24px;font-size:14px;display:flex;gap:22px;flex-wrap:wrap}
+.info span b{display:block;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--brique)}
+@media (max-width:760px){
+ html,body{background:linear-gradient(180deg,var(--soleil) 0 52%,var(--nuit) 52%)}
+ header{padding:14px 18px;background:rgba(244,204,46,.97)} .logo{color:#1d1a12;font-size:19px} nav{display:none}
+ main{grid-template-columns:1fr;grid-template-rows:auto 1fr}
+ .texte{order:1;padding:74px 20px 12px}
+ h1{font-size:56px}
+ .phrase{font-size:16px;margin:12px 0 14px}
+ .info{display:none}
+ .visage{order:2;margin:6px 20px 20px}
+ .reg small{display:none}
+}
+</style></head><body>
+<header><div class="logo">Sarah Chaperon</div>
+<nav><a>Parcours</a><a>Spectacles</a><a>Démo &amp; voix</a><a>Contact</a></nav>
+<a class="btn ligne">La contacter</a></header>
+<main>
+ <div class="visage">
+  <img class="trag" src="/recu/site/photos-6.jpg" alt="">
+  <img class="com" src="/recu/site/contact-sarah-chaperon.jpg" alt="">
+  <span class="poignee"></span>
+  <span class="reg g">Tragédie<small>Yerma, Lorca · Duras · Delbo</small></span>
+  <span class="reg d">Comédie<small>Pat'mouille · Veni Vidi Bibi</small></span>
+ </div>
+ <div class="texte">
+  <p class="sur">Comédienne</p>
+  <h1>Sarah<span class="b">Chaperon</span></h1>
+  <p class="phrase">De Lorca aux clowns de la Cie PILE, <b>un même visage passe du drame au rire.</b> Glissez la ligne pour changer de registre.</p>
+  <div class="actions"><a class="btn plein">▶ Bande-démo 2024</a><a class="btn ligne">06 11 62 65 41</a></div>
+  <div class="info"><span><b>Prochainement</b>Les voix de l'eau, décembre</span><span><b>Yerma</b>24 représentations, dont Avignon</span></div>
+ </div>
+</main>
+</body></html>

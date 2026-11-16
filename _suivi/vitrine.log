@@ -1,0 +1,27 @@
+vitrine : /home/claude/sarah-chaperon-maquette/_suivi/vitrine.jpg (6 ouvertures)
+activités proches prises en compte : culture, média
+1. loeilsingulier-maquette/hero  · même activité · besoin portfolio, écouter-regarder · ambiance chaleureux · style clair (8 % sombre) · webgl
+   Héros à titre doré  (agence événementielle et design graphique)
+   sections/loeilsingulier-maquette/hero.json  ·  vidéo medias/loeilsingulier-maquette/hero-p720.mp4
+   https://loeilsingulier-maquette.vercel.app
+2. les-plus-hautes-eaux-maquette/haut  · même activité · besoin portfolio, écouter-regarder · style sombre (100 % sombre) · webgl
+   Héros sous la montée des eaux  (compagnie de théâtre)
+   sections/les-plus-hautes-eaux-maquette/haut.json  ·  vidéo medias/les-plus-hautes-eaux-maquette/haut-p720.mp4
+   https://les-plus-hautes-eaux-maquette.vercel.app
+3. petitenature-maquette/hero  · même activité · besoin portfolio, écouter-regarder · clair et sombre alternés (22 % sombre) · webgl · fil-conducteur
+   Ouverture en néon  (compagnie de lectures)
+   sections/petitenature-maquette/hero.json  ·  vidéo medias/petitenature-maquette/hero-p720.mp4
+   https://petitenature-maquette.vercel.app
+4. marco-investigation-maquette/une  · activité proche · besoin portfolio, écouter-regarder · clair et sombre alternés (33 % sombre) · webgl
+   La une du jour  (média d'enquête)
+   sections/marco-investigation-maquette/une.json  ·  vidéo medias/marco-investigation-maquette/une-p720.mp4
+   https://marco-investigation-maquette.vercel.app
+5. qd2a-maquette/debut  · même activité · besoin portfolio · ambiance chaleureux · style clair (13 % sombre) · objet-manipulable · masque · profondeur
+   Le Quartier des Autrices et des Auteurs  (comité de lecture théâtral)
+   sections/qd2a-maquette/debut.json  ·  vidéo medias/qd2a-maquette/debut-p720.mp4
+   https://qd2a-maquette.vercel.app
+6. tiki-cassis-maquette/hero  · besoin écouter-regarder · ambiance chaleureux · clair et sombre alternés (42 % sombre)
+   Héros vidéo des calanques  (balades en bateau)
+   sections/tiki-cassis-maquette/hero.json  ·  vidéo medias/tiki-cassis-maquette/hero-p720.mp4
+   https://tiki-cassis-maquette.vercel.app
+À dépasser, pas à imiter : ni leur idée, ni leur mise en page. Le niveau, oui.

@@ -1,0 +1,14 @@
+[
+  { "image": "roka-buste", "photographe": "Roka production", "lumiere": "noir", "titre": "Le sourire posé" },
+  { "image": "bouillard-sourire", "photographe": "Laurent Bouillard", "lumiere": "noir", "titre": "Face à la lumière" },
+  { "image": "slk-menton", "photographe": "Ana Slk", "lumiere": "dehors", "titre": "La rêveuse" },
+  { "image": "bouillard-noir", "photographe": "Laurent Bouillard", "lumiere": "noir", "titre": "Col roulé" },
+  { "image": "slk-jardin", "photographe": "Ana Slk", "lumiere": "dehors", "titre": "Plein air" },
+  { "image": "rire", "photographe": "", "lumiere": "gris", "titre": "Le rire, en grand", "choisi": true },
+  { "image": "bouillard-lunettes", "photographe": "Laurent Bouillard", "lumiere": "gris", "titre": "Les lunettes à la main" },
+  { "image": "roka-pied", "photographe": "Roka production", "lumiere": "noir", "titre": "En pied" },
+  { "image": "fougereux-manteau", "photographe": "Lisa Fougereux", "lumiere": "dehors", "titre": "Manteau bleu" },
+  { "image": "bouillard-pied", "photographe": "Laurent Bouillard", "lumiere": "gris", "titre": "Trois quarts" },
+  { "image": "robin", "photographe": "Fabrice Robin", "lumiere": "gris", "titre": "De face" },
+  { "image": "bouillard-hanches", "photographe": "Laurent Bouillard", "lumiere": "noir", "titre": "Les mains sur les hanches" }
+]

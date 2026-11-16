@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sarah Chaperon, comédienne : théâtre, tournages, voix</title>
+<meta name="description" content="Portraits, bande-démo, voix et parcours de Sarah Chaperon, comédienne : Yerma de Lorca, la Cie PILE, des courts métrages et des lectures.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://sarah-chaperon-maquette.vercel.app/">
+<style>:root{--fond:#f2efe8;--texte:#1b1a18;--voile-fond:#141312;--ouverture-fond:#141312;--menu-fond:#f2efe8}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/instrument-serif.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f2efe8">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sarah Chaperon">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Sarah Chaperon, comédienne : théâtre, tournages, voix">
+<meta property="og:description" content="Portraits, bande-démo, voix et parcours de Sarah Chaperon, comédienne : Yerma de Lorca, la Cie PILE, des courts métrages et des lectures.">
+<meta property="og:url" content="https://sarah-chaperon-maquette.vercel.app/">
+<meta property="og:image" content="https://sarah-chaperon-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sarah Chaperon éclate de rire, les mains sur les joues">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Sarah Chaperon","jobTitle":"Comédienne","email":"mailto:sarahchaperon93@gmail.com","telephone":"+33611626541","url":"https://sarah-chaperon-maquette.vercel.app"}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="56" height="56"><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <p class="ouverture-nom">Sarah Chaperon</p>
+  <svg class="ouverture-cercle" data-ouverture-objet viewBox="0 0 220 270" width="150" height="184" aria-hidden="true"><path d="M112 14 C 168 12, 206 62, 204 136 C 202 214, 160 258, 106 256 C 50 254, 14 206, 16 132 C 18 62, 58 18, 120 20" fill="none" stroke="#e2553a" stroke-width="7" stroke-linecap="round"/></svg>
+  <p class="ouverture-ligne">Comédienne</p>
+</div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><filter id="gras-fil" x="-10%" y="-20%" width="120%" height="140%"><feTurbulence type="fractalNoise" baseFrequency="1.4" numOctaves="2" seed="7" result="b"/><feDisplacementMap in="SourceGraphic" in2="b" scale="2.4"/></filter></svg>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo.svg" alt="" width="40" height="40"><span>Sarah Chaperon</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/parcours" data-libelle="Parcours">Parcours</a></li><li><a href="/portraits" data-libelle="Portraits">Portraits</a></li><li><a href="/demo-et-voix" data-libelle="Démo &amp; voix">Démo &amp; voix</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton entete-action" href="/contact" data-libelle="Contact" data-envol-cible>La contacter</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/parcours" class="menu-lien" data-libelle="Parcours">Parcours</a></li><li style="--i:2"><a href="/portraits" class="menu-lien" data-libelle="Portraits">Portraits</a></li><li style="--i:3"><a href="/demo-et-voix" class="menu-lien" data-libelle="Démo &amp; voix">Démo &amp; voix</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33611626541">Appeler 06 11 62 65 41</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouverture-scene" id="debut" data-scene data-grille="scene">
+  <div class="os-collant" data-collant>
+    <div class="planche-ouverture">
+      <div class="po-texte">
+        <p class="surtitre mono" data-anime="gsap">Comédienne · théâtre · tournages · voix</p>
+        <h1 class="po-titre" data-grille="typo" data-effet="revelateur"><span class="po-l1">Sarah</span><span class="po-l2">Chaperon</span></h1>
+        <p class="po-info mono" data-info-cle data-anime="gsap">Prochainement : Les voix de l&#39;eau, décembre 2026</p>
+        <p class="po-intro masque-ecran-tres-bas" data-anime="gsap">Cinq photographes, un même visage. Promenez la loupe sur la planche, touchez le portrait qui vous parle : il s&#39;entoure de rouge.</p>
+        <p class="po-actions" data-anime="gsap">
+          <a href="/contact#message" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Écrire à Sarah</a>
+          <a href="/parcours" class="bouton bouton--contour" data-libelle="Parcours">Son parcours</a>
+        </p>
+        <p class="po-geste mono masque-ecran-bas" aria-hidden="true"><span class="geste-souris">Faites glisser la loupe</span><span class="geste-doigt">Faites glisser la loupe du doigt</span></p>
+      </div>
+      <div class="po-table" data-anime="gsap">
+        <div class="table-lumineuse" aria-hidden="true"></div>
+        <div class="planche" data-effet="planche" data-grille="manipuler" role="group" aria-label="Planche de douze portraits">
+          <button type="button" class="case" data-i="0" data-titre="Le sourire posé" data-credit="Photo Roka production" aria-pressed="false" aria-label="Le sourire posé, Photo Roka production">
+            <img class="case-img" src="/assets/images/roka-buste-480.webp" srcset="/assets/images/roka-buste-480.webp 480w, /assets/images/roka-buste-800.webp 800w, /assets/images/roka-buste-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 16vw" alt="" width="480" height="600" style="object-position:55% 42%" data-grand="/assets/images/roka-buste-1120.webp" fetchpriority="high" loading="eager" decoding="async">
+            <span class="case-n" aria-hidden="true" data-audit-ignorer>01</span>
+          </button><button type="button" class="case" data-i="1" data-titre="Face à la lumière" data-credit="Photo Laurent Bouillard" aria-pressed="false" aria-label="Face à la lumière, Photo Laurent Bouillard">
+            <img class="case-img" src="/assets/images/bouillard-sourire-480.webp" srcset="/assets/images/bouillard-sourire-480.webp 480w, /assets/images/bouillard-sourire-800.webp 800w, /assets/images/bouillard-sourire-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 16vw" alt="" width="480" height="600" style="object-position:49% 35%" data-grand="/assets/images/bouillard-sourire-1120.webp" fetchpriority="high" loading="eager" decoding="async">
+            <span class="case-n" aria-hidden="true" data-audit-ignorer>02</span>
+          </button><button type="button" class="case" data-i="2" data-titre="La rêveuse" data-credit="Photo Ana Slk" aria-pressed="false" aria-label="La rêveuse, Photo Ana Slk">
+            <img class="case-img" src="/assets/images/slk-menton-480.webp" srcset="/assets/images/slk-menton-480.webp 480w, /assets/images/slk-menton-800.webp 800w, /assets/images/slk-menton-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 16vw" alt="" width="480" height="600" style="object-position:46% 36%" data-grand="/assets/images/slk-menton-1120.webp" fetchpriority="high" loading="eager" decoding="async">
+            <span class="case-n" aria-hidden="true" data-audit-ignorer>03</span>
+          </button><button type="button" class="case" data-i="3" data-titre="Col roulé" data-credit="Photo Laurent Bouillard" aria-pressed="false" aria-label="Col roulé, Photo Laurent Bouillard">
+            <img class="case-img" src="/assets/images/bouillard-noir-480.webp" srcset="/assets/images/bouillard-noir-480.webp 480w, /assets/images/bouillard-noir-800.webp 800w, /assets/images/bouillard-noir-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 16vw" alt="" width="480" height="600" style="object-position:44% 36%" data-grand="/assets/images/bouillard-noir-1120.webp" fetchpriority="high" loading="eager" decoding="async">
+            <span class="case-n" aria-hidden="true" data-audit-ignorer>04</span>
+          </button><button type="button" class="case" data-i="4" data-titre="Plein air" data-credit="Photo Ana Slk" aria-pressed="false" aria-label="Plein air, Photo Ana Slk">
+            <img class="case-img" src="/assets/images/slk-jardin-480.webp" srcset="/assets/images/slk-jardin-480.webp 480w, /assets/images/slk-jardin-800.webp 800w, /assets/images/slk-jardin-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 16vw" alt="" width="480" height="600" style="object-position:43% 34%" data-grand="/assets/images/slk-jardin-1120.webp" fetchpriority="high" loading="eager" decoding="async">
+            <span class="case-n" aria-hidden="true" data-audit-ignorer>05</span>
+          </button><button type="button" class="case est-choisie" data-i="5" data-titre="Le rire, en grand" data-credit="Photographe non crédité" aria-pressed="true" aria-label="Le rire, en grand, Photographe non crédité" data-iris-centre>
+            <img class="case-img" src="/assets/images/rire-640.webp" srcset="/assets/images/rire-640.webp 640w, /assets/images/rire-1280.webp 1280w, /assets/images/rire-1920.webp 1920w" sizes="(max-width: 760px) 30vw, 16vw" alt="" width="640" height="800" style="object-position:56% 35%" data-grand="/assets/images/rire-1920.webp" fetchpriority="high" loading="eager" decoding="async">
+            <span class="case-n" aria-hidden="true" data-audit-ignorer>06</span>
+          </button><button type="button" class="case" data-i="6" data-titre="Les lunettes à la main" data-credit="Photo Laurent Bouillard" aria-pressed="false" aria-label="Les lunettes à la main, Photo Laurent Bouillard">
+            <img class="case-img" src="/assets/images/bouillard-lunettes-480.webp" srcset="/assets/images/bouillard-lunettes-480.webp 480w, /assets/images/bouillard-lunettes-800.webp 800w, /assets/images/bouillard-lunettes-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 16vw" alt="" width="480" height="600" style="object-position:38% 26%" data-grand="/assets/images/bouillard-lunettes-1120.webp" loading="lazy" decoding="async">
+            <span class="case-n" aria-hidden="true" data-audit-ignorer>07</span>
+          </button><button type="button" class="case" data-i="7" data-titre="En pied" data-credit="Photo Roka production" aria-pressed="false" aria-label="En pied, Photo Roka production">
+            <img class="case-img" src="/assets/images/roka-pied-480.webp" srcset="/assets/images/roka-pied-480.webp 480w, /assets/images/roka-pied-800.webp 800w, /assets/images/roka-pied-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 16vw" alt="" width="480" height="600" style="object-position:54% 23%" data-grand="/assets/images/roka-pied-1120.webp" loading="lazy" decoding="async">
+            <span class="case-n" aria-hidden="true" data-audit-ignorer>08</span>
+          </button><button type="button" class="case" data-i="8" data-titre="Manteau bleu" data-credit="Photo Lisa Fougereux" aria-pressed="false" aria-label="Manteau bleu, Photo Lisa Fougereux">
+            <img class="case-img" src="/assets/images/fougereux-manteau-480.webp" srcset="/assets/images/fougereux-manteau-480.webp 480w, /assets/images/fougereux-manteau-800.webp 800w, /assets/images/fougereux-manteau-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 16vw" alt="" width="480" height="600" style="object-position:45% 37%" data-grand="/assets/images/fougereux-manteau-1120.webp" loading="lazy" decoding="async">
+            <span class="case-n" aria-hidden="true" data-audit-ignorer>09</span>
+          </button><button type="button" class="case case-ordi" data-i="9" data-titre="Trois quarts" data-credit="Photo Laurent Bouillard" aria-pressed="false" aria-label="Trois quarts, Photo Laurent Bouillard">
+            <img class="case-img" src="/assets/images/bouillard-pied-480.webp" srcset="/assets/images/bouillard-pied-480.webp 480w, /assets/images/bouillard-pied-800.webp 800w, /assets/images/bouillard-pied-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 16vw" alt="" width="480" height="600" style="object-position:50% 33%" data-grand="/assets/images/bouillard-pied-1120.webp" loading="lazy" decoding="async">
+            <span class="case-n" aria-hidden="true" data-audit-ignorer>10</span>
+          </button><button type="button" class="case case-ordi" data-i="10" data-titre="De face" data-credit="Photo Fabrice Robin" aria-pressed="false" aria-label="De face, Photo Fabrice Robin">
+            <img class="case-img" src="/assets/images/robin-480.webp" srcset="/assets/images/robin-480.webp 480w, /assets/images/robin-800.webp 800w, /assets/images/robin-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 16vw" alt="" width="480" height="600" style="object-position:55% 39%" data-grand="/assets/images/robin-1120.webp" loading="lazy" decoding="async">
+            <span class="case-n" aria-hidden="true" data-audit-ignorer>11</span>
+          </button><button type="button" class="case case-ordi" data-i="11" data-titre="Les mains sur les hanches" data-credit="Photo Laurent Bouillard" aria-pressed="false" aria-label="Les mains sur les hanches, Photo Laurent Bouillard">
+            <img class="case-img" src="/assets/images/bouillard-hanches-480.webp" srcset="/assets/images/bouillard-hanches-480.webp 480w, /assets/images/bouillard-hanches-800.webp 800w, /assets/images/bouillard-hanches-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 16vw" alt="" width="480" height="600" style="object-position:50% 29%" data-grand="/assets/images/bouillard-hanches-1120.webp" loading="lazy" decoding="async">
+            <span class="case-n" aria-hidden="true" data-audit-ignorer>12</span>
+          </button>
+          <svg class="cercle-choix" viewBox="0 0 220 270" preserveAspectRatio="none" aria-hidden="true" data-superpose><path d="M112 14 C 168 12, 206 62, 204 136 C 202 214, 160 258, 106 256 C 50 254, 14 206, 16 132 C 18 62, 58 18, 120 20" pathLength="1" filter="url(#gras-fil)"/></svg>
+        </div>
+        <div class="tirage-volant" data-effet="tirage-volant" data-superpose>
+          <button type="button" class="tirage-carte" aria-pressed="false" aria-label="Retourner le tirage : Col roulé, photo Laurent Bouillard">
+            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bouillard-noir-1120.webp" srcset="/assets/images/bouillard-noir-480.webp 480w, /assets/images/bouillard-noir-800.webp 800w, /assets/images/bouillard-noir-1120.webp 1120w" sizes="(max-width: 760px) 28vw, 13vw" alt="" width="1120" height="1400" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Col roulé</b><span>Photo Laurent Bouillard</span></span>
+          </button>
+        </div>
+        <svg class="trace-ouverture" aria-hidden="true" data-superpose><path filter="url(#gras-fil)"/></svg>
+        <div class="loupe" data-effet="compte-fils" data-souris data-superpose data-audit-ignorer aria-hidden="true">
+          <span class="loupe-ombre"></span>
+          <div class="loupe-verre"><div class="loupe-zoom"></div><span class="loupe-reflet"></span></div>
+          <svg class="loupe-bague" viewBox="0 0 200 200"><defs><path id="bague-cercle" d="M100 100 m -84 0 a 84 84 0 1 1 168 0 a 84 84 0 1 1 -168 0"/></defs><text><textPath href="#bague-cercle" startOffset="3%" data-bague>PHOTOGRAPHE NON CRÉDITÉ · LE RIRE, EN GRAND</textPath></text></svg>
+        </div>
+      </div>
+    </div>
+    <div class="plongee-calque" aria-hidden="true" data-effet="plongee-portrait">
+      <div class="plongee-image"><img src="/assets/images/rire-1920.webp" srcset="/assets/images/rire-640.webp 640w, /assets/images/rire-1280.webp 1280w, /assets/images/rire-1920.webp 1920w" sizes="100vw" alt="" width="1920" height="1280" loading="lazy" decoding="async"></div>
+    </div>
+    <div class="plongee-texte">
+      <p class="plongee-mots"><span>Depuis</span> <span>1991</span></p>
+      <h2>Le drame, le rire, la voix.</h2>
+      <p>De Yerma de Lorca aux spectacles familiaux de la Cie PILE, du court métrage à la lecture de Victor Hugo : elle joue sur scène, devant la caméra et au micro.</p>
+      <a href="/parcours" class="bouton bouton--clair" data-libelle="Parcours">Tout le parcours</a>
+    </div>
+  </div>
+</section>
+<section class="jeu" id="jeu">
+  <div class="conteneur jeu-grille">
+    <div class="jeu-texte">
+      <p class="surtitre mono" data-anime>La voir jouer</p>
+      <h2 data-anime="lignes">Sur scène, en vidéo</h2>
+      <p data-anime>Sa bande-démo 2024 est envoyée sur demande. En attendant, trois spectacles de la Cie PILE où elle joue, en vidéo.</p>
+      <p data-anime><a href="/contact?sujet=demo#message" class="bouton" data-libelle="Contact">Demander la bande-démo</a></p>
+    </div>
+    <ul class="videos" data-effet="affiches">
+      <li class="video">
+        <a class="video-lien" href="https://www.youtube.com/watch?v=c_-WWkegUUo" target="_blank" rel="noopener" aria-label="Veni Vidi Bibi : Voir sur YouTube (nouvel onglet)">
+          <figure class="media video-media" style="--cadrage:50% 50%;aspect-ratio:2/3">
+  <picture>
+    <img src="/assets/images/affiche-veni-vidi-bibi-480.webp" srcset="/assets/images/affiche-veni-vidi-bibi-320.webp 320w, /assets/images/affiche-veni-vidi-bibi-480.webp 480w" sizes="(max-width: 760px) 30vw, 16vw" alt="Affiche de Veni Vidi Bibi" width="480" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <span class="video-play" aria-hidden="true">▶<svg class="crayon crayon-play" viewBox="0 0 220 270" preserveAspectRatio="none" aria-hidden="true" data-superpose data-effet="crayon" data-grille="fil"><path d="M112 14 C 168 12, 206 62, 204 136 C 202 214, 160 258, 106 256 C 50 254, 14 206, 16 132 C 18 62, 58 18, 120 20" pathLength="1" filter="url(#gras-fil)"/></svg></span>
+        </a>
+        <p class="video-titre">Veni Vidi Bibi</p>
+        <p class="video-accroche">« Une conférence théâtravinée », Cie PILE</p>
+      </li><li class="video">
+        <a class="video-lien" href="https://www.youtube.com/watch?v=26eZMxqoAQs" target="_blank" rel="noopener" aria-label="Sacrées Championnes : Voir sur YouTube (nouvel onglet)">
+          <figure class="media video-media" style="--cadrage:50% 50%;aspect-ratio:2/3">
+  <picture>
+    <img src="/assets/images/affiche-sacrees-championnes-480.webp" srcset="/assets/images/affiche-sacrees-championnes-320.webp 320w, /assets/images/affiche-sacrees-championnes-480.webp 480w" sizes="(max-width: 760px) 30vw, 16vw" alt="Affiche de Sacrées Championnes" width="480" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <span class="video-play" aria-hidden="true">▶</span>
+        </a>
+        <p class="video-titre">Sacrées Championnes</p>
+        <p class="video-accroche">Exploits féminins racontés par Sarah Chaperon et Caroline Mattei</p>
+      </li><li class="video">
+        <a class="video-lien" href="https://www.youtube.com/watch?v=FAnm90GaVI0" target="_blank" rel="noopener" aria-label="Les Lombricontes : Voir sur YouTube (nouvel onglet)">
+          <figure class="media video-media" style="--cadrage:50% 50%;aspect-ratio:2/3">
+  <picture>
+    <img src="/assets/images/affiche-lombricontes-480.webp" srcset="/assets/images/affiche-lombricontes-320.webp 320w, /assets/images/affiche-lombricontes-480.webp 480w" sizes="(max-width: 760px) 30vw, 16vw" alt="Affiche de Les Lombricontes" width="480" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <span class="video-play" aria-hidden="true">▶</span>
+        </a>
+        <p class="video-titre">Les Lombricontes</p>
+        <p class="video-accroche">Cie PILE</p>
+      </li>
+    </ul>
+  </div>
+  <div class="conteneur chiffres-grille" id="representations">
+    <div class="chiffres-tete">
+      <p class="surtitre mono" data-anime>Sur scène</p>
+      <h2 data-anime="lignes">Plus de 160 soirs, rien que pour cinq spectacles</h2>
+      <p data-anime>Le nombre de représentations de cinq spectacles qu&#39;elle a joués, tel qu&#39;indiqué dans son parcours.</p>
+      <figure class="media chiffres-portrait" data-fx="parallaxe" style="--cadrage:50% 20%">
+  <picture>
+    <img src="/assets/images/roka-pied-1120.webp" srcset="/assets/images/roka-pied-480.webp 480w, /assets/images/roka-pied-800.webp 800w, /assets/images/roka-pied-1120.webp 1120w" sizes="(max-width: 760px) 50vw, 18vw" alt="Sarah Chaperon debout, les mains jointes, robe noire à manches de dentelle" width="1120" height="1991" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="chiffres-droite">
+    <ol class="chiffres-liste" data-anime="cascade">
+      <li class="chiffre-ligne"><span class="chiffre-boite"><strong class="chiffre" data-compteur="70">70</strong><svg class="crayon crayon-chiffre" viewBox="0 0 320 120" preserveAspectRatio="none" aria-hidden="true" data-superpose data-effet="crayon"><path d="M60 10 C 180 -2, 312 8, 316 56 C 320 102, 220 116, 140 112 C 50 108, 2 92, 4 58 C 6 26, 60 10, 120 6" pathLength="1" filter="url(#gras-fil)"/></svg></span><span class="chiffre-titre">Pat&#39;mouille et ses Mouillettes</span><span class="chiffre-texte">représentations</span></li><li class="chiffre-ligne"><span class="chiffre-boite"><strong class="chiffre" data-compteur="35">35</strong></span><span class="chiffre-titre">Le caddie sucré</span><span class="chiffre-texte">représentations</span></li><li class="chiffre-ligne"><span class="chiffre-boite"><strong class="chiffre" data-compteur="29">29</strong></span><span class="chiffre-titre">Envole-toi Papillon</span><span class="chiffre-texte">représentations, dont Avignon</span></li><li class="chiffre-ligne"><span class="chiffre-boite"><strong class="chiffre" data-compteur="24">24</strong></span><span class="chiffre-titre">Yerma</span><span class="chiffre-texte">représentations, dont Avignon</span></li><li class="chiffre-ligne"><span class="chiffre-boite"><strong class="chiffre" data-compteur="11">11</strong></span><span class="chiffre-titre">Roméo et Juliette</span><span class="chiffre-texte">représentations, La Pépinière</span></li>
+    </ol>
+    <p class="chiffres-compagnies" data-anime>Avec les compagnies Rugir l&#39;art, PILE, TIC TAC, SOKOL, KOSHKA LUNA et Progéniture.</p>
+    </div>
+  </div>
+</section>
+<section class="visages" id="visages">
+  <div class="conteneur visages-contenu">
+    <div class="visages-tete">
+      <p class="surtitre mono" data-anime>Ses visages</p>
+      <h2 data-anime="lignes">Entourez votre tirage</h2>
+      <p data-anime><span class="geste-souris">Tracez un cercle au crayon autour d&#39;un portrait : il se soulève et se retourne. Vous pouvez aussi faire glisser les tirages sur la table.</span><span class="geste-doigt">Touchez un portrait : il s&#39;entoure, se soulève et se retourne. Faites glisser les tirages sur la table.</span></p>
+    </div>
+    <div class="table-tirages" data-effet="table-tirages">
+      <span class="table-tirages-lumiere" aria-hidden="true" data-effet="lumiere-table" data-souris></span>
+      <ul class="tirages" data-effet="recomposition">
+        <li class="tirage" data-photographe="roka-production" style="--r:-2deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Le sourire posé, Photo Roka production" aria-pressed="false">
+            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/roka-buste-1120.webp" srcset="/assets/images/roka-buste-480.webp 480w, /assets/images/roka-buste-800.webp 800w, /assets/images/roka-buste-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1991" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Le sourire posé</b><span>Photo Roka production</span></span>
+          </button>
+          <p class="tirage-legende">Roka production</p>
+        </li><li class="tirage" data-photographe="laurent-bouillard" style="--r:1.5deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Face à la lumière, Photo Laurent Bouillard" aria-pressed="false">
+            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bouillard-sourire-1120.webp" srcset="/assets/images/bouillard-sourire-480.webp 480w, /assets/images/bouillard-sourire-800.webp 800w, /assets/images/bouillard-sourire-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="746" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Face à la lumière</b><span>Photo Laurent Bouillard</span></span>
+          </button>
+          <p class="tirage-legende">Laurent Bouillard</p>
+        </li><li class="tirage" data-photographe="ana-slk" style="--r:-1deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : La rêveuse, Photo Ana Slk" aria-pressed="false">
+            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/slk-menton-1120.webp" srcset="/assets/images/slk-menton-480.webp 480w, /assets/images/slk-menton-800.webp 800w, /assets/images/slk-menton-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1680" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>La rêveuse</b><span>Photo Ana Slk</span></span>
+          </button>
+          <p class="tirage-legende">Ana Slk</p>
+        </li><li class="tirage" data-photographe="laurent-bouillard" style="--r:2deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Col roulé, Photo Laurent Bouillard" aria-pressed="false">
+            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bouillard-noir-1120.webp" srcset="/assets/images/bouillard-noir-480.webp 480w, /assets/images/bouillard-noir-800.webp 800w, /assets/images/bouillard-noir-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1400" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Col roulé</b><span>Photo Laurent Bouillard</span></span>
+          </button>
+          <p class="tirage-legende">Laurent Bouillard</p>
+        </li><li class="tirage" data-photographe="ana-slk" style="--r:-1.5deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Plein air, Photo Ana Slk" aria-pressed="false">
+            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/slk-jardin-1120.webp" srcset="/assets/images/slk-jardin-480.webp 480w, /assets/images/slk-jardin-800.webp 800w, /assets/images/slk-jardin-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1680" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Plein air</b><span>Photo Ana Slk</span></span>
+          </button>
+          <p class="tirage-legende">Ana Slk</p>
+        </li><li class="tirage" data-photographe="aucun" style="--r:1deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Le rire, en grand, Photographe non crédité" aria-pressed="false">
+            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/rire-mobile-640.webp 640w, /assets/images/rire-mobile-1080.webp 1080w" sizes="(max-width: 760px) 30vw, 14vw">
+    <img src="/assets/images/rire-1280.webp" srcset="/assets/images/rire-640.webp 640w, /assets/images/rire-1280.webp 1280w, /assets/images/rire-1920.webp 1920w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Le rire, en grand</b><span>Photographe non crédité</span></span>
+          </button>
+          <p class="tirage-legende">Photographe non crédité</p>
+        </li><li class="tirage" data-photographe="laurent-bouillard" style="--r:-2.5deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Les lunettes à la main, Photo Laurent Bouillard" aria-pressed="false">
+            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bouillard-lunettes-1120.webp" srcset="/assets/images/bouillard-lunettes-480.webp 480w, /assets/images/bouillard-lunettes-800.webp 800w, /assets/images/bouillard-lunettes-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="746" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Les lunettes à la main</b><span>Photo Laurent Bouillard</span></span>
+          </button>
+          <p class="tirage-legende">Laurent Bouillard</p>
+        </li><li class="tirage" data-photographe="roka-production" style="--r:1.2deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : En pied, Photo Roka production" aria-pressed="false">
+            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/roka-pied-1120.webp" srcset="/assets/images/roka-pied-480.webp 480w, /assets/images/roka-pied-800.webp 800w, /assets/images/roka-pied-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1991" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>En pied</b><span>Photo Roka production</span></span>
+          </button>
+          <p class="tirage-legende">Roka production</p>
+        </li><li class="tirage" data-photographe="lisa-fougereux" style="--r:-0.8deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Manteau bleu, Photo Lisa Fougereux" aria-pressed="false">
+            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/fougereux-manteau-1120.webp" srcset="/assets/images/fougereux-manteau-480.webp 480w, /assets/images/fougereux-manteau-800.webp 800w, /assets/images/fougereux-manteau-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1680" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Manteau bleu</b><span>Photo Lisa Fougereux</span></span>
+          </button>
+          <p class="tirage-legende">Lisa Fougereux</p>
+        </li><li class="tirage" data-photographe="laurent-bouillard" style="--r:2.2deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Trois quarts, Photo Laurent Bouillard" aria-pressed="false">
+            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bouillard-pied-1120.webp" srcset="/assets/images/bouillard-pied-480.webp 480w, /assets/images/bouillard-pied-800.webp 800w, /assets/images/bouillard-pied-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1680" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Trois quarts</b><span>Photo Laurent Bouillard</span></span>
+          </button>
+          <p class="tirage-legende">Laurent Bouillard</p>
+        </li><li class="tirage" data-photographe="fabrice-robin" style="--r:-1.8deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : De face, Photo Fabrice Robin" aria-pressed="false">
+            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/robin-1120.webp" srcset="/assets/images/robin-480.webp 480w, /assets/images/robin-800.webp 800w, /assets/images/robin-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="1400" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>De face</b><span>Photo Fabrice Robin</span></span>
+          </button>
+          <p class="tirage-legende">Fabrice Robin</p>
+        </li><li class="tirage" data-photographe="laurent-bouillard" style="--r:-2deg">
+          <button type="button" class="tirage-carte" aria-label="Retourner le tirage : Les mains sur les hanches, Photo Laurent Bouillard" aria-pressed="false">
+            <span class="tirage-face"><figure class="media tirage-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bouillard-hanches-1120.webp" srcset="/assets/images/bouillard-hanches-480.webp 480w, /assets/images/bouillard-hanches-800.webp 800w, /assets/images/bouillard-hanches-1120.webp 1120w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="1120" height="746" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+            <span class="tirage-dos" data-face="dos"><span class="mono">Au dos du tirage</span><b>Les mains sur les hanches</b><span>Photo Laurent Bouillard</span></span>
+          </button>
+          <p class="tirage-legende">Laurent Bouillard</p>
+        </li>
+      </ul>
+      <svg class="trace-libre" aria-hidden="true" data-superpose><path filter="url(#gras-fil)"/></svg>
+    </div>
+    <div class="visages-pied">
+      <div class="filtres" role="group" aria-label="Ranger par photographe">
+        <span class="mono filtres-titre">Ranger par photographe</span>
+        <button type="button" class="filtre" data-filtre="tous" aria-pressed="true">Tous</button>
+        <button type="button" class="filtre" data-filtre="roka-production" aria-pressed="false">Roka production</button><button type="button" class="filtre" data-filtre="laurent-bouillard" aria-pressed="false">Laurent Bouillard</button><button type="button" class="filtre" data-filtre="ana-slk" aria-pressed="false">Ana Slk</button><button type="button" class="filtre" data-filtre="fabrice-robin" aria-pressed="false">Fabrice Robin</button><button type="button" class="filtre" data-filtre="lisa-fougereux" aria-pressed="false">Lisa Fougereux</button>
+      </div>
+      <a href="/portraits" class="bouton" data-libelle="Portraits">Voir tous les portraits</a>
+    </div>
+  </div>
+</section>
+<section class="voix-accueil" id="voix">
+  <div class="conteneur voix-grille">
+    <div class="voix-portrait" data-effet="halo-voix">
+      <figure class="media voix-media" style="--cadrage:50% 30%">
+  <picture>
+    <img src="/assets/images/bouillard-noir-1120.webp" srcset="/assets/images/bouillard-noir-480.webp 480w, /assets/images/bouillard-noir-800.webp 800w, /assets/images/bouillard-noir-1120.webp 1120w" sizes="(max-width: 760px) 100vw, 40vw" alt="Sarah Chaperon en col roulé noir sur fond noir" width="1120" height="1400" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <span class="voix-halo" aria-hidden="true"></span>
+    </div>
+    <div class="voix-texte">
+      <p class="surtitre mono" data-anime>Sa voix</p>
+      <h2 data-anime="lignes">Écouter Sarah</h2>
+      <p data-anime>Lecture en studio de « En mai » de Victor Hugo, et trois enregistrements faits à la maison.</p>
+      <ol class="voix-liste" data-anime="cascade">
+        <li><span class="voix-onde" aria-hidden="true" data-effet="onde-voix"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i><i style="--k:5"></i><i style="--k:6"></i><i style="--k:7"></i><i style="--k:8"></i><i style="--k:9"></i><i style="--k:10"></i><i style="--k:11"></i><i style="--k:12"></i><i style="--k:13"></i><i style="--k:14"></i><i style="--k:15"></i><i style="--k:16"></i><i style="--k:17"></i></span><span class="voix-titre">En mai <em>· Victor Hugo</em></span><span class="voix-duree mono">1:54</span></li><li><span class="voix-onde" aria-hidden="true" data-effet="onde-voix"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i><i style="--k:5"></i><i style="--k:6"></i><i style="--k:7"></i><i style="--k:8"></i><i style="--k:9"></i><i style="--k:10"></i><i style="--k:11"></i><i style="--k:12"></i><i style="--k:13"></i><i style="--k:14"></i><i style="--k:15"></i><i style="--k:16"></i><i style="--k:17"></i></span><span class="voix-titre">Bien-être 1</span><span class="voix-duree mono">1:55</span></li><li><span class="voix-onde" aria-hidden="true" data-effet="onde-voix"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i><i style="--k:5"></i><i style="--k:6"></i><i style="--k:7"></i><i style="--k:8"></i><i style="--k:9"></i><i style="--k:10"></i><i style="--k:11"></i><i style="--k:12"></i><i style="--k:13"></i><i style="--k:14"></i><i style="--k:15"></i><i style="--k:16"></i><i style="--k:17"></i></span><span class="voix-titre">Bien-être 2</span><span class="voix-duree mono">1:55</span></li><li><span class="voix-onde" aria-hidden="true" data-effet="onde-voix"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i><i style="--k:5"></i><i style="--k:6"></i><i style="--k:7"></i><i style="--k:8"></i><i style="--k:9"></i><i style="--k:10"></i><i style="--k:11"></i><i style="--k:12"></i><i style="--k:13"></i><i style="--k:14"></i><i style="--k:15"></i><i style="--k:16"></i><i style="--k:17"></i></span><span class="voix-titre">Shanghai</span><span class="voix-duree mono">0:39</span></li>
+      </ol>
+      <p><a href="/demo-et-voix#voix" class="bouton bouton--clair" data-libelle="Démo &amp; voix">Toutes les voix</a></p>
+    </div>
+  </div>
+</section>
+<section class="actualite conteneur" id="actualite">
+  <div class="actu-tete">
+    <p class="surtitre mono" data-anime>Actualité</p>
+    <h2 data-anime="lignes">Sur scène en 2026</h2>
+  </div>
+  <article class="actu-avenir" data-anime>
+    <p class="mono actu-etiquette">À venir</p>
+    <h3>Les voix de l&#39;eau</h3>
+    <p>Thomas Delaporte et Christy Simon · mise en scène Christy Simon</p>
+    <p class="actu-quand"><span class="actu-quand-txt">Décembre 2026</span><svg class="crayon crayon-date" viewBox="0 0 360 110" preserveAspectRatio="none" aria-hidden="true" data-superpose data-effet="crayon"><path d="M70 8 C 200 -2, 352 6, 356 52 C 360 98, 250 108, 170 106 C 60 104, 2 90, 4 54 C 6 22, 70 8, 130 4" pathLength="1" filter="url(#gras-fil)"/></svg></p>
+  </article>
+  <div class="actu-passees">
+    <p class="mono actu-etiquette">Dates passées de 2026</p>
+    <ol data-anime="cascade"><li><s>9, 10 et 11 octobre 2026</s><b>Yerma</b><span>Carré Rondelet, Montpellier</span></li><li><s>2, 3 et 4 octobre 2026</s><b>Veni Vidi Bibi</b><span>Dijon</span></li><li><s>18, 19, 20, 25, 26 et 27 septembre 2026</s><b>CUT</b><span>Local des autrices, Paris</span></li><li><s>15 août 2026</s><b>Veni Vidi Bibi</b><span>Sancerre</span></li></ol>
+    <p><a href="/parcours#actualite" class="lien-fleche" data-libelle="Parcours">Le parcours complet</a></p>
+  </div>
+</section>
+<section class="appel" id="appel">
+  <figure class="media appel-fond" data-grok data-fx="parallaxe" aria-hidden="true" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/coulisses-mobile-640.webp 640w, /assets/images/grok/coulisses-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/coulisses-1280.webp" srcset="/assets/images/grok/coulisses-640.webp 640w, /assets/images/grok/coulisses-1280.webp 1280w, /assets/images/grok/coulisses-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur appel-grille">
+    <div>
+      <p class="surtitre mono" data-anime>Pour un rôle, une lecture, une voix</p>
+      <h2 data-anime="lignes">Écrivez-lui, appelez-la</h2>
+      <p data-anime>Ses coordonnées directes, pour un rôle, une lecture ou une voix.</p>
+    </div>
+    <div class="appel-coord" data-anime>
+      <a class="appel-tel" href="tel:+33611626541"><span class="tel-boite"><span class="tel-num">06 11 62 65 41</span><svg class="crayon crayon-tel" viewBox="0 0 360 110" preserveAspectRatio="none" aria-hidden="true" data-superpose data-effet="crayon"><path d="M70 8 C 200 -2, 352 6, 356 52 C 360 98, 250 108, 170 106 C 60 104, 2 90, 4 54 C 6 22, 70 8, 130 4" pathLength="1" filter="url(#gras-fil)"/></svg></span></a>
+      <a class="appel-mail" href="mailto:sarahchaperon93@gmail.com">sarahchaperon93@gmail.com</a>
+      <a href="/contact" class="bouton bouton--clair" data-libelle="Contact" data-survol="magnetique">Écrire un message</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-nom">Sarah Chaperon</p>
+      <p>Comédienne · théâtre, tournages, voix<br><a href="tel:+33611626541">06 11 62 65 41</a><br><a href="mailto:sarahchaperon93@gmail.com">sarahchaperon93@gmail.com</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/parcours" data-libelle="Parcours">Parcours</a></li><li><a href="/portraits" data-libelle="Portraits">Portraits</a></li><li><a href="/demo-et-voix" data-libelle="Démo &amp; voix">Démo &amp; voix</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Photographies</strong></p>
+      <p class="pied-credits">Roka production, Laurent Bouillard, Ana Slk, Fabrice Robin, Lisa Fougereux.</p>
+      <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales : à compléter</p><p>Politique de confidentialité : à compléter</p><p>Maquette de présentation.</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33611626541">Appeler</a>
+  <a class="bouton" href="/contact" data-libelle="Contact">La contacter</a>
+</div>
+</body>
+</html>

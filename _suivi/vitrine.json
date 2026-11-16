@@ -1,0 +1,218 @@
+{
+ "explication": "Vitrine du projet : des ouvertures de la bibliothèque à dépasser, jamais à imiter (ni leur idée, ni leur mise en page).",
+ "activite": [
+  "spectacle"
+ ],
+ "metier": "comédienne",
+ "besoin": [
+  "portfolio",
+  "écouter-regarder"
+ ],
+ "ton": [
+  "chaleureux"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "sarah-chaperon-maquette",
+ "ecartees": [],
+ "ouvertures": [
+  {
+   "rang": 1,
+   "id": "loeilsingulier-maquette/hero",
+   "maquette": "loeilsingulier-maquette",
+   "client": "agence franco-britannique d'événementiel d'entreprise et de design graphique",
+   "metier": "agence événementielle et design graphique",
+   "activite": [
+    "services-b2b",
+    "spectacle"
+   ],
+   "pourquoi": [
+    "même activité",
+    "besoin portfolio, écouter-regarder",
+    "ambiance chaleureux",
+    "style clair (8 % sombre)",
+    "webgl"
+   ],
+   "lumiere": "clair",
+   "part_sombre": 8,
+   "note_section": 5,
+   "note_maquette": 90,
+   "titre": "Héros à titre doré",
+   "description": "Titre « Donner de la mémoire à l'éphémère » dont les mots dorés sont redessinés en WebGL comme une dorure à chaud froissée (le texte reste dans le DOM), avec tirages photo posés en biais qui se développent.",
+   "familles": [
+    "webgl"
+   ],
+   "plan": null,
+   "module": null,
+   "fiche": "sections/loeilsingulier-maquette/hero.json",
+   "capture": "medias/loeilsingulier-maquette/hero-p1440.jpg",
+   "video": "medias/loeilsingulier-maquette/hero-p720.mp4",
+   "en_ligne": "https://loeilsingulier-maquette.vercel.app"
+  },
+  {
+   "rang": 2,
+   "id": "les-plus-hautes-eaux-maquette/haut",
+   "maquette": "les-plus-hautes-eaux-maquette",
+   "client": "compagnie de théâtre gestuel et clown pour tous publics, tournée dans le Grand Ouest",
+   "metier": "compagnie de théâtre",
+   "activite": [
+    "spectacle",
+    "culture"
+   ],
+   "pourquoi": [
+    "même activité",
+    "besoin portfolio, écouter-regarder",
+    "style sombre (100 % sombre)",
+    "webgl"
+   ],
+   "lumiere": "sombre",
+   "part_sombre": 100,
+   "note_section": 5,
+   "note_maquette": 90,
+   "titre": "Héros sous la montée des eaux",
+   "description": "Photo de scène en bichromie : une nappe d'eau WebGL (OGL) avec caustiques monte en lui rendant ses couleurs, puis couvre toute l'image au défilement (scrub) ; un clic fait des ronds dans l'eau. Titre révélé mot à mot, prochaine représentation en carte. Repli CSS par variable --lvl sans WebGL.",
+   "familles": [
+    "webgl"
+   ],
+   "plan": null,
+   "module": "revelation-a-l-encre",
+   "fiche": "sections/les-plus-hautes-eaux-maquette/haut.json",
+   "capture": "medias/les-plus-hautes-eaux-maquette/haut-p1440.jpg",
+   "video": "medias/les-plus-hautes-eaux-maquette/haut-p720.mp4",
+   "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app"
+  },
+  {
+   "rang": 3,
+   "id": "petitenature-maquette/hero",
+   "maquette": "petitenature-maquette",
+   "client": "compagnie de lectures à voix haute et de labos littéraires",
+   "metier": "compagnie de lectures",
+   "activite": [
+    "culture",
+    "spectacle"
+   ],
+   "pourquoi": [
+    "même activité",
+    "besoin portfolio, écouter-regarder",
+    "clair et sombre alternés (22 % sombre)",
+    "webgl",
+    "fil-conducteur"
+   ],
+   "lumiere": "mixte",
+   "part_sombre": 22,
+   "note_section": 5,
+   "note_maquette": 88,
+   "titre": "Ouverture en néon",
+   "description": "Le nom de la compagnie s'allume lettre à lettre comme un néon (Tilt Neon, axes de rotation variables), un rouge-gorge détouré se pose sur les titres et la photo de paysage apparaît en tirage cyanotype qui s'insole jusqu'à ses vraies couleurs (WebGL OGL), puis ondule doucement au survol. Le fil rouge en néon part d'ici et traverse toute la page. Titre lisible dès 0,5 s.",
+   "familles": [
+    "webgl",
+    "fil-conducteur"
+   ],
+   "plan": null,
+   "module": "fil-conducteur",
+   "fiche": "sections/petitenature-maquette/hero.json",
+   "capture": "medias/petitenature-maquette/hero-p1440.jpg",
+   "video": "medias/petitenature-maquette/hero-p720.mp4",
+   "en_ligne": "https://petitenature-maquette.vercel.app"
+  },
+  {
+   "rang": 4,
+   "id": "marco-investigation-maquette/une",
+   "maquette": "marco-investigation-maquette",
+   "client": "média indépendant d'enquêtes et de journalisme de solutions (vidéo, podcast, magazines, formations pour les écoles)",
+   "metier": "média d'enquête",
+   "activite": [
+    "média",
+    "formation"
+   ],
+   "pourquoi": [
+    "activité proche",
+    "besoin portfolio, écouter-regarder",
+    "clair et sombre alternés (33 % sombre)",
+    "webgl"
+   ],
+   "lumiere": "mixte",
+   "part_sombre": 33,
+   "note_section": 5,
+   "note_maquette": 89,
+   "titre": "La une du jour",
+   "description": "Ouverture en une de quotidien : calage de la presse (repères de coupe, compteur en %), titre de journal qui s'imprime lettre à lettre, filets qui se tracent, sommaire folioté et article principal dont la photo se révèle en trame de demi-teintes WebGL (repli CSS en points).",
+   "familles": [
+    "webgl"
+   ],
+   "plan": null,
+   "module": "trame-photo",
+   "fiche": "sections/marco-investigation-maquette/une.json",
+   "capture": "medias/marco-investigation-maquette/une-p1440.jpg",
+   "video": "medias/marco-investigation-maquette/une-p720.mp4",
+   "en_ligne": "https://marco-investigation-maquette.vercel.app"
+  },
+  {
+   "rang": 5,
+   "id": "qd2a-maquette/debut",
+   "maquette": "qd2a-maquette",
+   "client": "Comité de lecture international des écritures dramatiques contemporaines de langue française (association), accueilli au Théâtre des Quartiers d'Ivry",
+   "metier": "comité de lecture théâtral",
+   "activite": [
+    "association",
+    "culture",
+    "spectacle"
+   ],
+   "pourquoi": [
+    "même activité",
+    "besoin portfolio",
+    "ambiance chaleureux",
+    "style clair (13 % sombre)",
+    "objet-manipulable",
+    "masque",
+    "profondeur"
+   ],
+   "lumiere": "clair",
+   "part_sombre": 13,
+   "note_section": 5,
+   "note_maquette": 89,
+   "titre": "Le Quartier des Autrices et des Auteurs",
+   "description": "Le Q du logo du Quartier, vectorisé, dont chacune des six formes est remplie d'une mosaïque des vrais visages de son comité (France, Belgique, Cameroun, Canada), des coups de cœur et de la lauréate, sous un voile de sa couleur qui s'efface au toucher ; on attrape une forme, elle s'écarte avec résistance et revient avec élan ; les formes suivent la souris en profondeur et se défont doucement au défilement ; légende des six formes visible sans interaction",
+   "familles": [
+    "objet-manipulable",
+    "masque",
+    "profondeur"
+   ],
+   "plan": "recit-lineaire",
+   "module": "document-a-feuilleter",
+   "fiche": "sections/qd2a-maquette/debut.json",
+   "capture": "medias/qd2a-maquette/debut-p1440.jpg",
+   "video": "medias/qd2a-maquette/debut-p720.mp4",
+   "en_ligne": "https://qd2a-maquette.vercel.app"
+  },
+  {
+   "rang": 6,
+   "id": "tiki-cassis-maquette/hero",
+   "maquette": "tiki-cassis-maquette",
+   "client": "balades et privatisations en bateau traditionnel dans les calanques, au départ du port de Cassis",
+   "metier": "balades en bateau",
+   "activite": [
+    "tourisme"
+   ],
+   "pourquoi": [
+    "besoin écouter-regarder",
+    "ambiance chaleureux",
+    "clair et sombre alternés (42 % sombre)"
+   ],
+   "lumiere": "mixte",
+   "part_sombre": 42,
+   "note_section": 5,
+   "note_maquette": 87,
+   "titre": "Héros vidéo des calanques",
+   "description": "Vidéo du bateau dans les calanques en plein écran, titre en serif, heure réelle du prochain coucher ou lever du soleil à Cassis, profondeur au pointeur (vidéo et titre glissent en sens opposé) et vague qui avance au défilement.",
+   "familles": [],
+   "plan": null,
+   "module": null,
+   "fiche": "sections/tiki-cassis-maquette/hero.json",
+   "capture": "medias/tiki-cassis-maquette/hero-p1440.jpg",
+   "video": "medias/tiki-cassis-maquette/hero-p720.mp4",
+   "en_ligne": "https://tiki-cassis-maquette.vercel.app"
+  }
+ ]
+}

@@ -1,0 +1,275 @@
+{
+  "date": "2026-11-13T13:58:23.850Z",
+  "plan": "/home/claude/sarah-chaperon-maquette/plan-images.json",
+  "attendus": 11,
+  "recus": 11,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [],
+  "manquants": [],
+  "a_regenerer": [
+    {
+      "fichier": "g-table-lumineuse.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "Top-down photograph of a photographer's light table in a dim room: a large glowing panel of warm white light filling most of the frame, completely empty in the middle, a worn black metal frame around it, at one corner a red grease pencil and a small square magnifying loupe lying on dark wood, faint dust on the glass, soft vignetting towards the edges, nothing else. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "g-plateau.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "An empty theatre stage seen from the wings at a low angle, a single warm follow spot drawing a soft circle of light on worn black floorboards, a heavy dark velvet curtain edge in the foreground, the dark auditorium barely visible beyond, light haze in the beam, nobody on stage. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "g-plateau-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "An empty theatre stage seen from the wings at a low angle, a single warm follow spot drawing a soft circle of light on worn black floorboards, a heavy dark velvet curtain edge in the foreground, the dark auditorium barely visible beyond, light haze in the beam, nobody on stage. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "g-salle-projection.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A small private screening room in the dark, seen from the back rows: a few rows of empty dark velvet seats, a beam of projector light crossing the room through floating dust towards a blank, evenly lit pale screen at the front, warm shadows, nobody in the room. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, the lower third stays dark and simple for text overlay. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "g-salle-projection-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "A small private screening room in the dark, seen from the back rows: a few rows of empty dark velvet seats, a beam of projector light crossing the room through floating dust towards a blank, evenly lit pale screen at the front, warm shadows, nobody in the room. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "g-coulisses.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A narrow backstage corridor of a small theatre, a dressing-room door ajar letting out warm light, a rack of dark costumes on hangers, a blank cork board, old painted brick walls, deep shadows, nobody in the corridor. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "g-coulisses-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "A narrow backstage corridor of a small theatre, a dressing-room door ajar letting out warm light, a rack of dark costumes on hangers, a blank cork board, old painted brick walls, deep shadows, nobody in the corridor. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "g-404.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "An empty black theatre stage with a single wooden chair standing alone in a narrow pool of warm light, the rest of the stage in deep shadow, faint haze, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ],
+  "images": [
+    {
+      "nom": "grok/table-lumineuse",
+      "attendu": "g-table-lumineuse.jpg",
+      "fichier": "g-table-lumineuse.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1920,
+      "hauteur": 1080,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Top-down photograph of a photographer's light table in a dim room: a large glowing panel of warm white light filling most of the frame, completely empty in the middle, a worn black metal frame around it, at one corner a red grease pencil and a small square magnifying loupe lying on dark wood, faint dust on the glass, soft vignetting towards the edges, nothing else. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/plateau",
+      "attendu": "g-plateau.jpg",
+      "fichier": "g-plateau.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1920,
+      "hauteur": 1080,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "An empty theatre stage seen from the wings at a low angle, a single warm follow spot drawing a soft circle of light on worn black floorboards, a heavy dark velvet curtain edge in the foreground, the dark auditorium barely visible beyond, light haze in the beam, nobody on stage. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/plateau",
+      "mobile": true,
+      "attendu": "g-plateau-mobile.jpg",
+      "fichier": "g-plateau-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "An empty theatre stage seen from the wings at a low angle, a single warm follow spot drawing a soft circle of light on worn black floorboards, a heavy dark velvet curtain edge in the foreground, the dark auditorium barely visible beyond, light haze in the beam, nobody on stage. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/salle-projection",
+      "attendu": "g-salle-projection.jpg",
+      "fichier": "g-salle-projection.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1920,
+      "hauteur": 1080,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A small private screening room in the dark, seen from the back rows: a few rows of empty dark velvet seats, a beam of projector light crossing the room through floating dust towards a blank, evenly lit pale screen at the front, warm shadows, nobody in the room. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, the lower third stays dark and simple for text overlay. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/salle-projection",
+      "mobile": true,
+      "attendu": "g-salle-projection-mobile.jpg",
+      "fichier": "g-salle-projection-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A small private screening room in the dark, seen from the back rows: a few rows of empty dark velvet seats, a beam of projector light crossing the room through floating dust towards a blank, evenly lit pale screen at the front, warm shadows, nobody in the room. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/studio-voix",
+      "attendu": "g-studio-voix.jpg",
+      "fichier": "g-studio-voix.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1800,
+      "hauteur": 1200,
+      "boites": []
+    },
+    {
+      "nom": "grok/texte-annote",
+      "attendu": "g-texte-annote.jpg",
+      "fichier": "g-texte-annote.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1800,
+      "hauteur": 1200,
+      "boites": []
+    },
+    {
+      "nom": "grok/tournage",
+      "attendu": "g-tournage.jpg",
+      "fichier": "g-tournage.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1800,
+      "hauteur": 1200,
+      "boites": []
+    },
+    {
+      "nom": "grok/coulisses",
+      "attendu": "g-coulisses.jpg",
+      "fichier": "g-coulisses.jpg",
+      "priorite": "Conseillée",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1920,
+      "hauteur": 1080,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A narrow backstage corridor of a small theatre, a dressing-room door ajar letting out warm light, a rack of dark costumes on hangers, a blank cork board, old painted brick walls, deep shadows, nobody in the corridor. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/coulisses",
+      "mobile": true,
+      "attendu": "g-coulisses-mobile.jpg",
+      "fichier": "g-coulisses-mobile.jpg",
+      "priorite": "Conseillée",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A narrow backstage corridor of a small theatre, a dressing-room door ajar letting out warm light, a rack of dark costumes on hangers, a blank cork board, old painted brick walls, deep shadows, nobody in the corridor. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/vide",
+      "attendu": "g-404.jpg",
+      "fichier": "g-404.jpg",
+      "priorite": "Conseillée",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1920,
+      "hauteur": 1080,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "An empty black theatre stage with a single wooden chair standing alone in a narrow pool of warm light, the rest of the stage in deep shadow, faint haze, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ]
+}

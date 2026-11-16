@@ -1,0 +1,41 @@
+… fichiers
+  fait en 0 s
+… grille
+  fait en 33 s
+… mesures
+  16/66
+  38/66
+  58/66
+  fait en 109 s
+… mesures:balayage
+  fait en 37 s
+… films
+  fait en 156 s
+… bords
+  fait en 73 s
+… parcours:intro
+  fait en 62 s
+… parcours:menu
+  fait en 5 s
+… parcours:liens
+  fait en 92 s
+… parcours:hauteur
+  fait en 58 s
+… parcours:projet
+  fait en 0 s
+… ecran
+  fait en 13 s
+… fluidite
+  fait en 178 s
+… mouvement
+  fait en 125 s
+… vitesse
+  fait en 18 s
+… captures
+  fait en 117 s
+… safari
+  fait en 0 s
+
+Échecs : 9 · À regarder : 14 · Non lancé : 1
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --pages=/,/404,/demo-et-voix,/parcours --seulement=fichiers,mesures,fluidite
+Rapport : /home/claude/sarah-chaperon-maquette/_audit/rapport/rapport.md (passe 20261113-153955-standard)

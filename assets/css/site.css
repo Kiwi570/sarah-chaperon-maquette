@@ -1,0 +1,520 @@
+/* Sarah Chaperon · direction « La planche-contact ».
+   Table lumineuse (papier chaud), encre noire, un seul accent : le crayon gras rouge des tirages. */
+@font-face { font-family: 'Instrument Serif'; src: url('/assets/fonts/instrument-serif.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Instrument Serif'; src: url('/assets/fonts/instrument-serif-italique.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Instrument Sans'; src: url('/assets/fonts/instrument-sans.woff2') format('woff2'); font-weight: 400 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Fragment Mono'; src: url('/assets/fonts/fragment-mono.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Serif secours'; src: local('Georgia'); size-adjust: 88%; ascent-override: 98%; }
+@font-face { font-family: 'Sans secours'; src: local('Arial'); size-adjust: 96%; }
+
+:root {
+  --police-titres: 'Instrument Serif', 'Serif secours', Georgia, serif;
+  --police-texte: 'Instrument Sans', 'Sans secours', system-ui, sans-serif;
+  --police-mono: 'Fragment Mono', ui-monospace, monospace;
+  --accent: #c2321b;          /* crayon gras : 4,9:1 sur le papier */
+  --crayon: #d23a22;
+  --encre: #1b1a18;
+  --nuit: #141312;
+  --papier: #f2efe8;
+  --gris: #5f5b55;
+  --rayon: 4px;
+  --courbe: cubic-bezier(.22, 1, .36, 1);
+}
+body { background: var(--fond); }
+h1, h2, h3 { font-weight: 400; letter-spacing: -.01em; }
+h2 { font-size: clamp(2.3rem, min(5vw, 8.5vh), 4.6rem); line-height: 1; }
+.mono { font-family: var(--police-mono); font-size: .875rem; letter-spacing: .05em; }
+.surtitre { color: var(--gris); text-transform: uppercase; margin-bottom: 14px; }
+.bouton { background: var(--encre); color: var(--papier); }
+.bouton--contour { background: transparent; color: var(--encre); box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--encre) 55%, transparent); }
+.bouton--clair { background: var(--papier); color: var(--encre); }
+.lien-fleche { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; text-underline-offset: 4px; }
+.lien-fleche::after { content: ' →'; white-space: pre; }
+
+/* ---------- Crayon gras (fil) ---------- */
+.crayon { position: absolute; max-width: none; pointer-events: none; overflow: visible; fill: none; stroke: var(--crayon); stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.crayon path { stroke-dasharray: 1; stroke-dashoffset: 0; }
+html.js:not(.secours):not([data-arrivee="retour"]) .crayon:not(.trace) path { stroke-dashoffset: 1; }
+
+.mention-ia { font-size: 13px; }
+html.js:not(.secours):not([data-arrivee="retour"]) [data-grille="typo"]:not(.revele) > * { opacity: 0; }
+
+/* ---------- En-tête ---------- */
+[data-entete] { background: color-mix(in srgb, var(--papier) 97%, transparent); }
+.entete-logo { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-family: var(--police-titres); font-size: 1.5rem; }
+.entete-logo img { width: 40px; height: 40px; }
+[data-nav] a { font-size: .9375rem; text-decoration: none; }
+[data-nav] a[aria-current] { text-decoration: underline; text-decoration-color: var(--crayon); text-decoration-thickness: 2px; text-underline-offset: 6px; }
+.entete-action.est-recu { animation: recu .6s var(--courbe); }
+@keyframes recu { 30% { transform: scale(1.12); } 60% { transform: scale(.96); } }
+
+/* ---------- Intro (panneau sombre de la chambre noire) ---------- */
+.ouverture-panneau { gap: 10px; background: var(--nuit); color: var(--papier); }
+.ouverture-nom { margin: 0; font-family: var(--police-titres); font-size: clamp(2.6rem, min(9vw, 13vh), 7.2rem); line-height: 1; filter: blur(0); }
+.ouverture-cercle { width: 150px; height: 184px; overflow: visible; }
+.ouverture-cercle path { stroke-dasharray: 760; stroke-dashoffset: 760; }
+.ouverture-ligne { margin: 0; font-family: var(--police-mono); font-size: .8125rem; letter-spacing: .3em; text-transform: uppercase; color: #c9c3b8; }
+
+/* ---------- 1. La table lumineuse, puis la plongée (une seule scène) ---------- */
+.ouverture-scene { position: relative; height: 330svh; overflow-x: clip; }
+.os-collant { position: sticky; top: 0; height: 100svh; overflow: hidden; }
+.os-collant::before { content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background: radial-gradient(70% 80% at 70% 52%, #fffdf8 0%, #f2efe8 55%, #e4dfd4 100%); }
+.planche-ouverture { position: relative; height: 100%; }
+/* Le cache crème posé sur la table : le nom et les boutons. */
+.po-texte { position: absolute; z-index: 4; left: 0; top: var(--entete-h); bottom: 0; width: min(36%, 540px); display: flex; flex-direction: column; justify-content: center;
+  padding: 24px clamp(20px, 3vw, 48px) 24px var(--gouttiere);
+  background: linear-gradient(180deg, #f6f2ea, #efe9de); box-shadow: 14px 0 34px rgba(20, 24, 30, .28), 1px 0 0 rgba(0, 0, 0, .08); }
+.po-titre { font-size: clamp(3.2rem, min(5.8vw, 12vh), 6.4rem); line-height: .92; margin: 0 0 18px; }
+.po-titre span { display: block; line-height: 1; }
+.po-l2 { color: var(--accent); font-style: italic; }
+.po-intro { max-width: 25em; font-size: 1.0625rem; }
+.po-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0 0; }
+.po-info { color: var(--encre); margin: 0 0 16px; }
+.po-table { position: absolute; left: 0; right: 0; top: var(--entete-h); bottom: 0; }
+.table-lumineuse { position: absolute; inset: 0;
+  background: radial-gradient(70% 90% at 66% 46%, #ffffff 0%, #f5f9fc 38%, #e4ecf1 78%, #cfd8de 100%); }
+.planche {
+  position: absolute; left: calc(min(36%, 540px) + 3vw); right: 3vw; top: 5%; bottom: 6%; padding: 18px 10px;
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-template-rows: repeat(3, minmax(0, 1fr)); gap: 34px 12px; rotate: -.6deg;
+}
+.case { position: relative; padding: 0; border: 0; background: #0b0908; overflow: visible; cursor: zoom-in; min-width: 44px; min-height: 44px;
+  box-shadow: 0 0 0 7px rgba(40, 30, 22, .84), 0 -14px 0 0 rgba(40, 30, 22, .84), 0 14px 0 0 rgba(40, 30, 22, .84), 7px 0 0 7px rgba(40, 30, 22, .84), -7px 0 0 7px rgba(40, 30, 22, .84), 0 0 26px 10px rgba(220, 238, 255, .45); }
+/* Perforations du film : la lumière de la table passe au travers. */
+.case::before, .case::after { content: ''; position: absolute; left: -10px; right: -10px; height: 6px; pointer-events: none;
+  background: repeating-linear-gradient(90deg, transparent 0 7px, #fbfdff 7px 13px); box-shadow: 0 0 6px rgba(230, 244, 255, .7); }
+.case::before { top: -13px; } .case::after { bottom: -13px; }
+.case-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.case-n { position: absolute; right: 2px; bottom: -13px; z-index: 1; font: 13px/1 var(--police-mono); color: #f0b24a; background: rgba(36, 26, 18, .95); padding: 0 3px; }
+.case:focus-visible { outline-color: #f0b24a; }
+.cercle-choix { position: absolute; max-width: none; left: 0; top: 0; width: 100px; height: 120px; overflow: visible; pointer-events: none; z-index: 2;
+  fill: none; stroke: var(--crayon); stroke-width: 5; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.cercle-choix path { stroke-dasharray: 1; stroke-dashoffset: 0; }
+.planche-reflet { position: absolute; inset: 0; pointer-events: none; z-index: 2; overflow: hidden; }
+.planche-reflet::before { content: ''; position: absolute; top: -10%; bottom: -10%; left: 0; width: 45%; transform: translateX(var(--rx, -120%)) skewX(-14deg);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .22) 45%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .22) 55%, transparent); }
+
+/* Le tirage posé sur la table : le crayon l'entoure seul, il se soulève et se retourne. */
+.tirage-volant { position: absolute; z-index: 5; left: calc(min(36%, 540px) + 2.5vw); bottom: 6%; width: clamp(170px, 17vw, 250px); rotate: -6deg; touch-action: none; }
+.tirage-volant .tirage-face { box-shadow: 0 calc(10px + var(--leve, 0) * 26px) calc(22px + var(--leve, 0) * 40px) rgba(20, 30, 40, calc(.28 + var(--leve, 0) * .12)); }
+.tirage-volant .tirage-dos b { font-size: 1.75rem; }
+.tirage-volant .tirage-dos span:last-child { font-size: 1rem; }
+.tirage-volant .tirage-carte { cursor: grab; }
+.trace-ouverture { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; z-index: 6; }
+.trace-ouverture path { fill: none; stroke: var(--crayon); stroke-width: 5; stroke-linecap: round; }
+/* La loupe : verre, bague chromée gravée, reflet qui bouge, ombre portée sur la planche. */
+.loupe { position: absolute; left: 0; top: 0; width: clamp(200px, 27vw, 420px); aspect-ratio: 1; z-index: 3; touch-action: none; cursor: grab;
+  transform: translate3d(var(--lx, 60%), var(--ly, 30%), 0); }
+.loupe:active { cursor: grabbing; }
+.loupe::before { content: ''; position: absolute; inset: 0; border-radius: 50%;
+  background: conic-gradient(from 200deg, #fafafa, #8a8a8a 12%, #e9e9e9 22%, #565656 34%, #f2f2f2 48%, #9b9b9b 60%, #ededed 72%, #6a6a6a 86%, #fafafa);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .6), inset 0 0 0 3px rgba(0, 0, 0, .25), 0 2px 0 rgba(255, 255, 255, .5); }
+.loupe-ombre { position: absolute; inset: 6%; border-radius: 50%; z-index: -1; transform: translate(var(--ox, 18px), var(--oy, 30px));
+  background: radial-gradient(circle, rgba(10, 8, 6, .42) 40%, rgba(10, 8, 6, .2) 62%, transparent 72%); }
+.loupe-verre { position: absolute; inset: 9%; border-radius: 50%; overflow: hidden; background: #eef3f6;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, .5), inset 0 0 22px 6px rgba(0, 0, 0, .55); }
+.loupe-zoom { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform; }
+.loupe-monde { position: relative; display: flex; align-items: center; }
+.loupe-monde .planche { rotate: -.6deg; }
+.loupe-monde .case { cursor: inherit; }
+.loupe-img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.loupe-verre::after { content: ''; position: absolute; inset: 0; border-radius: 50%; pointer-events: none;
+  background: radial-gradient(circle, transparent 60%, rgba(255, 255, 255, .1) 74%, rgba(20, 30, 50, .3) 86%, rgba(0, 0, 0, .55) 95%, rgba(255, 255, 255, .3) 99%);
+  box-shadow: inset 6px 0 10px -2px rgba(255, 70, 40, .35), inset -6px 0 10px -2px rgba(40, 130, 255, .35), inset 0 6px 10px -2px rgba(255, 240, 200, .25); }
+.loupe-reflet { position: absolute; inset: 0; border-radius: 50%; pointer-events: none;
+  background: radial-gradient(28% 20% at var(--hx, 32%) var(--hy, 24%), rgba(255, 255, 255, .5), rgba(255, 255, 255, .12) 55%, transparent 70%),
+              radial-gradient(70% 70% at calc(100% - var(--hx, 32%)) calc(100% - var(--hy, 24%)), rgba(255, 255, 255, .07), transparent 60%); }
+.loupe-bague { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; }
+.loupe-bague text { font: 600 8.6px var(--police-mono); letter-spacing: .14em; fill: #262626; }
+.po-geste { margin: 18px 0 0; color: var(--gris); }
+.geste-doigt { display: none; }
+@media (hover: none) { .geste-souris { display: none; } .geste-doigt { display: inline; } }
+html:not(.js) .loupe, html.secours .loupe { display: none; }
+html.js:not(.secours):not([data-arrivee="retour"]) .loupe:not(.est-la) { opacity: 0; }
+.loupe-verre { box-shadow: inset 0 0 0 2px rgba(0, 0, 0, .5), inset 0 0 22px 6px rgba(0, 0, 0, .5), inset 3px 0 6px rgba(255, 60, 40, .18), inset -3px 0 6px rgba(40, 120, 255, .18); }
+
+.plongee-calque { position: absolute; inset: 0; z-index: 5; pointer-events: none; visibility: hidden; }
+.plongee-image { position: absolute; inset: 0; overflow: hidden; transform-origin: 0 0; will-change: transform, clip-path; }
+.plongee-image img { width: 100%; height: 100%; object-fit: cover; object-position: 56% 30%; }
+.plongee-calque::after { content: ''; position: absolute; inset: 0; opacity: var(--voile, 0);
+  background: linear-gradient(90deg, rgba(22, 26, 32, .72) 0%, rgba(22, 26, 32, .35) 34%, transparent 52%); }
+.plongee-texte { position: absolute; z-index: 6; left: var(--gouttiere); top: 50%; translate: 0 -50%; max-width: min(500px, 42vw); color: var(--papier); opacity: 0; visibility: hidden; padding: 22px 26px; border-radius: 4px; background: rgba(18, 20, 24, .58); }
+.plongee-texte .plongee-mots { margin: 0 0 16px; font: 400 clamp(3.2rem, min(7vw, 13vh), 7rem)/1.08 var(--police-titres); }
+.plongee-texte .plongee-mots span:last-child { color: #ff9a80; font-style: italic; }
+.plongee-texte h2 { font-size: clamp(1.8rem, min(3vw, 6vh), 2.8rem); margin-bottom: .4em; }
+.plongee-texte p { font-size: 1.0625rem; }
+html:not(.js) .ouverture-scene, html.secours .ouverture-scene { height: auto; }
+html:not(.js) .os-collant, html.secours .os-collant { position: static; height: auto; min-height: 100svh; overflow: visible; }
+@media (min-width: 761px) { html:not(.js) .planche-ouverture, html.secours .planche-ouverture { min-height: 100svh; display: grid; grid-template-columns: minmax(0, .6fr) minmax(0, 1.4fr); } }
+html:not(.js) .po-texte, html.secours .po-texte, html:not(.js) .po-table, html.secours .po-table { position: relative; inset: auto; width: auto; top: 0; }
+html:not(.js) .po-table, html.secours .po-table { min-height: 80svh; margin-top: var(--entete-h); }
+html:not(.js) .plongee-calque, html.secours .plongee-calque { position: relative; visibility: visible; aspect-ratio: 3/2; max-height: 90svh; }
+html:not(.js) .plongee-texte, html.secours .plongee-texte { position: static; translate: none; opacity: 1; visibility: visible; max-width: 560px; color: var(--encre); padding: 32px var(--gouttiere); }
+html:not(.js) .plongee-texte .bouton--clair, html.secours .plongee-texte .bouton--clair { background: var(--encre); color: var(--papier); }
+html:not(.js) .plongee-texte, html.secours .plongee-texte { background: none; }
+html:not(.js) .plongee-texte .plongee-mots span:last-child, html.secours .plongee-texte .plongee-mots span:last-child { color: var(--accent); }
+html:not(.js) .introuvable, html:not(.js) .dv-ouverture, html:not(.js) .pa-ouverture { min-height: calc(100svh - 180px); }
+
+/* ---------- 2. La voir jouer : vidéos de la Cie PILE (le rideau qui recouvre la plongée) ---------- */
+.jeu { position: relative; z-index: 7; background: var(--papier); min-height: 100svh; padding-block: clamp(72px, 9vw, 120px) 72px; box-shadow: 0 -30px 60px rgba(0, 0, 0, .25); }
+html.js:not(.secours) .jeu { margin-top: -100svh; }
+.jeu-grille { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(28px, 5vw, 72px); align-items: center; }
+.videos { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(14px, 2vw, 26px); }
+.video-lien { position: relative; display: block; text-decoration: none; }
+.video-media { border-radius: 2px; box-shadow: 0 18px 34px rgba(30, 22, 14, .25); }
+.video-media img { width: 100%; height: 100%; object-fit: cover; }
+.video-play { position: absolute; left: 50%; top: 50%; translate: -50% -50%; width: 64px; height: 64px; display: grid; place-items: center; border-radius: 50%; background: var(--papier); color: var(--encre); font-size: 1.25rem; box-shadow: 0 10px 26px rgba(0, 0, 0, .35); }
+.crayon-play { inset: -12px; width: calc(100% + 24px); height: calc(100% + 24px); stroke-width: 4; }
+.video-titre { margin: 12px 0 2px; font: 400 1.375rem/1.15 var(--police-titres); }
+.video-accroche { margin: 0; font-size: .875rem; color: var(--gris); line-height: 1.35; }
+
+/* ---------- 4. Représentations ---------- */
+.jeu .chiffres-grille { margin-top: clamp(56px, 7vw, 96px); }
+.chiffres-grille { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(28px, 6vw, 90px); align-items: start; }
+.chiffres-portrait { margin-top: 28px; width: min(260px, 60%); aspect-ratio: 9/16; }
+.chiffres-portrait img { width: 100%; height: 100%; object-fit: cover; }
+.affiches { list-style: none; padding: 0; margin: 30px 0 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.affiche-media { border-radius: 2px; box-shadow: 0 18px 34px rgba(30, 22, 14, .25); }
+.affiche-media img { width: 100%; height: 100%; object-fit: cover; }
+.affiche-legende { margin: 10px 0 0; font-size: .875rem; line-height: 1.35; color: var(--gris); }
+.chiffres-liste { list-style: none; margin: 0; padding: 0; }
+.chiffre-ligne { position: relative; display: grid; grid-template-columns: clamp(5.4rem, 10vw, 8.6rem) minmax(0, 1fr); column-gap: 22px; align-items: baseline; padding: 18px 0; border-top: 1px solid color-mix(in srgb, var(--encre) 22%, transparent); }
+.chiffre-boite { grid-row: span 2; position: relative; justify-self: end; padding: 4px 10px; }
+.chiffre { display: block; font: 400 clamp(3rem, 6vw, 5.4rem)/1 var(--police-titres); font-variant-numeric: tabular-nums; text-align: right; }
+.chiffre-titre { font: 400 1.6rem/1.15 var(--police-titres); }
+.chiffre-texte { color: var(--gris); font-size: .9375rem; }
+.crayon-chiffre { inset: -10px -18px; width: calc(100% + 36px); height: calc(100% + 20px); }
+.chiffres-compagnies { margin-top: 18px; color: var(--gris); }
+
+/* ---------- 4. Tirages à entourer et à retourner, sur la même table lumineuse ---------- */
+.visages { position: relative; background: var(--nuit); color: var(--papier); padding-block: clamp(64px, 8vw, 110px) 48px; overflow: hidden; }
+.visages .surtitre { color: #c9c3b8; }
+.visages-contenu { display: grid; grid-template-columns: minmax(0, .62fr) minmax(0, 1.38fr); gap: clamp(28px, 4vw, 64px); align-items: center; }
+.table-tirages { position: relative; padding: clamp(22px, 3vw, 40px); border-radius: 10px; touch-action: pan-y;
+  background: radial-gradient(110% 90% at 50% 42%, #ffffff 0%, #f6fafc 40%, #e3eaee 85%, #d5dde2 100%);
+  box-shadow: 0 0 0 12px #262422, 0 0 0 13px #3b3835, 0 0 90px 24px rgba(214, 234, 255, .35); cursor: crosshair; }
+.table-tirages-lumiere { position: absolute; left: 0; top: 0; width: 720px; height: 720px; margin: -360px 0 0 -360px; border-radius: 50%; pointer-events: none; background: radial-gradient(closest-side, rgba(255, 255, 255, .9), transparent); opacity: .5; transform: translate3d(var(--lx, 400px), var(--ly, 300px), 0); will-change: transform; }
+.table-tirages { overflow: hidden; }
+.tirages { position: relative; list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(14px, 2vw, 26px) clamp(12px, 1.6vw, 22px); }
+.tirage { position: relative; rotate: var(--r, 0deg); touch-action: pan-y; }
+.tirage[hidden] { display: none !important; }
+.tirage-carte { position: relative; display: block; width: 100%; padding: 0; border: 0; background: none; cursor: grab; transform-style: preserve-3d; perspective: 900px; }
+.tirage-face, .tirage-dos { display: block; background: #fbf9f4; padding: 7px 7px 9px; box-shadow: 0 10px 22px rgba(20, 30, 40, .28); backface-visibility: hidden; }
+.tirage-media { aspect-ratio: 4/5; border-radius: 0; }
+.tirage-media img { width: 100%; height: 100%; object-fit: cover; }
+.tirage-dos { position: absolute; inset: 0; transform: rotateY(180deg); display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 14px; color: var(--encre); text-align: left;
+  background: repeating-linear-gradient(0deg, #f7f4ec 0 22px, #ebe6da 22px 23px); }
+.tirage-dos b { font: 400 1.25rem/1.1 var(--police-titres); }
+.tirage-dos span:last-child { font-size: .875rem; }
+.tirage-legende { margin: 6px 0 0; font-size: .875rem; color: #39424a; }
+.tirage.est-leve { z-index: 3; }
+.trace-libre { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; z-index: 4; }
+.trace-libre path { fill: none; stroke: var(--crayon); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.visages-pied { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; margin-top: 18px; }
+.filtres { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.filtres-titre { color: #c9c3b8; margin-right: 6px; }
+.filtre { min-height: 44px; padding: 0 10px; border: 0; background: transparent; color: #d9d4ca; font-size: .875rem; text-decoration: underline; text-underline-offset: 4px; text-decoration-color: rgba(242, 239, 232, .3); }
+.filtre[aria-pressed="true"] { color: var(--papier); text-decoration-color: var(--crayon); text-decoration-thickness: 2px; }
+.visages .bouton { background: var(--papier); color: var(--encre); }
+
+/* ---------- 5. Voix ---------- */
+.voix-accueil { overflow-x: clip; background: #0f0e0d; color: var(--papier); padding-block: 48px clamp(72px, 10vw, 130px); }
+.voix-accueil .surtitre { color: #c9c3b8; }
+.voix-grille { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: clamp(28px, 6vw, 90px); align-items: center; }
+.voix-portrait { position: relative; }
+.voix-media { aspect-ratio: 4/5; border-radius: 2px; }
+.voix-media img { width: 100%; height: 100%; object-fit: cover; }
+.voix-halo { position: absolute; inset: -8%; pointer-events: none; border-radius: 50%; opacity: var(--niveau, .35);
+  background: radial-gradient(closest-side, transparent 58%, rgba(226, 85, 58, .28) 74%, transparent 100%); transform: scale(var(--souffle, 1)); }
+.voix-liste { list-style: none; padding: 0; margin: 0 0 24px; }
+.voix-liste li { display: grid; grid-template-columns: 76px minmax(0, 1fr) auto; gap: 16px; align-items: center; padding: 14px 0; border-top: 1px solid rgba(242, 239, 232, .16); }
+.voix-titre { font: 400 1.375rem/1.2 var(--police-titres); }
+.voix-titre em { font-family: var(--police-texte); font-style: normal; font-size: .9375rem; color: #c9c3b8; }
+.voix-duree { color: #c9c3b8; }
+.voix-onde { display: flex; align-items: center; gap: 2px; height: 28px; }
+.voix-onde i { flex: 1; height: 100%; background: #e2553a; border-radius: 2px; transform: scaleY(.4); }
+
+/* ---------- 7. Actualité ---------- */
+.actualite { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.1fr); gap: clamp(24px, 4vw, 56px); align-items: start; padding-block: clamp(64px, 10vw, 130px); border-top: 1px solid var(--ligne); }
+.actu-etiquette { color: var(--gris); text-transform: uppercase; }
+.actu-avenir h3 { font-size: clamp(2rem, 3.4vw, 3rem); margin: 6px 0 8px; }
+.actu-quand { position: relative; display: inline-block; font: 400 1.75rem/1.2 var(--police-titres); padding: 10px 22px; margin: 10px 0 0 6px; }
+.crayon-date { inset: -4px -8px; width: calc(100% + 16px); height: calc(100% + 8px); }
+.actu-passees ol { list-style: none; margin: 0 0 12px; padding: 0; }
+.actu-passees li { padding: 10px 0; border-top: 1px solid var(--ligne); font-size: .9375rem; }
+.actu-passees s { color: var(--gris); display: block; font-size: .9375rem; }
+.actu-passees b { display: block; } .actu-passees li > span { display: block; }
+.actu-passees span { color: var(--gris); }
+
+/* ---------- 8. Appel ---------- */
+.appel { background: var(--nuit); color: var(--papier); padding-block: clamp(72px, 11vw, 140px); }
+.appel .surtitre { color: #c9c3b8; }
+.appel-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(24px, 6vw, 80px); align-items: center; }
+.appel-coord { display: flex; flex-direction: column; align-items: flex-start; gap: 16px; }
+.appel-tel { position: relative; display: inline-block; width: max-content; margin-left: 30px; font: 400 clamp(2.4rem, 4.4vw, 4.4rem)/1 var(--police-titres); text-decoration: none; padding: 10px 16px; white-space: nowrap; }
+.tel-boite { position: relative; display: inline-block; white-space: nowrap; }
+.crayon-tel { left: -30px; top: -16px; width: calc(100% + 60px); height: calc(100% + 32px); stroke: #e2553a; }
+.appel-mail { font-size: 1.125rem; min-height: 44px; display: inline-flex; align-items: center; }
+.appel .bouton { background: var(--papier); color: var(--encre); }
+
+/* ---------- Pied de page ---------- */
+.pied { background: var(--nuit); color: #d9d4ca; border-top: 1px solid rgba(242, 239, 232, .14); }
+.pied a { color: var(--papier); }
+.pied-nom { font: 400 1.75rem/1 var(--police-titres); color: var(--papier); }
+.pied-credits { font-size: .875rem; }
+.pied-bas { color: #bdb7ac; }
+
+/* ---------- Écrans bas ---------- */
+@media (max-height: 820px) and (min-width: 761px) {
+  .tirage-volant { width: clamp(150px, 14vw, 210px); }
+  .po-titre { font-size: clamp(3rem, min(5.6vw, 11vh), 5.4rem); margin-bottom: 12px; }
+  .po-actions { margin-top: 14px; }
+  .po-intro { font-size: 1rem; }
+  .planche { gap: 30px 10px; padding: 26px 20px; }
+}
+@media (max-height: 500px) and (min-width: 761px) {
+  .planche-ouverture { padding-top: calc(var(--entete-h) + 10px); padding-bottom: 14px; }
+  .po-titre { font-size: 2.6rem; margin-bottom: 6px; }
+  .po-info { margin-bottom: 6px; }
+  .po-actions { margin-top: 8px; }
+  .tirage-volant { display: none; }
+  .po-geste, .surtitre { display: none; }
+  .loupe { width: 150px; }
+  .planche { gap: 22px 8px; padding: 18px 14px; }
+  .plongee-texte p:not(.plongee-mots) { display: none; }
+}
+
+/* ---------- Tablette et téléphone ---------- */
+@media (max-width: 1080px) and (min-width: 761px) {
+  .po-texte { width: 40%; }
+  .planche { left: calc(40% + 2vw); grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(4, minmax(0, 1fr)); }
+  .tirage-volant { left: calc(40% - 8vw); }
+  .tirages { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .visages-contenu { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 760px) {
+  .po-texte { position: relative; top: auto; bottom: auto; width: auto; padding: calc(var(--entete-h) + 12px) var(--gouttiere) 18px; box-shadow: 0 12px 26px rgba(20, 24, 30, .22); justify-content: flex-start; }
+  .planche-ouverture { display: flex; flex-direction: column; }
+  .po-table { position: relative; top: auto; flex: 1; min-height: 0; }
+  .planche { left: 3vw; right: 3vw; top: 4%; bottom: calc(var(--barres-h) + 4%); }
+  .tirage-volant { left: auto; right: 5vw; bottom: calc(var(--barres-h) + 3%); width: 32vw; rotate: 6deg; }
+  .tirage-volant .tirage-dos b { font-size: 1.125rem; } .tirage-volant .tirage-dos span:last-child { font-size: .875rem; }
+  .po-titre { font-size: clamp(2.9rem, 14vw, 4rem); margin-bottom: 8px; }
+  .po-info { margin-bottom: 8px; }
+  .po-intro { font-size: 1rem; margin-bottom: 0; }
+  .po-actions { margin-top: 12px; }
+  .planche { grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 14px 8px; gap: 28px 8px; }
+  .case-ordi { display: none; }
+  .loupe { width: 44vw; }
+  .po-geste { display: none; }
+  .plongee-calque::after { background: linear-gradient(0deg, rgba(22, 26, 32, .88) 0%, rgba(22, 26, 32, .5) 42%, transparent 62%); }
+  .plongee-texte { top: auto; bottom: calc(var(--barres-h) + 18px); translate: none; right: var(--gouttiere); max-width: none; }
+  .plongee-texte .plongee-mots { font-size: 3rem; }
+  .jeu-grille, .chiffres-grille, .visages-contenu, .voix-grille, .actualite, .appel-grille { grid-template-columns: minmax(0, 1fr); }
+  .video-titre { font-size: 1.0625rem; } .video-accroche { display: none; } .video-play { width: 48px; height: 48px; }
+  .appel-tel { margin-left: 22px; } .crayon-tel { left: -22px; top: -12px; width: calc(100% + 44px); height: calc(100% + 24px); }
+  .tirages { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 8px; }
+  .chiffres-portrait { width: min(150px, 40%); }
+  .tirage-face { padding: 4px 4px 6px; }
+  .tirage-legende { display: none; }
+  .tirage-dos { padding: 6px; } .tirage-dos b { font-size: 1rem; } .tirage-dos .mono { display: none; }
+  .voix-liste li { grid-template-columns: 54px minmax(0, 1fr) auto; gap: 12px; }
+  .appel-tel { font-size: clamp(2.2rem, 11vw, 3rem); }
+}
+
+/* ================= Pages intérieures ================= */
+.rouge { color: var(--accent); font-style: italic; }
+.filtres--clair .filtre { color: var(--encre); text-decoration-color: color-mix(in srgb, var(--encre) 30%, transparent); }
+.filtres--clair .filtre[aria-pressed="true"] { color: var(--encre); text-decoration-color: var(--crayon); }
+
+/* Parcours : le plateau et sa poursuite */
+.pa-ouverture { position: relative; min-height: 100svh; display: flex; align-items: center; background: var(--nuit); color: var(--papier); overflow: hidden; isolation: isolate; }
+.pa-plateau { position: absolute; inset: 0; border-radius: 0; z-index: -2; }
+.pa-plateau img { width: 100%; height: 100%; object-fit: cover; }
+.pa-plateau .mention-ia { left: auto; right: 12px; bottom: 12px; }
+.pa-poursuite { position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background: radial-gradient(24% 20% at var(--px, 62%) var(--py, 70%), rgba(255, 236, 200, .42), rgba(255, 220, 170, .14) 60%, transparent); }
+.pa-ouverture::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(12, 11, 10, .85), rgba(12, 11, 10, .3) 55%, transparent); }
+.pa-texte { padding-top: calc(var(--entete-h) + 24px); padding-bottom: 40px; }
+.pa-texte .surtitre { color: #c9c3b8; }
+.pa-titre { font-size: clamp(3.4rem, min(9vw, 14vh), 8.6rem); line-height: 1.02; max-width: 8ch; margin: 14px 0 22px; }
+.pa-titre span { display: inline-block; }
+.pa-intro { max-width: 30em; font-size: 1.0625rem; }
+.pa-info { color: #e9e3d8; }
+.pa-actu { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(24px, 5vw, 72px); padding-block: clamp(64px, 9vw, 120px); }
+.pa-liste { list-style: none; margin: 8px 0 26px; padding: 0; }
+.pa-date { display: grid; grid-template-columns: minmax(0, 15em) minmax(0, 1fr); gap: 4px 22px; padding: 16px 0; border-top: 1px solid var(--ligne); }
+.pa-date b { font: 400 1.5rem/1.15 var(--police-titres); }
+.pa-date > span:last-child { grid-column: 2; color: var(--gris); font-size: .9375rem; }
+.pa-quand { position: relative; grid-row: span 2; font: 400 1.25rem/1.2 var(--police-titres); align-self: start; padding: 4px 10px; justify-self: start; }
+.pa-liste--passees .pa-quand { text-decoration: line-through; color: var(--gris); }
+.pa-liste--passees b { color: var(--gris); }
+.pa-theatre { background: #e9e4da; padding-block: clamp(64px, 9vw, 120px); }
+.pa-theatre-grille { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(24px, 5vw, 72px); align-items: start; }
+.pa-theatre-media { margin-top: 24px; aspect-ratio: 3/2; }
+.pa-pieces { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.pa-piece { background: #fbf9f4; padding: 18px 20px; box-shadow: 0 8px 20px rgba(30, 22, 14, .08); border-left: 3px solid var(--crayon); }
+.pa-piece[hidden] { display: none !important; }
+.pa-piece b { display: block; font: 400 1.375rem/1.15 var(--police-titres); margin-bottom: 4px; }
+.pa-piece span { font-size: .9375rem; color: var(--gris); }
+.pa-compagnies { margin-top: 28px; color: var(--gris); }
+.pa-tournages { position: relative; height: 300svh; background: var(--nuit); color: var(--papier); }
+.pa-collant { position: sticky; top: 0; height: 100svh; overflow: hidden; display: flex; flex-direction: column; justify-content: center; gap: 22px; padding-block: calc(var(--entete-h) + 8px) 28px; }
+.pa-tournages .surtitre { color: #c9c3b8; }
+.pa-tournages-tete h2 { margin-bottom: .2em; }
+.pa-frise { display: flex; gap: 18px; align-items: stretch; padding-inline: var(--gouttiere); width: max-content; will-change: transform; }
+.pa-frise-media { flex: none; width: min(34vw, 460px); aspect-ratio: 3/2; align-self: center; }
+.pa-film { flex: none; width: clamp(220px, 20vw, 290px); padding: 20px; background: #1f1d1b; border-top: 3px solid var(--crayon); display: flex; flex-direction: column; gap: 6px; }
+.pa-annee { margin: 0; font: 400 3rem/1 var(--police-titres); color: #ff7a5c; font-variant-numeric: tabular-nums; }
+.pa-film h3 { margin: 0; font-size: 1.5rem; }
+.pa-film p { margin: 0; font-size: .9375rem; color: #d9d4ca; }
+.pa-role { margin-top: auto !important; font-style: italic; color: var(--papier) !important; }
+.pa-frise-barre { height: 3px; margin: 0 var(--gouttiere); background: rgba(242, 239, 232, .18); }
+.pa-frise-barre span { display: block; height: 100%; background: var(--crayon); transform-origin: 0 50%; transform: scaleX(var(--progres, 0)); }
+html:not(.js) .pa-tournages, html.secours .pa-tournages { height: auto; }
+html:not(.js) .pa-collant, html.secours .pa-collant { position: static; height: auto; }
+html:not(.js) .pa-frise, html.secours .pa-frise { width: auto; overflow-x: auto; }
+.pa-cv { padding-block: clamp(64px, 9vw, 110px); text-align: center; }
+.pa-cv p { max-width: 34em; margin-inline: auto; }
+.pa-cv-media { width: min(280px, 60vw); aspect-ratio: 3/2; margin: 0 auto 28px; }
+.pa-actu-affiche { width: min(220px, 50vw); margin-top: 26px; }
+.pa-actu-affiche img, .pa-cv-media img { width: 100%; height: 100%; object-fit: cover; }
+.appel { position: relative; overflow: hidden; isolation: isolate; }
+.appel-fond { position: absolute; inset: 0; z-index: -1; border-radius: 0; opacity: .32; }
+.appel-fond img { width: 100%; height: 100%; object-fit: cover; }
+.dv-suite { margin-top: 26px; }
+.dv-suite b { font: 400 1.5rem var(--police-titres); display: block; }
+/* 404 */
+.introuvable { position: relative; min-height: 100svh; display: flex; align-items: flex-end; color: var(--papier); background: var(--nuit); isolation: isolate; overflow: hidden; }
+.introuvable-media { position: absolute; inset: 0; border-radius: 0; z-index: -1; }
+.introuvable-media img { width: 100%; height: 100%; object-fit: cover; }
+.introuvable::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(0deg, rgba(12, 11, 10, .9), transparent 60%); }
+.introuvable-texte { padding-bottom: clamp(28px, 7vh, 72px); }
+.introuvable-texte h1 { font-size: clamp(2.6rem, min(6vw, 11vh), 5.4rem); }
+.introuvable .surtitre { color: #c9c3b8; }
+
+/* Portraits : le tirage dans le bac, la planche, la visionneuse */
+.po2-ouverture { min-height: 100svh; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 72px); align-items: center;
+  padding: calc(var(--entete-h) + 24px) var(--gouttiere) 32px; background: radial-gradient(80% 90% at 70% 50%, #2a2724, #121110 70%); color: var(--papier); }
+.po2-texte .surtitre { color: #c9c3b8; }
+.po2-titre { font-size: clamp(3.4rem, min(8vw, 14vh), 8rem); line-height: 1; margin-top: 6px; }
+.po2-titre span { display: inline-block; }
+.po2-info { color: #e9e3d8; }
+.po2-bac { position: relative; justify-self: center; padding: 18px; background: linear-gradient(180deg, #3b3632, #24211e); border-radius: 6px; box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .05), 0 40px 80px rgba(0, 0, 0, .5); }
+.po2-tirage { width: min(32vw, 420px); aspect-ratio: 9/14; border-radius: 0; border: 10px solid #fbf9f4; }
+.po2-tirage img { width: 100%; height: 100%; object-fit: cover; }
+.po2-credit { margin: 10px 0 0; color: #c9c3b8; }
+.po2-planche { padding-block: clamp(64px, 9vw, 120px); }
+.po2-tete { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 18px; margin-bottom: 28px; }
+.po2-tete h2 { position: relative; display: inline-block; padding: 0 12px; }
+.crayon-titre { inset: -10px -22px; width: calc(100% + 44px); height: calc(100% + 16px); max-width: none; }
+.po2-grille { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; }
+.po2-item[hidden] { display: none !important; }
+.po2-lien { display: block; background: #fbf9f4; padding: 8px; box-shadow: 0 14px 28px rgba(30, 22, 14, .16); cursor: zoom-in; }
+.po2-media { border-radius: 0; }
+.po2-media img { width: 100%; height: 100%; object-fit: cover; }
+.po2-legende { margin: 10px 0 0; font-size: .875rem; color: var(--gris); }
+.po2-legende b { display: block; font: 400 1.25rem/1.15 var(--police-titres); color: var(--encre); }
+.visionneuse { width: min(96vw, 1100px); max-height: 94svh; padding: 0; border: 0; background: #121110; color: var(--papier); }
+.visionneuse::backdrop { background: rgba(10, 9, 8, .86); }
+.vis-figure { margin: 0; display: grid; place-items: center; padding: 20px 64px 16px; }
+.vis-img { max-height: calc(94svh - 110px); width: auto; max-width: 100%; }
+.vis-legende { margin-top: 10px; font-size: .9375rem; } .vis-legende b { font: 400 1.375rem var(--police-titres); }
+.vis-bouton { position: absolute; min-width: 48px; min-height: 48px; border: 0; border-radius: 999px; background: var(--papier); color: var(--encre); font-size: 1rem; padding: 0 14px; }
+.vis-prec { left: 8px; top: 50%; } .vis-suiv { right: 8px; top: 50%; } .vis-fermer { right: 8px; top: 8px; }
+.po2-demande { background: #e9e4da; padding-block: clamp(64px, 9vw, 110px); }
+.po2-demande-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 64px); align-items: center; }
+.po2-demande-media { aspect-ratio: 16/10; }
+.po2-demande .bouton--clair { background: var(--encre); color: var(--papier); }
+
+/* Démo et voix : la salle et son faisceau */
+.dv-ouverture { position: relative; min-height: 100svh; overflow: hidden; isolation: isolate; color: var(--papier); background: #0d0c0b; display: flex; align-items: flex-end; }
+.dv-salle { position: absolute; inset: 0; border-radius: 0; z-index: -3; }
+.dv-salle img { width: 100%; height: 100%; object-fit: cover; }
+.dv-salle .mention-ia { left: auto; right: 12px; top: calc(var(--entete-h) + 10px); bottom: auto; }
+html:not(.js) .dv-texte { padding-top: 56px; }
+.dv-faisceau { position: absolute; inset: 0; z-index: -2; pointer-events: none; background: radial-gradient(38% 30% at var(--px, 50%) var(--py, 40%), rgba(255, 246, 225, .26), transparent 70%); }
+.dv-ecran { position: absolute; z-index: -1; left: 60%; top: 30%; width: 22vw; aspect-ratio: 16/10; translate: -50% -50%; overflow: hidden; box-shadow: 0 0 60px 20px rgba(255, 240, 210, .18); }
+.dv-ecran-img { width: 100%; height: 100%; object-fit: cover; opacity: .92; }
+.dv-ouverture::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(0deg, rgba(10, 9, 8, .92) 0%, rgba(10, 9, 8, .45) 40%, transparent 65%); }
+.dv-texte { padding-bottom: clamp(28px, 6vh, 64px); }
+.dv-texte .surtitre { color: #c9c3b8; }
+.dv-titre { font-size: clamp(3rem, min(8vw, 13vh), 8rem); line-height: 1; margin-top: 6px; }
+.dv-titre span { display: inline-block; }
+.dv-intro { max-width: 32em; }
+.dv-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; }
+.dv-info { color: #e9e3d8; }
+.dv-demo { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 72px); padding-block: clamp(64px, 9vw, 120px); align-items: center; }
+.dv-demande { position: relative; display: inline-block; padding: 8px 22px; }
+.crayon-bouton { left: -6px; top: -4px; width: calc(100% + 12px); height: calc(100% + 8px); max-width: none; }
+.dv-videos { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.dv-video { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 16px; align-items: center; text-decoration: none; padding: 10px; background: #fbf9f4; box-shadow: 0 8px 20px rgba(30, 22, 14, .1); }
+.dv-video b { display: block; font: 400 1.375rem/1.15 var(--police-titres); }
+.dv-video em { display: block; font-style: normal; color: var(--gris); font-size: .9375rem; }
+.dv-video .mono { color: var(--accent); }
+.dv-voix { background: #0f0e0d; color: var(--papier); padding-block: clamp(64px, 9vw, 120px); }
+.dv-voix .surtitre { color: #c9c3b8; }
+.dv-voix-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 72px); align-items: center; }
+.dv-voix-media { aspect-ratio: 3/2; }
+.dv-pistes { list-style: none; margin: 16px 0; padding: 0; }
+.dv-piste { display: grid; grid-template-columns: 70px minmax(0, 1fr) auto; gap: 16px; align-items: center; padding: 14px 0; border-top: 1px solid rgba(242, 239, 232, .16); }
+.dv-piste .lrs__titre { display: block; font: 400 1.375rem/1.2 var(--police-titres); }
+.dv-piste .lrs__detail { color: #c9c3b8; font-size: .9375rem; }
+.dv-onde { display: flex; align-items: center; gap: 2px; height: 28px; }
+.dv-onde i { flex: 1; height: 100%; background: #e2553a; border-radius: 2px; transform: scaleY(.4); }
+.dv-note { color: #d9d4ca; }
+.dv-suite { text-align: center; padding-block: clamp(56px, 8vw, 100px); }
+
+/* Contact : le numéro en grand, le tampon « Reçu » */
+.co-ouverture { padding-top: calc(var(--entete-h) + 28px); }
+.co-tete { padding-bottom: 28px; }
+.co-titre { font-size: clamp(3rem, min(7vw, 12vh), 6.6rem); line-height: 1; margin-top: 6px; }
+.co-titre span { display: inline-block; }
+.co-intro { max-width: 34em; font-size: 1.0625rem; }
+.co-coord { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 40px; margin: 22px 0; }
+.co-tel { display: inline-block; margin-left: 30px; font: 400 clamp(2.6rem, 6vw, 5.6rem)/1 var(--police-titres); text-decoration: none; padding: 10px 0; }
+.co-mail { font-size: 1.125rem; min-height: 44px; display: inline-flex; align-items: center; }
+.co-bandeau { height: clamp(220px, 34svh, 380px); border-radius: 0; }
+.co-bandeau img { width: 100%; height: 100%; object-fit: cover; }
+.co-form-zone { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, .7fr); gap: clamp(24px, 5vw, 72px); padding-block: clamp(56px, 8vw, 110px); align-items: start; }
+.co-form { position: relative; background: #fbf9f4; padding: clamp(22px, 3vw, 40px); box-shadow: 0 20px 44px rgba(30, 22, 14, .12); }
+.co-form .champ { margin-bottom: 16px; display: grid; gap: 6px; }
+.co-form label { font-weight: 600; font-size: .9375rem; }
+.co-form input, .co-form select, .co-form textarea { width: 100%; }
+.co-tampon { position: absolute; right: 26px; bottom: 26px; padding: 6px 16px; border: 3px solid var(--crayon); color: var(--crayon); font: 600 1.375rem/1 var(--police-mono); letter-spacing: .14em; text-transform: uppercase; rotate: -12deg; opacity: 0; pointer-events: none; }
+.co-form.est-recu .co-tampon { opacity: 1; }
+.co-portrait { aspect-ratio: 4/5; max-width: 260px; }
+.co-portrait img { width: 100%; height: 100%; object-fit: cover; }
+.co-credit { margin: 8px 0 18px; color: var(--gris); }
+
+@media (max-width: 760px) {
+  .pa-actu, .pa-theatre-grille, .po2-ouverture, .po2-demande-grille, .dv-demo, .dv-voix-grille, .co-form-zone { grid-template-columns: minmax(0, 1fr); }
+  .pa-pieces, .po2-grille { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .pa-date { grid-template-columns: minmax(0, 1fr); } .pa-date > span:last-child { grid-column: auto; } .pa-quand { grid-row: auto; }
+  .pa-tournages { height: auto; } .pa-collant { position: static; height: auto; padding-block: 64px; }
+  .pa-frise { width: auto; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; } .pa-film, .pa-frise-media { scroll-snap-align: start; } .pa-frise-media { width: 78vw; }
+  .pa-frise-barre { display: none; }
+  .po2-bac { order: 2; } .po2-tirage { width: 64vw; }
+  .dv-ecran { width: 46vw; top: 26%; left: 58%; }
+  .dv-piste { grid-template-columns: 52px minmax(0, 1fr) auto; }
+  .co-tel { margin-left: 22px; }
+  .co-direct { order: -1; }
+  .visionneuse .vis-figure { padding: 56px 8px 12px; }
+}
+@media (max-height: 500px) and (min-width: 761px) {
+  .pa-titre, .po2-titre, .dv-titre, .co-titre { font-size: 2.6rem; }
+  .pa-intro, .po2-texte > p:nth-of-type(2), .co-intro { display: none; }
+  .po2-tirage { width: 24vw; }
+  .pa-film { padding: 12px; } .pa-film p:not(.pa-annee) { display: none; }
+  .co-bandeau { height: 120px; }
+}
+@media (max-height: 820px) and (min-width: 761px) {
+  .pa-annee { font-size: 2.4rem; }
+}
+/* Sans JavaScript : l'en-tête reste dans le flux, les premiers écrans se resserrent. */
+@media (max-height: 820px) {
+  html:not(.js) .po-intro, html:not(.js) .po-geste, html:not(.js) .po2-texte > p:nth-of-type(2) { display: none; }
+}
+html:not(.js) .plongee-texte .plongee-mots { line-height: 1.2; margin-bottom: 28px; }
+html:not(.js) .plongee-texte .plongee-mots span { display: inline-block; }
+html:not(.js) .introuvable { min-height: 0; overflow: visible; padding-top: 40px; }

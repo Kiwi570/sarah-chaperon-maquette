@@ -1,0 +1,1706 @@
+{
+  "rire": {
+    "nom": "rire",
+    "source": "recu/site/contact-sarah-chaperon.jpg",
+    "role": "section-fond",
+    "alt": "Sarah Chaperon éclate de rire, les mains sur les joues, sur fond gris bleu",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "b60be805f78f9dd0",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 35%"
+    },
+    "cadrage": "56% 35%",
+    "sujet": {
+      "x": 35.1,
+      "y": 0,
+      "l": 41.6,
+      "h": 66.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.74,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.49,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.48,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.37,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "rire-640.webp",
+      "rire-1280.webp",
+      "rire-1920.webp",
+      "rire-mobile-640.webp",
+      "rire-mobile-1080.webp"
+    ],
+    "poids": {
+      "rire-640.webp": 11982,
+      "rire-1280.webp": 32422,
+      "rire-1920.webp": 58970,
+      "rire-mobile-640.webp": 39098,
+      "rire-mobile-1080.webp": 77218
+    },
+    "media": "c.media({ nom: 'rire', alt: \"Sarah Chaperon éclate de rire, les mains sur les joues, sur fond gris bleu\", cadrage: '56% 35%', cadrageMobile: '50% 35%', sizes: '100vw' })"
+  },
+  "roka-buste": {
+    "nom": "roka-buste",
+    "source": "recu/site/comedienne-2.jpg",
+    "role": "portrait",
+    "alt": "Sarah Chaperon souriante, pull noir et boucles d'oreilles, sur fond noir",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ebd9812e866c363f",
+    "ratio": "9:16",
+    "largeurs": [
+      480,
+      800,
+      1120
+    ],
+    "mobile": null,
+    "cadrage": "55% 42%",
+    "sujet": {
+      "x": 0,
+      "y": 5.8,
+      "l": 100,
+      "h": 67.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.85,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.57,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.4,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.37,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 1,
+      "top": 0,
+      "width": 1125,
+      "height": 2000,
+      "source": [
+        1126,
+        2000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1126 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "roka-buste-480.webp",
+      "roka-buste-800.webp",
+      "roka-buste-1120.webp"
+    ],
+    "poids": {
+      "roka-buste-480.webp": 14240,
+      "roka-buste-800.webp": 32746,
+      "roka-buste-1120.webp": 54730
+    },
+    "media": "c.media({ nom: 'roka-buste', alt: \"Sarah Chaperon souriante, pull noir et boucles d'oreilles, sur fond noir\", cadrage: '55% 42%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '9 / 16' })"
+  },
+  "roka-pied": {
+    "nom": "roka-pied",
+    "source": "recu/site/comedienne.jpg",
+    "role": "portrait",
+    "alt": "Sarah Chaperon debout, les mains jointes, robe noire à manches de dentelle, sur fond noir",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c21f678292541596",
+    "ratio": "9:16",
+    "largeurs": [
+      480,
+      800,
+      1120
+    ],
+    "mobile": null,
+    "cadrage": "54% 23%",
+    "sujet": {
+      "x": 20,
+      "y": 1.3,
+      "l": 67.2,
+      "h": 49.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.75,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.72,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.7,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.38,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 1,
+      "top": 0,
+      "width": 1125,
+      "height": 2000,
+      "source": [
+        1126,
+        2000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1126 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "roka-pied-480.webp",
+      "roka-pied-800.webp",
+      "roka-pied-1120.webp"
+    ],
+    "poids": {
+      "roka-pied-480.webp": 10752,
+      "roka-pied-800.webp": 27412,
+      "roka-pied-1120.webp": 48986
+    },
+    "media": "c.media({ nom: 'roka-pied', alt: \"Sarah Chaperon debout, les mains jointes, robe noire à manches de dentelle, sur fond noir\", cadrage: '54% 23%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '9 / 16' })"
+  },
+  "bouillard-lunettes": {
+    "nom": "bouillard-lunettes",
+    "source": "recu/site/photos.jpg",
+    "role": "portrait",
+    "alt": "Sarah Chaperon sourit, une paire de lunettes à la main, sur fond gris",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c3a78e31cff9d388",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      800,
+      1120
+    ],
+    "mobile": null,
+    "cadrage": "38% 26%",
+    "sujet": {
+      "x": 19.8,
+      "y": 0,
+      "l": 35.4,
+      "h": 56.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.92,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.85,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.7,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.66,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "bouillard-lunettes-480.webp",
+      "bouillard-lunettes-800.webp",
+      "bouillard-lunettes-1120.webp"
+    ],
+    "poids": {
+      "bouillard-lunettes-480.webp": 3586,
+      "bouillard-lunettes-800.webp": 6940,
+      "bouillard-lunettes-1120.webp": 10882
+    },
+    "media": "c.media({ nom: 'bouillard-lunettes', alt: \"Sarah Chaperon sourit, une paire de lunettes à la main, sur fond gris\", cadrage: '38% 26%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '3 / 2' })"
+  },
+  "bouillard-sourire": {
+    "nom": "bouillard-sourire",
+    "source": "recu/site/photos-2.jpg",
+    "role": "portrait",
+    "alt": "Sarah Chaperon souriante, haut noir en V, sur fond sombre",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6fb504d741a1f40a",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      800,
+      1120
+    ],
+    "mobile": null,
+    "cadrage": "49% 35%",
+    "sujet": {
+      "x": 28.1,
+      "y": 0,
+      "l": 42.7,
+      "h": 68.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.91,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.87,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.84,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.64,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "bouillard-sourire-480.webp",
+      "bouillard-sourire-800.webp",
+      "bouillard-sourire-1120.webp"
+    ],
+    "poids": {
+      "bouillard-sourire-480.webp": 3286,
+      "bouillard-sourire-800.webp": 7024,
+      "bouillard-sourire-1120.webp": 11954
+    },
+    "media": "c.media({ nom: 'bouillard-sourire', alt: \"Sarah Chaperon souriante, haut noir en V, sur fond sombre\", cadrage: '49% 35%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '3 / 2' })"
+  },
+  "bouillard-hanches": {
+    "nom": "bouillard-hanches",
+    "source": "recu/site/photos-3.jpg",
+    "role": "portrait",
+    "alt": "Sarah Chaperon en lunettes, les mains sur les hanches, regard direct",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "138aae26b7f30fa2",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      800,
+      1120
+    ],
+    "mobile": null,
+    "cadrage": "50% 29%",
+    "sujet": {
+      "x": 32.7,
+      "y": 0,
+      "l": 34.8,
+      "h": 55.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.9,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.86,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.85,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.72,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue",
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "bouillard-hanches-480.webp",
+      "bouillard-hanches-800.webp",
+      "bouillard-hanches-1120.webp"
+    ],
+    "poids": {
+      "bouillard-hanches-480.webp": 2778,
+      "bouillard-hanches-800.webp": 5876,
+      "bouillard-hanches-1120.webp": 9530
+    },
+    "media": "c.media({ nom: 'bouillard-hanches', alt: \"Sarah Chaperon en lunettes, les mains sur les hanches, regard direct\", cadrage: '50% 29%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '3 / 2' })"
+  },
+  "bouillard-pied": {
+    "nom": "bouillard-pied",
+    "source": "recu/site/photos-4.jpg",
+    "role": "portrait",
+    "alt": "Sarah Chaperon debout de trois quarts, sur fond gris",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "debd8ab1ae284335",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1120
+    ],
+    "mobile": null,
+    "cadrage": "50% 33%",
+    "sujet": {
+      "x": 24,
+      "y": 13.2,
+      "l": 52.1,
+      "h": 45.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.79,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.79,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.78,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.74,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1333,
+      "height": 2000,
+      "source": [
+        1333,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "bouillard-pied-480.webp",
+      "bouillard-pied-800.webp",
+      "bouillard-pied-1120.webp"
+    ],
+    "poids": {
+      "bouillard-pied-480.webp": 6626,
+      "bouillard-pied-800.webp": 13254,
+      "bouillard-pied-1120.webp": 21744
+    },
+    "media": "c.media({ nom: 'bouillard-pied', alt: \"Sarah Chaperon debout de trois quarts, sur fond gris\", cadrage: '50% 33%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '2 / 3' })"
+  },
+  "bouillard-noir": {
+    "nom": "bouillard-noir",
+    "source": "recu/site/photos-7.jpg",
+    "role": "portrait",
+    "alt": "Sarah Chaperon en col roulé noir, sourire franc, sur fond noir",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "81a805377f36cf6d",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1120
+    ],
+    "mobile": null,
+    "cadrage": "44% 36%",
+    "sujet": {
+      "x": 5.6,
+      "y": 0.9,
+      "l": 76.1,
+      "h": 65.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.97,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.84,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.67,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.54,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        1636,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "bouillard-noir-480.webp",
+      "bouillard-noir-800.webp",
+      "bouillard-noir-1120.webp"
+    ],
+    "poids": {
+      "bouillard-noir-480.webp": 5330,
+      "bouillard-noir-800.webp": 12320,
+      "bouillard-noir-1120.webp": 22228
+    },
+    "media": "c.media({ nom: 'bouillard-noir', alt: \"Sarah Chaperon en col roulé noir, sourire franc, sur fond noir\", cadrage: '44% 36%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "slk-jardin": {
+    "nom": "slk-jardin",
+    "source": "recu/site/photos-5.jpg",
+    "role": "portrait",
+    "alt": "Sarah Chaperon souriante en extérieur, feuillage vert derrière elle",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "98790b546e6a1616",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1120
+    ],
+    "mobile": null,
+    "cadrage": "43% 34%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 82.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1333,
+      "height": 2000,
+      "source": [
+        1333,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "slk-jardin-480.webp",
+      "slk-jardin-800.webp",
+      "slk-jardin-1120.webp"
+    ],
+    "poids": {
+      "slk-jardin-480.webp": 25468,
+      "slk-jardin-800.webp": 54162,
+      "slk-jardin-1120.webp": 85344
+    },
+    "media": "c.media({ nom: 'slk-jardin', alt: \"Sarah Chaperon souriante en extérieur, feuillage vert derrière elle\", cadrage: '43% 34%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '2 / 3' })"
+  },
+  "slk-menton": {
+    "nom": "slk-menton",
+    "source": "recu/site/photos-6.jpg",
+    "role": "portrait",
+    "alt": "Sarah Chaperon pensive, la main sous le menton, dans la verdure",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2156e9b85204f343",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1120
+    ],
+    "mobile": null,
+    "cadrage": "46% 36%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 67.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.5,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1333,
+      "height": 2000,
+      "source": [
+        1333,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "slk-menton-480.webp",
+      "slk-menton-800.webp",
+      "slk-menton-1120.webp"
+    ],
+    "poids": {
+      "slk-menton-480.webp": 20042,
+      "slk-menton-800.webp": 39758,
+      "slk-menton-1120.webp": 64462
+    },
+    "media": "c.media({ nom: 'slk-menton', alt: \"Sarah Chaperon pensive, la main sous le menton, dans la verdure\", cadrage: '46% 36%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '2 / 3' })"
+  },
+  "robin": {
+    "nom": "robin",
+    "source": "recu/site/photos-8.jpg",
+    "role": "portrait",
+    "alt": "Sarah Chaperon de face, cheveux auburn, sur fond gris",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f06087369db98c95",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1120
+    ],
+    "mobile": null,
+    "cadrage": "55% 39%",
+    "sujet": {
+      "x": 12.6,
+      "y": 0,
+      "l": 85.4,
+      "h": 72.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.79,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.66,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.54,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.49,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 63,
+      "width": 1250,
+      "height": 1563,
+      "source": [
+        1250,
+        1750
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1250 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "robin-480.webp",
+      "robin-800.webp",
+      "robin-1120.webp"
+    ],
+    "poids": {
+      "robin-480.webp": 9634,
+      "robin-800.webp": 27624,
+      "robin-1120.webp": 55514
+    },
+    "media": "c.media({ nom: 'robin', alt: \"Sarah Chaperon de face, cheveux auburn, sur fond gris\", cadrage: '55% 39%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "fougereux-manteau": {
+    "nom": "fougereux-manteau",
+    "source": "recu/site/photos-9.jpg",
+    "role": "portrait",
+    "alt": "Sarah Chaperon rieuse en manteau de fourrure bleue, les mains derrière la tête",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a8c8310c440cc86a",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1120
+    ],
+    "mobile": null,
+    "cadrage": "45% 37%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 73.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1066,
+      "height": 1599,
+      "source": [
+        1066,
+        1600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1066 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,05 fois (source de 1066 px après recadrage)"
+    ],
+    "fichiers": [
+      "fougereux-manteau-480.webp",
+      "fougereux-manteau-800.webp",
+      "fougereux-manteau-1120.webp"
+    ],
+    "poids": {
+      "fougereux-manteau-480.webp": 52880,
+      "fougereux-manteau-800.webp": 121290,
+      "fougereux-manteau-1120.webp": 190488
+    },
+    "media": "c.media({ nom: 'fougereux-manteau', alt: \"Sarah Chaperon rieuse en manteau de fourrure bleue, les mains derrière la tête\", cadrage: '45% 37%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '2 / 3' })"
+  },
+  "affiche-veni-vidi-bibi": {
+    "nom": "affiche-veni-vidi-bibi",
+    "source": "recu/site/maxresdefault.webp",
+    "role": "vignette",
+    "alt": "Affiche du spectacle Veni Vidi Bibi de la Cie PILE",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0e019e511bd8eb0f",
+    "ratio": "2:3",
+    "largeurs": [
+      320,
+      480
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 5.8,
+      "l": 100,
+      "h": 94
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.4,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.37,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.31,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 400,
+      "top": 0,
+      "width": 480,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "recadrage fort (38 % de l'image gardée) sur une image qui contient du texte (document) : texte coupé probable, choisir un autre rôle ou une autre image"
+    ],
+    "fichiers": [
+      "affiche-veni-vidi-bibi-320.webp",
+      "affiche-veni-vidi-bibi-480.webp"
+    ],
+    "poids": {
+      "affiche-veni-vidi-bibi-320.webp": 25034,
+      "affiche-veni-vidi-bibi-480.webp": 40770
+    },
+    "media": "c.media({ nom: 'affiche-veni-vidi-bibi', alt: \"Affiche du spectacle Veni Vidi Bibi de la Cie PILE\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2 / 3' })"
+  },
+  "affiche-sacrees-championnes": {
+    "nom": "affiche-sacrees-championnes",
+    "source": "recu/site/maxresdefault-2.webp",
+    "role": "vignette",
+    "alt": "Affiche du spectacle Sacrées Championnes de la Cie PILE",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "dda1ad1adf3a85b5",
+    "ratio": "2:3",
+    "largeurs": [
+      320,
+      480
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0.6,
+      "l": 100,
+      "h": 98.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.43,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.42,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.35,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 400,
+      "top": 0,
+      "width": 480,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "recadrage fort (38 % de l'image gardée) sur une image qui contient du texte (document) : texte coupé probable, choisir un autre rôle ou une autre image"
+    ],
+    "fichiers": [
+      "affiche-sacrees-championnes-320.webp",
+      "affiche-sacrees-championnes-480.webp"
+    ],
+    "poids": {
+      "affiche-sacrees-championnes-320.webp": 24052,
+      "affiche-sacrees-championnes-480.webp": 41250
+    },
+    "media": "c.media({ nom: 'affiche-sacrees-championnes', alt: \"Affiche du spectacle Sacrées Championnes de la Cie PILE\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2 / 3' })"
+  },
+  "affiche-lombricontes": {
+    "nom": "affiche-lombricontes",
+    "source": "recu/site/maxresdefault-3.webp",
+    "role": "vignette",
+    "alt": "Affiche du spectacle Les Lombricontes de la Cie PILE",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "dc68330d152693da",
+    "ratio": "2:3",
+    "largeurs": [
+      320,
+      480
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 7.3,
+      "l": 100,
+      "h": 92.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.66,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.64,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.5,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.48,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 400,
+      "top": 0,
+      "width": 480,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "recadrage fort : 38 % de l'image gardée"
+    ],
+    "fichiers": [
+      "affiche-lombricontes-320.webp",
+      "affiche-lombricontes-480.webp"
+    ],
+    "poids": {
+      "affiche-lombricontes-320.webp": 37460,
+      "affiche-lombricontes-480.webp": 72552
+    },
+    "media": "c.media({ nom: 'affiche-lombricontes', alt: \"Affiche du spectacle Les Lombricontes de la Cie PILE\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2 / 3' })"
+  },
+  "grok/table-lumineuse": {
+    "nom": "grok/table-lumineuse",
+    "source": "recu/grok/g-table-lumineuse.jpg",
+    "role": "section-fond",
+    "alt": "",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "5fb1d0625acd544e",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "47% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/table-lumineuse-640.webp",
+      "grok/table-lumineuse-1280.webp",
+      "grok/table-lumineuse-1920.webp"
+    ],
+    "poids": {
+      "grok/table-lumineuse-640.webp": 13618,
+      "grok/table-lumineuse-1280.webp": 39808,
+      "grok/table-lumineuse-1920.webp": 72626
+    },
+    "media": "c.media({ nom: 'grok/table-lumineuse', alt: \"\", cadrage: '47% 52%', sizes: '100vw' })"
+  },
+  "grok/plateau": {
+    "nom": "grok/plateau",
+    "source": "recu/grok/g-plateau.jpg",
+    "role": "ouverture",
+    "alt": "",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "ad8880bcb22c592f",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "44% 68%"
+    },
+    "cadrage": "64% 57%",
+    "sujet": {
+      "x": 40.6,
+      "y": 5.6,
+      "l": 37.5,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.91,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.44,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.36,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/plateau-640.webp",
+      "grok/plateau-1280.webp",
+      "grok/plateau-1920.webp",
+      "grok/plateau-mobile-640.webp",
+      "grok/plateau-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/plateau-640.webp": 10566,
+      "grok/plateau-1280.webp": 29128,
+      "grok/plateau-1920.webp": 52780,
+      "grok/plateau-mobile-640.webp": 26676,
+      "grok/plateau-mobile-1080.webp": 55642
+    },
+    "media": "c.media({ nom: 'grok/plateau', alt: \"\", cadrage: '64% 57%', cadrageMobile: '44% 68%', sizes: '100vw', priorite: true })"
+  },
+  "grok/salle-projection": {
+    "nom": "grok/salle-projection",
+    "source": "recu/grok/g-salle-projection.jpg",
+    "role": "ouverture",
+    "alt": "",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "5e406666d769d572",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "61% 58%"
+    },
+    "cadrage": "67% 29%",
+    "sujet": {
+      "x": 9.4,
+      "y": 5.6,
+      "l": 78.1,
+      "h": 55.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.91,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.59,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.37,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/salle-projection-640.webp",
+      "grok/salle-projection-1280.webp",
+      "grok/salle-projection-1920.webp",
+      "grok/salle-projection-mobile-640.webp",
+      "grok/salle-projection-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/salle-projection-640.webp": 9054,
+      "grok/salle-projection-1280.webp": 24958,
+      "grok/salle-projection-1920.webp": 46146,
+      "grok/salle-projection-mobile-640.webp": 16464,
+      "grok/salle-projection-mobile-1080.webp": 35536
+    },
+    "media": "c.media({ nom: 'grok/salle-projection', alt: \"\", cadrage: '67% 29%', cadrageMobile: '61% 58%', sizes: '100vw', priorite: true })"
+  },
+  "grok/studio-voix": {
+    "nom": "grok/studio-voix",
+    "source": "recu/grok/g-studio-voix.jpg",
+    "role": "section-fond",
+    "alt": "",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "1c45b4b436a16bde",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "33% 50%",
+    "sujet": {
+      "x": 15.6,
+      "y": 9.1,
+      "l": 28.1,
+      "h": 63.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.91,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.69,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1800,
+      "height": 1200,
+      "source": [
+        1800,
+        1200
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1800 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/studio-voix-640.webp",
+      "grok/studio-voix-1280.webp",
+      "grok/studio-voix-1920.webp"
+    ],
+    "poids": {
+      "grok/studio-voix-640.webp": 15524,
+      "grok/studio-voix-1280.webp": 46250,
+      "grok/studio-voix-1920.webp": 79088
+    },
+    "media": "c.media({ nom: 'grok/studio-voix', alt: \"\", cadrage: '33% 50%', sizes: '100vw' })"
+  },
+  "grok/texte-annote": {
+    "nom": "grok/texte-annote",
+    "source": "recu/grok/g-texte-annote.jpg",
+    "role": "section-fond",
+    "alt": "",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "bcf41d25e30af3b7",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "58% 39%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.3,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1800,
+      "height": 1200,
+      "source": [
+        1800,
+        1200
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1800 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/texte-annote-640.webp",
+      "grok/texte-annote-1280.webp",
+      "grok/texte-annote-1920.webp"
+    ],
+    "poids": {
+      "grok/texte-annote-640.webp": 15522,
+      "grok/texte-annote-1280.webp": 37630,
+      "grok/texte-annote-1920.webp": 64922
+    },
+    "media": "c.media({ nom: 'grok/texte-annote', alt: \"\", cadrage: '58% 39%', sizes: '100vw' })"
+  },
+  "grok/tournage": {
+    "nom": "grok/tournage",
+    "source": "recu/grok/g-tournage.jpg",
+    "role": "section-fond",
+    "alt": "",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "8cccb97b46601ce8",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "28% 20%",
+    "sujet": {
+      "x": 12.5,
+      "y": 0,
+      "l": 31.3,
+      "h": 86.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.68,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.59,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.41,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.32,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1800,
+      "height": 1200,
+      "source": [
+        1800,
+        1200
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1800 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/tournage-640.webp",
+      "grok/tournage-1280.webp",
+      "grok/tournage-1920.webp"
+    ],
+    "poids": {
+      "grok/tournage-640.webp": 12136,
+      "grok/tournage-1280.webp": 26938,
+      "grok/tournage-1920.webp": 44292
+    },
+    "media": "c.media({ nom: 'grok/tournage', alt: \"\", cadrage: '28% 20%', sizes: '100vw' })"
+  },
+  "grok/coulisses": {
+    "nom": "grok/coulisses",
+    "source": "recu/grok/g-coulisses.jpg",
+    "role": "ouverture",
+    "alt": "",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "36ad32d6019973eb",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "70% 67%"
+    },
+    "cadrage": "68% 62%",
+    "sujet": {
+      "x": 21.9,
+      "y": 0,
+      "l": 62.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.36,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.3,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.26,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/coulisses-640.webp",
+      "grok/coulisses-1280.webp",
+      "grok/coulisses-1920.webp",
+      "grok/coulisses-mobile-640.webp",
+      "grok/coulisses-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/coulisses-640.webp": 21252,
+      "grok/coulisses-1280.webp": 47212,
+      "grok/coulisses-1920.webp": 77916,
+      "grok/coulisses-mobile-640.webp": 26062,
+      "grok/coulisses-mobile-1080.webp": 49646
+    },
+    "media": "c.media({ nom: 'grok/coulisses', alt: \"\", cadrage: '68% 62%', cadrageMobile: '70% 67%', sizes: '100vw', priorite: true })"
+  },
+  "grok/vide": {
+    "nom": "grok/vide",
+    "source": "recu/grok/g-404.jpg",
+    "role": "404",
+    "alt": "",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "6cfa9f43da77050a",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "67% 75%",
+    "sujet": {
+      "x": 40.6,
+      "y": 50,
+      "l": 37.5,
+      "h": 44.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.79,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.74,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.6,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.37,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/vide-800.webp",
+      "grok/vide-1600.webp"
+    ],
+    "poids": {
+      "grok/vide-800.webp": 24272,
+      "grok/vide-1600.webp": 56066
+    },
+    "media": "c.media({ nom: 'grok/vide', alt: \"\", cadrage: '67% 75%', sizes: '100vw', ratio: '16 / 9' })"
+  }
+}

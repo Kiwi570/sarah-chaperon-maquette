@@ -1,0 +1,33 @@
+{
+  "siteActuel": "sarahchaperon.wixsite.com",
+  "pagesTypes": [
+    "/",
+    "/parcours",
+    "/portraits",
+    "/demo-et-voix",
+    "/contact"
+  ],
+  "effets": [
+    "planche",
+    "compte-fils",
+    "revelateur",
+    "crayon",
+    "plongee-portrait",
+    "affiches",
+    "table-tirages",
+    "recomposition",
+    "lumiere-table",
+    "onde-voix",
+    "halo-voix",
+    "tirage-volant",
+    "poursuite",
+    "dates",
+    "frise",
+    "tirage",
+    "faisceau",
+    "pochette-recu"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
+}

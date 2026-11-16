@@ -1,0 +1,159 @@
+{
+  "client": "Sarah Chaperon",
+  "activite": "spectacle",
+  "direction": "La planche-contact",
+  "date": "2026-11-13T13:51:13.728Z",
+  "images": [
+    {
+      "nom": "table-lumineuse",
+      "fichier": "g-table-lumineuse.jpg",
+      "page": "Accueil",
+      "emplacement": "fond de l'ouverture (sous la planche, posée par le code)",
+      "role": "section-fond",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "Top-down photograph of a photographer's light table in a dim room: a large glowing panel of warm white light filling most of the frame, completely empty in the middle, a worn black metal frame around it, at one corner a red grease pencil and a small square magnifying loupe lying on dark wood, faint dust on the glass, soft vignetting towards the edges, nothing else. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "plateau",
+      "fichier": "g-plateau.jpg",
+      "page": "Parcours",
+      "emplacement": "ouverture de Parcours (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "An empty theatre stage seen from the wings at a low angle, a single warm follow spot drawing a soft circle of light on worn black floorboards, a heavy dark velvet curtain edge in the foreground, the dark auditorium barely visible beyond, light haze in the beam, nobody on stage. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "plateau",
+      "fichier": "g-plateau-mobile.jpg",
+      "page": "Parcours",
+      "emplacement": "ouverture de Parcours (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "An empty theatre stage seen from the wings at a low angle, a single warm follow spot drawing a soft circle of light on worn black floorboards, a heavy dark velvet curtain edge in the foreground, the dark auditorium barely visible beyond, light haze in the beam, nobody on stage. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "salle-projection",
+      "fichier": "g-salle-projection.jpg",
+      "page": "Démo et voix",
+      "emplacement": "ouverture de Démo et voix (l'écran reçoit la bande-démo par le code) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "écrans"
+      ],
+      "consigne": "A small private screening room in the dark, seen from the back rows: a few rows of empty dark velvet seats, a beam of projector light crossing the room through floating dust towards a blank, evenly lit pale screen at the front, warm shadows, nobody in the room. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, the lower third stays dark and simple for text overlay. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "salle-projection",
+      "fichier": "g-salle-projection-mobile.jpg",
+      "page": "Démo et voix",
+      "emplacement": "ouverture de Démo et voix (l'écran reçoit la bande-démo par le code) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "écrans"
+      ],
+      "consigne": "A small private screening room in the dark, seen from the back rows: a few rows of empty dark velvet seats, a beam of projector light crossing the room through floating dust towards a blank, evenly lit pale screen at the front, warm shadows, nobody in the room. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "studio-voix",
+      "fichier": "g-studio-voix.jpg",
+      "page": "Démo et voix",
+      "emplacement": "section Voix (et Voix de l'accueil)",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "section-fond",
+      "pieges": [
+        "écrans"
+      ],
+      "consigne": "A quiet voice recording booth at night: a vintage silver ribbon microphone on a stand with a round pop filter in the left third, dark grey acoustic foam on the walls, a music stand with a few blank sheets of paper, a single warm lamp, deep shadows, nobody in the booth. Landscape composition, aspect ratio 3:2, calm empty area in the right third of the frame for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "texte-annote",
+      "fichier": "g-texte-annote.jpg",
+      "page": "Parcours",
+      "emplacement": "section Théâtre",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "section-fond",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "A rehearsal room table seen from above at an angle: a loose stack of script pages with only illegible blurred lines, a red pencil, a pair of reading glasses and a cup of coffee on dark worn wood, warm lamp light from the side, strong shallow depth of field, nothing readable. Landscape composition, aspect ratio 3:2, generous empty space on the left third of the frame for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "tournage",
+      "fichier": "g-tournage.jpg",
+      "page": "Parcours",
+      "emplacement": "section Tournages",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "A film set between takes in a dim interior: a folded wooden director's chair, a blank black clapperboard with no writing resting on it, a soft light stand with a diffusion frame glowing in the background, cables on the floor, warm and cool light mixing, shallow depth of field, nobody in the frame. Landscape composition, aspect ratio 3:2, calm empty area in the right third of the frame for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "coulisses",
+      "fichier": "g-coulisses.jpg",
+      "page": "Contact",
+      "emplacement": "bandeau de Contact (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "A narrow backstage corridor of a small theatre, a dressing-room door ajar letting out warm light, a rack of dark costumes on hangers, a blank cork board, old painted brick walls, deep shadows, nobody in the corridor. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "coulisses",
+      "fichier": "g-coulisses-mobile.jpg",
+      "page": "Contact",
+      "emplacement": "bandeau de Contact (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "A narrow backstage corridor of a small theatre, a dressing-room door ajar letting out warm light, a rack of dark costumes on hangers, a blank cork board, old painted brick walls, deep shadows, nobody in the corridor. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "vide",
+      "fichier": "g-404.jpg",
+      "page": "404",
+      "emplacement": "image de la page introuvable",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "An empty black theatre stage with a single wooden chair standing alone in a narrow pool of warm light, the rest of the stage in deep shadow, faint haze, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, quiet, intimate and warm mood, palette of deep charcoal black, warm paper white and a single touch of grease-pencil red, a single soft warm spotlight falling from above and to the side, deep shadows, tactile worn black stage floorboards, velvet, matte paper and brushed metal, set in a small independent French theatre on a late evening before the show, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

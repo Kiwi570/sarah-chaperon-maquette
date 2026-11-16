@@ -1,0 +1,281 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Autre langue",
+    "actionEntete": "La contacter",
+    "appeler": "Appeler",
+    "sommaire": "Sommaire",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de présentation.",
+    "mentions": "Mentions légales : à compléter",
+    "confidentialite": "Politique de confidentialité : à compléter",
+    "piedMetier": "Comédienne · théâtre, tournages, voix",
+    "creditsTitre": "Photographies",
+    "credits": "Roka production, Laurent Bouillard, Ana Slk, Fabrice Robin, Lisa Fougereux.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Comédienne"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Sarah Chaperon, comédienne : théâtre, tournages, voix",
+      "description": "Portraits, bande-démo, voix et parcours de Sarah Chaperon, comédienne : Yerma de Lorca, la Cie PILE, des courts métrages et des lectures.",
+      "nav": "Accueil",
+      "partageAlt": "Sarah Chaperon éclate de rire, les mains sur les joues",
+      "accroche": "Comédienne"
+    },
+    "parcours": {
+      "titre": "Parcours : Sarah Chaperon, comédienne",
+      "description": "Actualité, théâtre et tournages de Sarah Chaperon : Yerma, CUT, Les voix de l'eau, la Cie PILE, des courts métrages de 1991 à 2024.",
+      "nav": "Parcours",
+      "partageAlt": "Un plateau de théâtre vide sous une poursuite",
+      "accroche": "Parcours"
+    },
+    "portraits": {
+      "titre": "Portraits : Sarah Chaperon, comédienne",
+      "description": "Douze portraits de Sarah Chaperon par Roka production, Laurent Bouillard, Ana Slk, Fabrice Robin et Lisa Fougereux.",
+      "nav": "Portraits",
+      "partageAlt": "Portrait de Sarah Chaperon sur fond noir",
+      "accroche": "Portraits"
+    },
+    "demo-et-voix": {
+      "titre": "Bande-démo et voix : Sarah Chaperon, comédienne",
+      "description": "La bande-démo 2024 de Sarah Chaperon et ses extraits de voix, dont « En mai » de Victor Hugo.",
+      "nav": "Démo & voix",
+      "partageAlt": "Une petite salle de projection dans le noir",
+      "accroche": "Démo & voix"
+    },
+    "contact": {
+      "titre": "Contact : Sarah Chaperon, comédienne",
+      "description": "Joindre Sarah Chaperon pour un rôle, une lecture ou une voix : 06 11 62 65 41, sarahchaperon93@gmail.com.",
+      "nav": "Contact",
+      "partageAlt": "Un couloir de coulisses éclairé par une loge",
+      "accroche": "Contact"
+    },
+    "404": {
+      "titre": "Prise introuvable : Sarah Chaperon",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Une chaise seule sur un plateau",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "sur": "Comédienne · théâtre · tournages · voix",
+      "titre1": "Sarah",
+      "titre2": "Chaperon",
+      "texte": "Cinq photographes, un même visage. Promenez la loupe sur la planche, touchez le portrait qui vous parle : il s'entoure de rouge.",
+      "action": "Son parcours",
+      "ecrire": "Écrire à Sarah",
+      "info": "Prochainement : Les voix de l'eau, décembre 2026",
+      "geste": "Faites glisser la loupe",
+      "gesteTactile": "Faites glisser la loupe du doigt",
+      "planche": "Planche de douze portraits",
+      "loupe": "Loupe sur le portrait"
+    },
+    "plongee": {
+      "mot1": "Depuis",
+      "mot2": "1991",
+      "titre": "Le drame, le rire, la voix.",
+      "texte": "De Yerma de Lorca aux spectacles familiaux de la Cie PILE, du court métrage à la lecture de Victor Hugo : elle joue sur scène, devant la caméra et au micro.",
+      "lien": "Tout le parcours"
+    },
+    "jeu": {
+      "sur": "La voir jouer",
+      "titre": "Sur scène, en vidéo",
+      "texte": "Sa bande-démo 2024 est envoyée sur demande. En attendant, trois spectacles de la Cie PILE où elle joue, en vidéo.",
+      "demande": "Demander la bande-démo",
+      "voir": "Voir sur YouTube",
+      "nouvel": "(nouvel onglet)"
+    },
+    "chiffres": {
+      "sur": "Sur scène",
+      "titre": "Plus de 160 soirs, rien que pour cinq spectacles",
+      "texte": "Le nombre de représentations de cinq spectacles qu'elle a joués, tel qu'indiqué dans son parcours.",
+      "compagnies": "Avec les compagnies Rugir l'art, PILE, TIC TAC, SOKOL, KOSHKA LUNA et Progéniture."
+    },
+    "visages": {
+      "sur": "Ses visages",
+      "titre": "Entourez votre tirage",
+      "texte": "Tracez un cercle au crayon autour d'un portrait : il se soulève et se retourne. Vous pouvez aussi faire glisser les tirages sur la table.",
+      "texteTactile": "Touchez un portrait : il s'entoure, se soulève et se retourne. Faites glisser les tirages sur la table.",
+      "tous": "Tous",
+      "filtres": "Ranger par photographe",
+      "lien": "Voir tous les portraits",
+      "dos": "Au dos du tirage",
+      "ouvrir": "Ouvrir en grand",
+      "retourner": "Retourner le tirage"
+    },
+    "voix": {
+      "sur": "Sa voix",
+      "titre": "Écouter Sarah",
+      "texte": "Lecture en studio de « En mai » de Victor Hugo, et trois enregistrements faits à la maison.",
+      "lien": "Toutes les voix",
+      "alt": "Sarah Chaperon en col roulé noir sur fond noir"
+    },
+    "actualite": {
+      "sur": "Actualité",
+      "titre": "Sur scène en 2026",
+      "aVenir": "À venir",
+      "passees": "Dates passées de 2026",
+      "lien": "Le parcours complet"
+    },
+    "appel": {
+      "sur": "Pour un rôle, une lecture, une voix",
+      "titre": "Écrivez-lui, appelez-la",
+      "texte": "Ses coordonnées directes, pour un rôle, une lecture ou une voix.",
+      "ecrire": "Écrire un message"
+    },
+    "affiches": {
+      "veni": "« Une conférence théâtravinée », Cie PILE",
+      "sacrees": "Exploits féminins racontés par Sarah Chaperon et Caroline Mattei, Cies PILE et Pulsatille",
+      "lombri": "Les Lombricontes, Cie PILE"
+    }
+  },
+  "introuvable": {
+    "titre": "Cette prise n'existe pas",
+    "texte": "La page que vous cherchez a été coupée au montage.",
+    "retour": "Revenir à la planche",
+    "alt": "Une chaise seule dans la lumière sur un plateau vide"
+  },
+  "parcours": {
+    "sur": "Parcours",
+    "titre1": "Sur les",
+    "titre2": "planches",
+    "texte": "Théâtre classique et contemporain, spectacles pour le jeune public, courts et longs métrages : le parcours de Sarah Chaperon, tel que publié sur son site.",
+    "action": "Voir l'actualité",
+    "info": "Prochainement : Les voix de l'eau, décembre 2026",
+    "alt": "Un plateau de théâtre vide, une poursuite allumée sur le plancher",
+    "actu": {
+      "sur": "Actualité 2026",
+      "titre": "Où la voir",
+      "aVenir": "À venir",
+      "passees": "Dates passées de 2026",
+      "aconfirmer": "Dates à venir",
+      "toutes": "Dates de 2026"
+    },
+    "theatre": {
+      "sur": "Théâtre",
+      "titre": "Du drame au jeune public",
+      "texte": "Une sélection de son répertoire, à ranger par famille.",
+      "filtres": "Filtrer par registre",
+      "tous": "Tout",
+      "drame": "Drame",
+      "classique": "Grand répertoire",
+      "contemporain": "Contemporain",
+      "jeune-public": "Spectacles de compagnie",
+      "compagnies": "Compagnies :"
+    },
+    "spectacles": {
+      "sur": "Cie PILE",
+      "titre": "Trois spectacles en images",
+      "texte": "Les affiches des spectacles de la Cie PILE où elle joue ; les vidéos sont sur YouTube."
+    },
+    "tournages": {
+      "sur": "Tournages",
+      "titre": "Devant la caméra",
+      "texte": "Courts et longs métrages, films de commande : de 1991 à 2024.",
+      "alt": "Un plateau de tournage entre deux prises, une chaise et un clap vierges",
+      "region": "Frise des tournages, de 2024 à 1991"
+    },
+    "cv": {
+      "titre": "Son CV complet",
+      "texte": "Formation, langues et compétences figurent dans son CV : demandez-le à Sarah.",
+      "action": "Demander le CV"
+    }
+  },
+  "portraits": {
+    "sur": "Portraits",
+    "titre1": "Douze",
+    "titre2": "visages",
+    "texte": "Cinq photographes, des séances en studio et en plein air. Touchez un tirage pour l'ouvrir en grand.",
+    "action": "Voir la planche",
+    "info": "Photographies Roka production, Laurent Bouillard, Ana Slk, Fabrice Robin, Lisa Fougereux",
+    "planche": {
+      "sur": "La planche",
+      "titre": "Tous les tirages",
+      "filtres": "Filtrer par photographe ou par lumière",
+      "tous": "Tous",
+      "noir": "Fond noir",
+      "gris": "Fond gris",
+      "dehors": "Plein air"
+    },
+    "visionneuse": {
+      "fermer": "Fermer",
+      "precedent": "Portrait précédent",
+      "suivant": "Portrait suivant",
+      "titre": "Portrait en grand"
+    },
+    "demande": {
+      "titre": "Besoin d'une photo en haute définition ?",
+      "texte": "Pour un dossier de casting ou un programme, Sarah vous envoie les fichiers originaux avec le crédit du photographe.",
+      "action": "Demander les fichiers"
+    }
+  },
+  "demo": {
+    "sur": "Bande-démo et voix",
+    "titre1": "La voir,",
+    "titre2": "l'entendre",
+    "texte": "Sa bande-démo de 2024 et quatre extraits de voix, dont « En mai » de Victor Hugo lu en studio.",
+    "action": "Lancer la bande-démo",
+    "info": "Bande-démo 2024 · 4 extraits de voix",
+    "alt": "Une petite salle de projection dans le noir, l'écran allumé",
+    "video": {
+      "sur": "Bande-démo 2024",
+      "titre": "La bande-démo",
+      "texte": "Merci à Sarah Gaston, coréalisatrice de Recovery.",
+      "lecture": "Lire la bande-démo",
+      "note": "Demandez le lien à Sarah : elle vous l'envoie.",
+      "demande": "Recevoir la bande-démo"
+    },
+    "voix": {
+      "sur": "Voix",
+      "titre": "Sa voix",
+      "texte": "Lecture en studio et enregistrements faits à la maison.",
+      "note": "Extraits disponibles sur demande : Sarah vous les envoie par e-mail.",
+      "demande": "Recevoir les extraits",
+      "encours": "Aucun extrait"
+    },
+    "suite": {
+      "titre": "Un rôle, une lecture, une voix off ?",
+      "action": "La contacter"
+    }
+  },
+  "contact": {
+    "sur": "Contact",
+    "titre1": "Écrire",
+    "titre2": "à Sarah",
+    "texte": "Pour un rôle, une lecture, une voix ou un dossier de casting : ses coordonnées directes, et un message en deux minutes.",
+    "info": "06 11 62 65 41",
+    "alt": "Un couloir de coulisses, une porte de loge entrouverte",
+    "form": {
+      "titre": "Votre message",
+      "nom": "Nom",
+      "email": "E-mail",
+      "tel": "Téléphone (facultatif)",
+      "sujet": "Objet",
+      "sujetRole": "Un rôle (théâtre ou tournage)",
+      "sujetLecture": "Une lecture",
+      "sujetVoix": "Une voix",
+      "sujetCv": "Recevoir le CV ou des photos",
+      "sujetAutre": "Autre demande",
+      "message": "Message",
+      "envoyer": "Envoyer le message",
+      "donnees": "Vos coordonnées servent seulement à vous répondre. Politique de confidentialité : à compléter.",
+      "simule": "Maquette : le message n'est pas envoyé. Sur le site en ligne, il arrivera dans la boîte de Sarah.",
+      "sujetDemo": "La bande-démo",
+      "sujetExtraits": "Des extraits de voix"
+    },
+    "recu": "Reçu",
+    "direct": {
+      "titre": "Ou directement",
+      "appel": "Appeler",
+      "mail": "Écrire un e-mail"
+    }
+  }
+}

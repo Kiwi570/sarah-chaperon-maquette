@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Esquisse — La planche-contact</title>
+<style>
+@font-face{font-family:"Instrument Serif";src:url("polices/InstrumentSerif-Regular.ttf")}
+@font-face{font-family:"Instrument Sans";src:url("polices/InstrumentSans[wdth,wght].ttf");font-weight:400 700}
+@font-face{font-family:"Fragment Mono";src:url("polices/FragmentMono-Regular.ttf")}
+:root{--table:#f2efe8;--encre:#1b1a18;--rouge:#d23a22;--gris:#6d6a64}
+*{box-sizing:border-box;margin:0}
+html,body{height:100%;overflow:hidden;background:var(--table);color:var(--encre);font-family:"Instrument Sans",sans-serif}
+body::before{content:"";position:fixed;inset:0;background:radial-gradient(70% 80% at 68% 50%,#fffdf8 0%,#f2efe8 55%,#e3ded3 100%);z-index:-1}
+header{position:fixed;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;padding:20px 44px;z-index:6;background:rgba(242,239,232,.96)}
+.logo{font-family:"Instrument Serif";font-size:26px}
+nav{display:flex;gap:28px;font-size:14px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:13px 22px;border-radius:999px;font-size:15px;font-weight:600;text-decoration:none}
+.btn.plein{background:var(--encre);color:#fff}
+.btn.ligne{border:1px solid rgba(27,26,24,.35);color:var(--encre)}
+main{height:100svh;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.5fr);gap:36px;padding:94px 44px 36px;align-items:center}
+.mono{font-family:"Fragment Mono";font-size:13px;letter-spacing:.06em;color:var(--gris)}
+h1{font-family:"Instrument Serif";font-weight:400;font-size:clamp(54px,6.6vw,104px);line-height:.92;margin:14px 0 18px}
+h1 span{color:var(--rouge);font-style:italic}
+.intro{font-size:17px;line-height:1.5;max-width:380px;margin-bottom:26px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.coord{margin-top:22px}
+.planche{position:relative;height:min(78svh,740px);background:#141312;border-radius:3px;padding:26px 20px;box-shadow:0 30px 60px rgba(40,30,20,.25);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:repeat(3,minmax(0,1fr));gap:16px 10px;transform:rotate(-1.2deg)}
+.case{position:relative;background:#000;overflow:hidden}
+.case img{width:100%;height:100%;object-fit:cover;object-position:50% 18%;display:block;filter:saturate(.9)}
+.case::after{content:attr(data-n);position:absolute;left:4px;bottom:-1px;font-family:"Fragment Mono";font-size:10px;color:#e8b04a;opacity:.85}
+.planche::before,.planche::after{content:"";position:absolute;left:12px;right:12px;height:8px;background:repeating-linear-gradient(90deg,transparent 0 10px,#f2efe8 10px 18px);opacity:.25}
+.planche::before{top:8px}.planche::after{bottom:8px}
+.cercle{position:absolute;inset:-9px;border:3px solid var(--rouge);border-radius:46% 54% 50% 50%/52% 46% 54% 48%;transform:rotate(-4deg)}
+.loupe{position:absolute;width:min(30vw,380px);aspect-ratio:1;border-radius:50%;right:-36px;top:46%;transform:translateY(-50%);box-shadow:0 0 0 14px #2b2b2b,0 0 0 16px #555,0 40px 70px rgba(0,0,0,.45);overflow:hidden;background:#000}
+.loupe img{width:100%;height:100%;object-fit:cover;object-position:52% 20%;transform:scale(1.18)}
+.loupe::after{content:"";position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle at 32% 26%,rgba(255,255,255,.28),transparent 34%),radial-gradient(circle,transparent 62%,rgba(0,0,0,.45))}
+.legende{position:absolute;right:0;bottom:-6px;background:#fff;padding:10px 14px;font-size:13px;line-height:1.4;box-shadow:0 10px 26px rgba(0,0,0,.18)}
+.legende b{font-family:"Instrument Serif";font-size:19px;font-weight:400;display:block}
+.droite{position:relative;height:100%;display:flex;align-items:center}
+@media (max-width:760px){
+ header{padding:14px 18px} nav{display:none} .logo{font-size:22px}
+ main{grid-template-columns:1fr;grid-template-rows:auto 1fr;padding:72px 18px 20px;gap:14px;align-items:start}
+ h1{font-size:52px;margin:8px 0 10px}
+ .intro{font-size:16px;margin-bottom:14px}
+ .coord{display:none}
+ .planche{height:44svh;grid-template-columns:repeat(3,minmax(0,1fr));padding:20px 12px;gap:12px 8px}
+ .planche .case:nth-child(n+10){display:none}
+ .loupe{width:62vw;right:-10px;top:58%}
+ .legende{display:none}
+}
+</style></head><body>
+<header><div class="logo">Sarah Chaperon</div>
+<nav><a>Parcours</a><a>Portraits</a><a>Démo &amp; voix</a><a>Contact</a></nav>
+<a class="btn ligne">La contacter</a></header>
+<main>
+ <div>
+  <p class="mono">COMÉDIENNE · THÉÂTRE · TOURNAGES · VOIX</p>
+  <h1>Sarah<br><span>Chaperon</span></h1>
+  <p class="intro">Cinq photographes, un même visage. Promenez la loupe sur la planche, entourez celle qui vous parle : la voici en grand.</p>
+  <div class="actions"><a class="btn plein">▶ Bande-démo 2024</a><a class="btn ligne">Écrire à Sarah</a></div>
+  <p class="mono coord">06 11 62 65 41 · sarahchaperon93@gmail.com</p>
+ </div>
+ <div class="droite">
+  <div class="planche">
+   <div class="case" data-n="01"><img src="/recu/site/comedienne.jpg" alt=""></div>
+   <div class="case" data-n="02"><img src="/recu/site/photos-2.jpg" alt=""></div>
+   <div class="case" data-n="03"><img src="/recu/site/photos-6.jpg" alt=""></div>
+   <div class="case" data-n="04"><img src="/recu/site/photos-7.jpg" alt=""></div>
+   <div class="case" data-n="05"><img src="/recu/site/photos-5.jpg" alt=""></div>
+   <div class="case" data-n="06"><img src="/recu/site/contact-sarah-chaperon.jpg" alt=""><span class="cercle"></span></div>
+   <div class="case" data-n="07"><img src="/recu/site/photos.jpg" alt=""></div>
+   <div class="case" data-n="08"><img src="/recu/site/comedienne-2.jpg" alt=""></div>
+   <div class="case" data-n="09"><img src="/recu/site/photos-9.jpg" alt=""></div>
+   <div class="case" data-n="10"><img src="/recu/site/photos-4.jpg" alt=""></div>
+   <div class="case" data-n="11"><img src="/recu/site/photos-8.jpg" alt=""></div>
+   <div class="case" data-n="12"><img src="/recu/site/photos-3.jpg" alt=""></div>
+  </div>
+  <div class="loupe"><img src="/recu/site/contact-sarah-chaperon.jpg" alt=""></div>
+  <div class="legende"><b>Le rire, en grand</b>Portrait 06 · cliquez pour l'ouvrir</div>
+ </div>
+</main>
+</body></html>

@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Parcours : Sarah Chaperon, comédienne</title>
+<meta name="description" content="Actualité, théâtre et tournages de Sarah Chaperon : Yerma, CUT, Les voix de l&#39;eau, la Cie PILE, des courts métrages de 1991 à 2024.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://sarah-chaperon-maquette.vercel.app/parcours">
+<style>:root{--fond:#f2efe8;--texte:#1b1a18;--voile-fond:#141312;--ouverture-fond:#141312;--menu-fond:#f2efe8}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/instrument-serif.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f2efe8">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sarah Chaperon">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Parcours : Sarah Chaperon, comédienne">
+<meta property="og:description" content="Actualité, théâtre et tournages de Sarah Chaperon : Yerma, CUT, Les voix de l&#39;eau, la Cie PILE, des courts métrages de 1991 à 2024.">
+<meta property="og:url" content="https://sarah-chaperon-maquette.vercel.app/parcours">
+<meta property="og:image" content="https://sarah-chaperon-maquette.vercel.app/assets/partage/parcours-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Un plateau de théâtre vide sous une poursuite">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Sarah Chaperon","jobTitle":"Comédienne","email":"mailto:sarahchaperon93@gmail.com","telephone":"+33611626541","url":"https://sarah-chaperon-maquette.vercel.app"}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="56" height="56"><span data-voile-libelle>Parcours</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <p class="ouverture-nom">Sarah Chaperon</p>
+  <svg class="ouverture-cercle" data-ouverture-objet viewBox="0 0 220 270" width="150" height="184" aria-hidden="true"><path d="M112 14 C 168 12, 206 62, 204 136 C 202 214, 160 258, 106 256 C 50 254, 14 206, 16 132 C 18 62, 58 18, 120 20" fill="none" stroke="#e2553a" stroke-width="7" stroke-linecap="round"/></svg>
+  <p class="ouverture-ligne">Comédienne</p>
+</div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><filter id="gras-fil" x="-10%" y="-20%" width="120%" height="140%"><feTurbulence type="fractalNoise" baseFrequency="1.4" numOctaves="2" seed="7" result="b"/><feDisplacementMap in="SourceGraphic" in2="b" scale="2.4"/></filter></svg>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo.svg" alt="" width="40" height="40"><span>Sarah Chaperon</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/parcours" data-libelle="Parcours" aria-current="page">Parcours</a></li><li><a href="/portraits" data-libelle="Portraits">Portraits</a></li><li><a href="/demo-et-voix" data-libelle="Démo &amp; voix">Démo &amp; voix</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton entete-action" href="/contact" data-libelle="Contact" data-envol-cible>La contacter</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/parcours" class="menu-lien" data-libelle="Parcours" aria-current="page">Parcours</a></li><li style="--i:2"><a href="/portraits" class="menu-lien" data-libelle="Portraits">Portraits</a></li><li style="--i:3"><a href="/demo-et-voix" class="menu-lien" data-libelle="Démo &amp; voix">Démo &amp; voix</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33611626541">Appeler 06 11 62 65 41</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="pa-ouverture" id="debut">
+  <figure class="media pa-plateau" data-grok style="--cadrage:60% 60%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/plateau-mobile-640.webp 640w, /assets/images/grok/plateau-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/plateau-1280.webp" srcset="/assets/images/grok/plateau-640.webp 640w, /assets/images/grok/plateau-1280.webp 1280w, /assets/images/grok/plateau-1920.webp 1920w" sizes="100vw" alt="Un plateau de théâtre vide, une poursuite allumée sur le plancher" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <span class="pa-poursuite" data-effet="poursuite" data-souris aria-hidden="true"></span>
+  <div class="pa-texte conteneur">
+    <p class="surtitre mono ouvre" data-anime="gsap">Parcours</p>
+    <h1 class="pa-titre" data-grille="typo" data-iris-centre><span>Sur les</span> <span class="rouge">planches</span></h1>
+    <p class="mono ouvre pa-info" data-info-cle data-anime="gsap">Prochainement : Les voix de l&#39;eau, décembre 2026</p>
+    <p class="ouvre" data-anime="gsap"><a class="bouton bouton--clair" href="#actualite" data-action-principale>Voir l&#39;actualité</a></p>
+    <p class="ouvre pa-intro masque-ecran-bas" data-anime="gsap">Théâtre classique et contemporain, spectacles pour le jeune public, courts et longs métrages : le parcours de Sarah Chaperon, tel que publié sur son site.</p>
+  </div>
+</section>
+<section class="pa-actu conteneur" id="actualite">
+  <div>
+    <p class="surtitre mono" data-anime>Actualité 2026</p>
+    <h2 data-anime="lignes">Où la voir</h2>
+    <figure class="media pa-actu-affiche" data-fx="parallaxe" style="--cadrage:50% 50%;aspect-ratio:2/3">
+  <picture>
+    <img src="/assets/images/slk-menton-1120.webp" srcset="/assets/images/slk-menton-480.webp 480w, /assets/images/slk-menton-800.webp 800w, /assets/images/slk-menton-1120.webp 1120w" sizes="(max-width: 760px) 50vw, 18vw" alt="Sarah Chaperon pensive, la main sous le menton, dans la verdure" width="1120" height="1680" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+  <div class="pa-dates" data-effet="dates">
+    <p class="mono actu-etiquette" data-groupe-titre="avenir" data-texte="À venir">Dates de 2026</p>
+    <ol class="pa-liste" data-groupe="avenir">
+      <li class="pa-date" data-debut="2026-12" data-fin="2026-12"><span class="pa-quand">Décembre 2026<svg class="crayon crayon-date" viewBox="0 0 360 110" preserveAspectRatio="none" aria-hidden="true" data-superpose data-effet="crayon" data-grille="fil"><path d="M70 8 C 200 -2, 352 6, 356 52 C 360 98, 250 108, 170 106 C 60 104, 2 90, 4 54 C 6 22, 70 8, 130 4" pathLength="1" filter="url(#gras-fil)"/></svg></span><b>Les voix de l&#39;eau</b><span>Thomas Delaporte et Christy Simon · mise en scène Christy Simon · Lieu et dates à venir</span></li><li class="pa-date" data-debut="2026-10-09" data-fin="2026-10-11"><span class="pa-quand">9, 10 et 11 octobre 2026</span><b>Yerma</b><span>Federico García Lorca · Cie Rugir l&#39;art · Carré Rondelet, Montpellier</span></li><li class="pa-date" data-debut="2026-10-02" data-fin="2026-10-04"><span class="pa-quand">2, 3 et 4 octobre 2026</span><b>Veni Vidi Bibi</b><span>Cie PILE · Dijon</span></li><li class="pa-date" data-debut="2026-09-18" data-fin="2026-09-27"><span class="pa-quand">18, 19, 20, 25, 26 et 27 septembre 2026</span><b>CUT</b><span>Emmanuelle Marie · mise en scène Brigitte Lo Cicero · Local des autrices, Paris</span></li><li class="pa-date" data-debut="2026-08-15" data-fin="2026-08-15"><span class="pa-quand">15 août 2026</span><b>Veni Vidi Bibi</b><span>Cie PILE · Sancerre</span></li>
+    </ol>
+    <p class="mono actu-etiquette" data-groupe-titre="passees" hidden>Dates passées de 2026</p>
+    <ol class="pa-liste pa-liste--passees" data-groupe="passees"></ol>
+  </div>
+</section>
+<section class="pa-theatre" id="theatre">
+  <div class="conteneur pa-theatre-grille">
+    <div class="pa-theatre-tete">
+      <p class="surtitre mono" data-anime>Théâtre</p>
+      <h2 data-anime="lignes">Du drame au jeune public</h2>
+      <p data-anime>Une sélection de son répertoire, à ranger par famille.</p>
+      <div class="filtres filtres--clair" role="group" aria-label="Filtrer par registre">
+        <button type="button" class="filtre" data-registre="tous" aria-pressed="true">Tout</button><button type="button" class="filtre" data-registre="classique" aria-pressed="false">Grand répertoire</button><button type="button" class="filtre" data-registre="contemporain" aria-pressed="false">Contemporain</button><button type="button" class="filtre" data-registre="jeune-public" aria-pressed="false">Spectacles de compagnie</button>
+      </div>
+      <figure class="media pa-theatre-media" data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/texte-annote-1280.webp" srcset="/assets/images/grok/texte-annote-640.webp 640w, /assets/images/grok/texte-annote-1280.webp 1280w, /assets/images/grok/texte-annote-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 34vw" alt="Pages de texte annotées au crayon rouge sur une table de répétition" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    </div>
+    <ul class="pa-pieces" data-effet="recomposition">
+      <li class="pa-piece" data-registre="classique"><b>Yerma</b><span>Federico García Lorca · Cie Rugir l&#39;art · 24 représentations, dont le festival d&#39;Avignon</span></li><li class="pa-piece" data-registre="contemporain"><b>Les voix de l&#39;eau</b><span>Thomas Delaporte et Christy Simon · mise en scène Christy Simon</span></li><li class="pa-piece" data-registre="contemporain"><b>CUT</b><span>Emmanuelle Marie · mise en scène Brigitte Lo Cicero</span></li><li class="pa-piece" data-registre="jeune-public"><b>Envole-toi Papillon</b><span>Cie Rugir l&#39;art · 29 représentations, dont Avignon</span></li><li class="pa-piece" data-registre="classique"><b>Roméo et Juliette</b><span>Shakespeare · mise en scène Maud Buquet · La Pépinière · 11 représentations</span></li><li class="pa-piece" data-registre="jeune-public"><b>Pat&#39;mouille et ses Mouillettes</b><span>70 représentations</span></li><li class="pa-piece" data-registre="jeune-public"><b>Le caddie sucré</b><span>35 représentations</span></li><li class="pa-piece" data-registre="jeune-public"><b>Veni Vidi Bibi</b><span>Cie PILE</span></li><li class="pa-piece" data-registre="jeune-public"><b>Les Lombricontes</b><span>Cie PILE</span></li><li class="pa-piece" data-registre="jeune-public"><b>Sacrées Championnes</b><span>Cie PILE</span></li><li class="pa-piece" data-registre="classique"><b>Les Farces · Dom Juan · Les Précieuses ridicules</b><span>Molière</span></li><li class="pa-piece" data-registre="classique"><b>Horace</b><span>Corneille</span></li><li class="pa-piece" data-registre="contemporain"><b>Textes de Desnos, Duras, Ovide et Charlotte Delbo</b><span>Lectures et spectacles</span></li>
+    </ul>
+  </div>
+  <p class="conteneur pa-compagnies mono" data-anime>Compagnies : Rugir l&#39;art · PILE · TIC TAC · SOKOL · KOSHKA LUNA · Progéniture</p>
+</section>
+<section class="pa-tournages" id="tournages" data-scene data-entete-cache>
+  <div class="pa-collant" data-collant>
+    <div class="pa-tournages-tete conteneur">
+      <p class="surtitre mono">Tournages</p>
+      <h2 data-anime="lignes">Devant la caméra</h2>
+      <p class="masque-ecran-bas">Courts et longs métrages, films de commande : de 1991 à 2024.</p>
+    </div>
+    <div class="pa-frise" data-effet="frise" data-galerie tabindex="0" role="region" aria-label="Frise des tournages, de 2024 à 1991">
+      <figure class="media pa-frise-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/tournage-1280.webp" srcset="/assets/images/grok/tournage-640.webp 640w, /assets/images/grok/tournage-1280.webp 1280w, /assets/images/grok/tournage-1920.webp 1920w" sizes="(max-width: 760px) 80vw, 34vw" alt="Un plateau de tournage entre deux prises, une chaise et un clap vierges" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <article class="pa-film"><p class="pa-annee">1991</p><h3>Le songe Titania</h3><p>Pierre Kriedel · moyen métrage</p><p class="pa-role">Katia</p></article><article class="pa-film"><p class="pa-annee">1992</p><h3>Le bâtard de dieu</h3><p>Christian Fechner · long métrage</p><p class="pa-role">La servante</p></article><article class="pa-film"><p class="pa-annee">1997</p><h3>L&#39;éveil du toucher</h3><p>Francis Grosjean · film promotionnel</p><p class="pa-role">Maman</p></article><article class="pa-film"><p class="pa-annee">2009</p><h3>Le couperet</h3><p>Deux films pour l&#39;ESEC</p><p class="pa-role">Marlène</p></article><article class="pa-film"><p class="pa-annee">2015</p><h3>Une rencontre</h3><p>Coralie Coscas · court métrage</p><p class="pa-role">La DRH</p></article><article class="pa-film"><p class="pa-annee">2020</p><h3>Une déclaration d&#39;amour</h3><p>Huseyin Ozveren</p><p class="pa-role">L&#39;amoureuse heureuse</p></article><article class="pa-film"><p class="pa-annee">2021</p><h3>Tournant casaque</h3><p>Corentin Petit · court métrage</p><p class="pa-role">Wanda</p></article><article class="pa-film"><p class="pa-annee">2022</p><h3>Vive la république</h3><p>Juliette Chenais de Busscher</p><p class="pa-role">La femme du maire</p></article><article class="pa-film"><p class="pa-annee">2022</p><h3>Le samouraï qui aimait trop les orties</h3><p>Rahma Rarchdi · court métrage</p><p class="pa-role">La dragueuse</p></article><article class="pa-film"><p class="pa-annee">2023</p><h3>Clindindin</h3><p>Florian Delorme</p><p class="pa-role">L&#39;infirmière (Charlotte Nakache)</p></article><article class="pa-film"><p class="pa-annee">2024</p><h3>Publicité interne Renault</h3><p>Fabrice Robin</p></article><article class="pa-film"><p class="pa-annee">2024</p><h3>Recovery</h3><p>Sarah Gaston et Benjamin Chamarre</p></article>
+    </div>
+    <div class="pa-frise-barre" aria-hidden="true"><span></span></div>
+  </div>
+</section>
+<section class="pa-cv conteneur" id="cv">
+  <figure class="media pa-cv-media" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bouillard-lunettes-1120.webp" srcset="/assets/images/bouillard-lunettes-480.webp 480w, /assets/images/bouillard-lunettes-800.webp 800w, /assets/images/bouillard-lunettes-1120.webp 1120w" sizes="(max-width: 760px) 70vw, 24vw" alt="Sarah Chaperon sourit, une paire de lunettes à la main, sur fond gris" width="1120" height="746" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <h2 data-anime="lignes">Son CV complet</h2>
+  <p data-anime>Formation, langues et compétences figurent dans son CV : demandez-le à Sarah.</p>
+  <p data-anime><a href="/contact?sujet=cv#message" class="bouton" data-libelle="Contact">Demander le CV</a></p>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-nom">Sarah Chaperon</p>
+      <p>Comédienne · théâtre, tournages, voix<br><a href="tel:+33611626541">06 11 62 65 41</a><br><a href="mailto:sarahchaperon93@gmail.com">sarahchaperon93@gmail.com</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/parcours" data-libelle="Parcours" aria-current="page">Parcours</a></li><li><a href="/portraits" data-libelle="Portraits">Portraits</a></li><li><a href="/demo-et-voix" data-libelle="Démo &amp; voix">Démo &amp; voix</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Photographies</strong></p>
+      <p class="pied-credits">Roka production, Laurent Bouillard, Ana Slk, Fabrice Robin, Lisa Fougereux.</p>
+      <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales : à compléter</p><p>Politique de confidentialité : à compléter</p><p>Maquette de présentation.</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33611626541">Appeler</a>
+  <a class="bouton" href="/contact" data-libelle="Contact">La contacter</a>
+</div>
+</body>
+</html>

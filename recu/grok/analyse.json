@@ -1,0 +1,743 @@
+{
+ "dossier": "/home/claude/sarah-chaperon-maquette/recu/grok",
+ "date": "2026-11-13T13:58:48.082Z",
+ "detection": "mesures sharp seulement",
+ "planches": [
+  "planche.jpg"
+ ],
+ "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+ "doublons": [],
+ "images": [
+  {
+   "fichier": "g-404.jpg",
+   "nom": "g-404",
+   "drapeau": null,
+   "largeur": 1920,
+   "hauteur": 1080,
+   "ratio": "16:9",
+   "ratio_valeur": 1.778,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 321779,
+   "transparence": false,
+   "sujet": {
+    "x": 40.6,
+    "y": 50,
+    "l": 37.5,
+    "h": 44.4,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    67,
+    75
+   ],
+   "cadrage_css": "67% 75%",
+   "zones_calmes": [
+    {
+     "cote": "haut",
+     "score": 0.79,
+     "ton": "sombre",
+     "recouvre_sujet": 0
+    },
+    {
+     "cote": "gauche",
+     "score": 0.74,
+     "ton": "sombre",
+     "recouvre_sujet": 0
+    },
+    {
+     "cote": "droite",
+     "score": 0.6,
+     "ton": "sombre",
+     "recouvre_sujet": 0.2
+    },
+    {
+     "cote": "bas",
+     "score": 0.37,
+     "ton": "sombre",
+     "recouvre_sujet": 0.32
+    }
+   ],
+   "qualite": {
+    "nettete": 11.3,
+    "bruit": 0.35,
+    "compression": 1.23,
+    "faible": false,
+    "raisons": []
+   },
+   "lisible": null,
+   "empreinte": "f8f07030303cbcb4",
+   "drapeaux": [
+    "calme haut/gauche"
+   ]
+  },
+  {
+   "fichier": "g-coulisses-mobile.jpg",
+   "nom": "g-coulisses-mobile",
+   "drapeau": null,
+   "largeur": 1080,
+   "hauteur": 1920,
+   "ratio": "9:16",
+   "ratio_valeur": 0.563,
+   "orientation": "portrait",
+   "format": "jpeg",
+   "poids": 259644,
+   "transparence": false,
+   "sujet": {
+    "x": 0,
+    "y": 0,
+    "l": 100,
+    "h": 100,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    70,
+    67
+   ],
+   "cadrage_css": "70% 67%",
+   "zones_calmes": [
+    {
+     "cote": "haut",
+     "score": 0.28,
+     "ton": "sombre",
+     "recouvre_sujet": 1
+    },
+    {
+     "cote": "droite",
+     "score": 0.21,
+     "ton": "sombre",
+     "recouvre_sujet": 1
+    },
+    {
+     "cote": "gauche",
+     "score": 0.15,
+     "ton": "sombre",
+     "recouvre_sujet": 1
+    },
+    {
+     "cote": "bas",
+     "score": 0.08,
+     "ton": "sombre",
+     "recouvre_sujet": 1
+    }
+   ],
+   "qualite": {
+    "nettete": 7.5,
+    "bruit": 0.24,
+    "compression": 0.88,
+    "faible": false,
+    "raisons": [
+     "1080 px de large"
+    ],
+    "corrige": "drapeau corrigé à l’œil le 13/11 : flou de profondeur voulu et grain de film, image notée 4/5"
+   },
+   "lisible": null,
+   "empreinte": "bf37bcbccdcfdfff",
+   "drapeaux": [
+    "petite"
+   ]
+  },
+  {
+   "fichier": "g-coulisses.jpg",
+   "nom": "g-coulisses",
+   "drapeau": null,
+   "largeur": 1920,
+   "hauteur": 1080,
+   "ratio": "16:9",
+   "ratio_valeur": 1.778,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 360101,
+   "transparence": false,
+   "sujet": {
+    "x": 21.9,
+    "y": 0,
+    "l": 62.5,
+    "h": 100,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    68,
+    62
+   ],
+   "cadrage_css": "68% 62%",
+   "zones_calmes": [
+    {
+     "cote": "gauche",
+     "score": 0.36,
+     "ton": "sombre",
+     "recouvre_sujet": 0.45
+    },
+    {
+     "cote": "haut",
+     "score": 0.3,
+     "ton": "sombre",
+     "recouvre_sujet": 0.63
+    },
+    {
+     "cote": "droite",
+     "score": 0.27,
+     "ton": "sombre",
+     "recouvre_sujet": 0.61
+    },
+    {
+     "cote": "bas",
+     "score": 0.26,
+     "ton": "sombre",
+     "recouvre_sujet": 0.63
+    }
+   ],
+   "qualite": {
+    "nettete": 20.6,
+    "bruit": 0.34,
+    "compression": 1.2,
+    "faible": false,
+    "raisons": []
+   },
+   "lisible": null,
+   "empreinte": "4ece4c7cf43c3c7c",
+   "drapeaux": []
+  },
+  {
+   "fichier": "g-plateau-mobile.jpg",
+   "nom": "g-plateau-mobile",
+   "drapeau": null,
+   "largeur": 1080,
+   "hauteur": 1920,
+   "ratio": "9:16",
+   "ratio_valeur": 0.563,
+   "orientation": "portrait",
+   "format": "jpeg",
+   "poids": 298205,
+   "transparence": false,
+   "sujet": {
+    "x": 22.2,
+    "y": 40.6,
+    "l": 55.6,
+    "h": 56.3,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    44,
+    68
+   ],
+   "cadrage_css": "44% 68%",
+   "zones_calmes": [
+    {
+     "cote": "haut",
+     "score": 0.93,
+     "ton": "sombre",
+     "recouvre_sujet": 0
+    },
+    {
+     "cote": "droite",
+     "score": 0.75,
+     "ton": "sombre",
+     "recouvre_sujet": 0.25
+    },
+    {
+     "cote": "gauche",
+     "score": 0.51,
+     "ton": "sombre",
+     "recouvre_sujet": 0.25
+    },
+    {
+     "cote": "bas",
+     "score": 0.42,
+     "ton": "sombre",
+     "recouvre_sujet": 0.51
+    }
+   ],
+   "qualite": {
+    "nettete": 16.1,
+    "bruit": 0.32,
+    "compression": 0.93,
+    "faible": false,
+    "raisons": [
+     "1080 px de large"
+    ],
+    "corrige": "drapeau corrigé à l’œil le 13/11 : flou de profondeur voulu et grain de film, image notée 4/5"
+   },
+   "lisible": null,
+   "empreinte": "f0fcdc4060b0f0e0",
+   "drapeaux": [
+    "petite",
+    "calme haut/droite"
+   ]
+  },
+  {
+   "fichier": "g-plateau.jpg",
+   "nom": "g-plateau",
+   "drapeau": null,
+   "largeur": 1920,
+   "hauteur": 1080,
+   "ratio": "16:9",
+   "ratio_valeur": 1.778,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 302432,
+   "transparence": false,
+   "sujet": {
+    "x": 40.6,
+    "y": 5.6,
+    "l": 37.5,
+    "h": 94.4,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    64,
+    57
+   ],
+   "cadrage_css": "64% 57%",
+   "zones_calmes": [
+    {
+     "cote": "gauche",
+     "score": 0.91,
+     "ton": "sombre",
+     "recouvre_sujet": 0
+    },
+    {
+     "cote": "haut",
+     "score": 0.6,
+     "ton": "sombre",
+     "recouvre_sujet": 0.31
+    },
+    {
+     "cote": "bas",
+     "score": 0.44,
+     "ton": "sombre",
+     "recouvre_sujet": 0.37
+    },
+    {
+     "cote": "droite",
+     "score": 0.36,
+     "ton": "sombre",
+     "recouvre_sujet": 0.43
+    }
+   ],
+   "qualite": {
+    "nettete": 15.2,
+    "bruit": 0.5,
+    "compression": 1.52,
+    "faible": false,
+    "raisons": [
+     "compression visible"
+    ],
+    "corrige": "drapeau corrigé à l’œil le 13/11 : flou de profondeur voulu et grain de film, image notée 4/5"
+   },
+   "lisible": null,
+   "empreinte": "74ecf8f8f2f8f868",
+   "drapeaux": [
+    "compression visible",
+    "calme gauche"
+   ]
+  },
+  {
+   "fichier": "g-salle-projection-mobile.jpg",
+   "nom": "g-salle-projection-mobile",
+   "drapeau": null,
+   "largeur": 1080,
+   "hauteur": 1920,
+   "ratio": "9:16",
+   "ratio_valeur": 0.563,
+   "orientation": "portrait",
+   "format": "jpeg",
+   "poids": 210283,
+   "transparence": false,
+   "sujet": {
+    "x": 5.6,
+    "y": 37.5,
+    "l": 83.3,
+    "h": 28.1,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    61,
+    58
+   ],
+   "cadrage_css": "61% 58%",
+   "zones_calmes": [
+    {
+     "cote": "haut",
+     "score": 0.96,
+     "ton": "sombre",
+     "recouvre_sujet": 0
+    },
+    {
+     "cote": "gauche",
+     "score": 0.65,
+     "ton": "sombre",
+     "recouvre_sujet": 0.24
+    },
+    {
+     "cote": "bas",
+     "score": 0.58,
+     "ton": "sombre",
+     "recouvre_sujet": 0.01
+    },
+    {
+     "cote": "droite",
+     "score": 0.54,
+     "ton": "sombre",
+     "recouvre_sujet": 0.2
+    }
+   ],
+   "qualite": {
+    "nettete": 16.1,
+    "bruit": 0.33,
+    "compression": 0.92,
+    "faible": false,
+    "raisons": [
+     "1080 px de large"
+    ],
+    "corrige": "drapeau corrigé à l’œil le 13/11 : flou de profondeur voulu et grain de film, image notée 4/5"
+   },
+   "lisible": null,
+   "empreinte": "f0f820b8f8f8b164",
+   "drapeaux": [
+    "petite",
+    "calme haut/gauche"
+   ]
+  },
+  {
+   "fichier": "g-salle-projection.jpg",
+   "nom": "g-salle-projection",
+   "drapeau": null,
+   "largeur": 1920,
+   "hauteur": 1080,
+   "ratio": "16:9",
+   "ratio_valeur": 1.778,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 277405,
+   "transparence": false,
+   "sujet": {
+    "x": 9.4,
+    "y": 5.6,
+    "l": 78.1,
+    "h": 55.6,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    67,
+    29
+   ],
+   "cadrage_css": "67% 29%",
+   "zones_calmes": [
+    {
+     "cote": "bas",
+     "score": 0.91,
+     "ton": "sombre",
+     "recouvre_sujet": 0
+    },
+    {
+     "cote": "gauche",
+     "score": 0.59,
+     "ton": "sombre",
+     "recouvre_sujet": 0.43
+    },
+    {
+     "cote": "droite",
+     "score": 0.37,
+     "ton": "sombre",
+     "recouvre_sujet": 0.38
+    },
+    {
+     "cote": "haut",
+     "score": 0.29,
+     "ton": "sombre",
+     "recouvre_sujet": 0.66
+    }
+   ],
+   "qualite": {
+    "nettete": 15.6,
+    "bruit": 0.42,
+    "compression": 1.67,
+    "faible": false,
+    "raisons": [
+     "compression visible"
+    ],
+    "corrige": "drapeau corrigé à l’œil le 13/11 : flou de profondeur voulu et grain de film, image notée 4/5"
+   },
+   "lisible": null,
+   "empreinte": "dcdcdcbc78d83002",
+   "drapeaux": [
+    "compression visible",
+    "calme bas"
+   ]
+  },
+  {
+   "fichier": "g-studio-voix.jpg",
+   "nom": "g-studio-voix",
+   "drapeau": null,
+   "largeur": 1800,
+   "hauteur": 1200,
+   "ratio": "3:2",
+   "ratio_valeur": 1.5,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 352637,
+   "transparence": false,
+   "sujet": {
+    "x": 15.6,
+    "y": 9.1,
+    "l": 28.1,
+    "h": 63.6,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    33,
+    50
+   ],
+   "cadrage_css": "33% 50%",
+   "zones_calmes": [
+    {
+     "cote": "droite",
+     "score": 0.91,
+     "ton": "sombre",
+     "recouvre_sujet": 0
+    },
+    {
+     "cote": "bas",
+     "score": 0.69,
+     "ton": "sombre",
+     "recouvre_sujet": 0.06
+    },
+    {
+     "cote": "haut",
+     "score": 0.6,
+     "ton": "sombre",
+     "recouvre_sujet": 0.21
+    },
+    {
+     "cote": "gauche",
+     "score": 0.25,
+     "ton": "sombre",
+     "recouvre_sujet": 0.39
+    }
+   ],
+   "qualite": {
+    "nettete": 22.7,
+    "bruit": 0.46,
+    "compression": 0.95,
+    "faible": false,
+    "raisons": []
+   },
+   "lisible": null,
+   "empreinte": "6860a0a0e0c83038",
+   "drapeaux": [
+    "calme droite/bas"
+   ]
+  },
+  {
+   "fichier": "g-table-lumineuse.jpg",
+   "nom": "g-table-lumineuse",
+   "drapeau": null,
+   "largeur": 1920,
+   "hauteur": 1080,
+   "ratio": "16:9",
+   "ratio_valeur": 1.778,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 351774,
+   "transparence": false,
+   "sujet": {
+    "x": 0,
+    "y": 0,
+    "l": 100,
+    "h": 100,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    47,
+    52
+   ],
+   "cadrage_css": "47% 52%",
+   "zones_calmes": [
+    {
+     "cote": "gauche",
+     "score": 0.16,
+     "ton": "moyen",
+     "recouvre_sujet": 1
+    },
+    {
+     "cote": "haut",
+     "score": 0.15,
+     "ton": "sombre",
+     "recouvre_sujet": 1
+    },
+    {
+     "cote": "droite",
+     "score": 0.08,
+     "ton": "moyen",
+     "recouvre_sujet": 1
+    },
+    {
+     "cote": "bas",
+     "score": 0,
+     "ton": "sombre",
+     "recouvre_sujet": 1
+    }
+   ],
+   "qualite": {
+    "nettete": 22.5,
+    "bruit": 0.45,
+    "compression": 1.54,
+    "faible": false,
+    "raisons": [
+     "compression visible"
+    ],
+    "corrige": "drapeau corrigé à l’œil le 13/11 : flou de profondeur voulu et grain de film, image notée 4/5"
+   },
+   "lisible": null,
+   "empreinte": "bcf8d0f4f0a0b4fc",
+   "drapeaux": [
+    "compression visible"
+   ]
+  },
+  {
+   "fichier": "g-texte-annote.jpg",
+   "nom": "g-texte-annote",
+   "drapeau": null,
+   "largeur": 1800,
+   "hauteur": 1200,
+   "ratio": "3:2",
+   "ratio_valeur": 1.5,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 275113,
+   "transparence": false,
+   "sujet": {
+    "x": 0,
+    "y": 0,
+    "l": 100,
+    "h": 95.5,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    58,
+    39
+   ],
+   "cadrage_css": "58% 39%",
+   "zones_calmes": [
+    {
+     "cote": "gauche",
+     "score": 0.3,
+     "ton": "sombre",
+     "recouvre_sujet": 0.96
+    },
+    {
+     "cote": "bas",
+     "score": 0.29,
+     "ton": "sombre",
+     "recouvre_sujet": 0.87
+    },
+    {
+     "cote": "droite",
+     "score": 0.17,
+     "ton": "sombre",
+     "recouvre_sujet": 0.96
+    },
+    {
+     "cote": "haut",
+     "score": 0.15,
+     "ton": "sombre",
+     "recouvre_sujet": 1
+    }
+   ],
+   "qualite": {
+    "nettete": 5.2,
+    "bruit": 0.35,
+    "compression": 0.96,
+    "faible": false,
+    "raisons": [
+     "floue"
+    ],
+    "corrige": "drapeau corrigé à l’œil le 13/11 : flou de profondeur voulu et grain de film, image notée 4/5"
+   },
+   "lisible": null,
+   "empreinte": "f0f0f9fcfcfaf9ec",
+   "drapeaux": [
+    "floue"
+   ]
+  },
+  {
+   "fichier": "g-tournage.jpg",
+   "nom": "g-tournage",
+   "drapeau": null,
+   "largeur": 1800,
+   "hauteur": 1200,
+   "ratio": "3:2",
+   "ratio_valeur": 1.5,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 231201,
+   "transparence": false,
+   "sujet": {
+    "x": 12.5,
+    "y": 0,
+    "l": 31.3,
+    "h": 86.4,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    28,
+    20
+   ],
+   "cadrage_css": "28% 20%",
+   "zones_calmes": [
+    {
+     "cote": "droite",
+     "score": 0.68,
+     "ton": "sombre",
+     "recouvre_sujet": 0
+    },
+    {
+     "cote": "bas",
+     "score": 0.59,
+     "ton": "sombre",
+     "recouvre_sujet": 0.19
+    },
+    {
+     "cote": "haut",
+     "score": 0.41,
+     "ton": "sombre",
+     "recouvre_sujet": 0.31
+    },
+    {
+     "cote": "gauche",
+     "score": 0.32,
+     "ton": "sombre",
+     "recouvre_sujet": 0.59
+    }
+   ],
+   "qualite": {
+    "nettete": 4.7,
+    "bruit": 0.25,
+    "compression": 0.92,
+    "faible": false,
+    "raisons": [
+     "floue"
+    ],
+    "corrige": "drapeau corrigé à l’œil le 13/11 : flou de profondeur voulu et grain de film, image notée 4/5"
+   },
+   "lisible": null,
+   "empreinte": "c0c0c4e6e6e0f86c",
+   "drapeaux": [
+    "floue",
+    "calme droite"
+   ]
+  }
+ ]
+}

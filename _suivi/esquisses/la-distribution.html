@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Esquisse — La distribution</title>
+<style>
+@font-face{font-family:"Bodoni Moda";src:url("polices/BodoniModa[opsz,wght].ttf");font-weight:400 900;font-style:normal}
+@font-face{font-family:"Instrument Sans";src:url("polices/InstrumentSans[wdth,wght].ttf");font-weight:400 700}
+:root{--noir:#100d0c;--ivoire:#efe6d8;--cuivre:#c0562b;--gris:#8b8178}
+*{box-sizing:border-box;margin:0}
+html,body{background:var(--noir);color:var(--ivoire);font-family:"Instrument Sans",sans-serif;height:100%;overflow:hidden}
+body::before{content:"";position:fixed;inset:0;background:radial-gradient(60% 75% at 72% 48%,rgba(192,86,43,.20),transparent 70%),radial-gradient(40% 50% at 70% 40%,rgba(239,230,216,.10),transparent 70%);pointer-events:none}
+header{position:fixed;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;padding:22px 48px;z-index:5;background:linear-gradient(var(--noir),rgba(16,13,12,.85))}
+.logo{font-family:"Bodoni Moda";font-size:22px;letter-spacing:.02em}
+.logo i{font-style:normal;color:var(--cuivre)}
+nav{display:flex;gap:30px;font-size:14px;letter-spacing:.04em;color:#d9cfc1}
+nav a{color:inherit;text-decoration:none}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:13px 22px;border-radius:999px;font-size:15px;font-weight:600;text-decoration:none}
+.btn.plein{background:var(--cuivre);color:#fff}
+.btn.ligne{border:1px solid rgba(239,230,216,.4);color:var(--ivoire)}
+main{position:relative;height:100svh;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);padding:96px 48px 40px;gap:40px}
+.gauche{display:flex;flex-direction:column;min-height:0}
+.sur{font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--cuivre);margin-bottom:14px}
+h1{font-family:"Bodoni Moda";font-weight:500;font-size:clamp(44px,5.2vw,82px);line-height:1;letter-spacing:-.01em}
+h1 em{font-style:normal;color:var(--gris);font-weight:400}
+.bobine{position:relative;flex:1;min-height:0;margin:26px 0 22px;overflow:hidden;-webkit-mask:linear-gradient(transparent,#000 22%,#000 78%,transparent);mask:linear-gradient(transparent,#000 22%,#000 78%,transparent)}
+.bobine ol{list-style:none;padding:0;position:absolute;left:0;right:0;top:50%;transform:translateY(-50%)}
+.bobine li{font-family:"Bodoni Moda";font-size:clamp(34px,4.4vw,68px);line-height:1.18;color:rgba(239,230,216,.22);white-space:nowrap;display:flex;align-items:baseline;gap:18px}
+.bobine li small{font-family:"Instrument Sans";font-size:13px;letter-spacing:.08em;color:rgba(239,230,216,.28)}
+.bobine li.actif{color:var(--ivoire);font-style:italic;font-weight:600}
+.bobine li.actif small{color:var(--cuivre)}
+.bobine li.pres{color:rgba(239,230,216,.42)}
+.repere{position:absolute;left:-30px;top:50%;width:18px;height:2px;background:var(--cuivre)}
+.actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.tel{font-size:15px;color:#d9cfc1;margin-left:8px}
+.droite{position:relative;display:flex;align-items:center;justify-content:center;perspective:1600px;min-height:0}
+.carte{position:relative;height:min(76svh,690px);aspect-ratio:9/14;transform:rotateY(-14deg) rotateX(3deg);transform-style:preserve-3d;border-radius:6px;box-shadow:-40px 50px 90px rgba(0,0,0,.65),0 0 0 1px rgba(239,230,216,.08)}
+.carte img{width:100%;height:100%;object-fit:cover;object-position:50% 12%;border-radius:6px;display:block}
+.carte .lame{position:absolute;inset:0;border-radius:6px;background:linear-gradient(105deg,rgba(255,255,255,.14),transparent 30%,transparent 70%,rgba(0,0,0,.35))}
+.carte .dos{position:absolute;right:-16px;top:12px;bottom:-12px;width:100%;border-radius:6px;background:#2a221e;transform:translateZ(-30px);z-index:-1}
+.etiquette{position:absolute;left:-70px;bottom:62px;background:var(--ivoire);color:var(--noir);padding:14px 18px;border-radius:4px;font-size:13px;line-height:1.4;max-width:250px;box-shadow:0 20px 40px rgba(0,0,0,.4)}
+.etiquette b{font-family:"Bodoni Moda";font-size:20px;font-style:italic;display:block}
+.prochain{position:absolute;left:0;top:0;text-align:left!important;font-size:13px;color:#d9cfc1;text-align:right;line-height:1.5}
+.prochain b{color:var(--ivoire);font-size:15px}
+.geste{position:absolute;bottom:6px;right:0;font-size:13px;color:var(--gris);letter-spacing:.06em}
+@media (max-width:760px){
+ header{padding:16px 20px} nav{display:none} .logo{font-size:19px}
+ main{grid-template-columns:1fr;grid-template-rows:auto auto 1fr auto;padding:76px 20px 24px;gap:14px}
+ .gauche{display:contents}
+ h1{font-size:40px}
+ .droite{order:3;height:40svh}
+ .carte{height:38svh}
+ .etiquette{left:-6px;bottom:18px;font-size:13px;max-width:190px;padding:10px 12px}
+ .etiquette b{font-size:17px}
+ .bobine{order:2;flex:none;height:150px;margin:6px 0}
+ .bobine li{font-size:30px}
+ .actions{order:4}
+ .prochain,.geste{display:none}
+ .tel{display:block;margin:6px 0 0}
+}
+</style></head><body>
+<header><div class="logo">Sarah <i>Chaperon</i></div>
+<nav><a>Parcours</a><a>Visages</a><a>Démo &amp; voix</a><a>Contact</a></nav>
+<a class="btn ligne">La contacter</a></header>
+<main>
+ <div class="gauche">
+  <p class="sur">Comédienne · théâtre, tournages, voix</p>
+  <h1>Sarah Chaperon<br><em>a été…</em></h1>
+  <div class="bobine"><span class="repere"></span><ol>
+   <li>La servante <small>1992 · Le bâtard de dieu</small></li>
+   <li>Katia <small>1991 · Le songe Titania</small></li>
+   <li class="pres">L'amoureuse heureuse <small>2020</small></li>
+   <li class="actif">Yerma <small>Lorca · 24 représentations, Avignon</small></li>
+   <li class="pres">Wanda <small>2021 · Tournant casaque</small></li>
+   <li>La femme du maire <small>2022</small></li>
+   <li>Juliette <small>La Pépinière</small></li>
+  </ol></div>
+  <div class="actions"><a class="btn plein">▶ Bande-démo 2024</a><a class="btn ligne">Écrire à Sarah</a><span class="tel">06 11 62 65 41</span></div>
+ </div>
+ <div class="droite">
+  <p class="prochain">Prochainement<br><b>Les voix de l'eau</b><br>décembre 2026</p>
+  <div class="carte"><div class="dos"></div><img src="/recu/site/comedienne-2.jpg" alt=""><div class="lame"></div></div>
+  <div class="etiquette"><b>Yerma</b>Federico García Lorca, Cie Rugir l'art · portrait Roka production</div>
+  <p class="geste">↕ Faites défiler les rôles</p>
+ </div>
+</main>
+</body></html>

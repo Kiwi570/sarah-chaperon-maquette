@@ -1,0 +1,99 @@
+{
+  "client": "Sarah Chaperon",
+  "depot": "sarah-chaperon-maquette",
+  "site_actuel": "https://sarahchaperon.wixsite.com/sarah-chaperon",
+  "activite": "comédienne (théâtre, tournages, voix)",
+  "constat": "Le site actuel montre treize beaux portraits signés de cinq photographes mais ne dit presque rien : un mot (« Comédienne »), un CV en PDF, des dates passées encore annoncées comme prochaines. Un directeur de casting doit y trouver en trente secondes son visage, son jeu, sa voix, son parcours et son téléphone.",
+  "directions": [
+    {
+      "nom": "La distribution",
+      "idee": "L'accueil se lit comme une feuille de distribution : la liste en très grand des rôles qu'elle a vraiment tenus (la servante, Katia, Wanda, l'infirmière, Yerma, Juliette…). On attrape la liste et on la lance comme une bobine de générique ; à chaque rôle qui passe sous le repère cuivre, la carte-portrait pivote en 3D et montre un autre visage.",
+      "plan": "index",
+      "palette": ["#100d0c", "#efe6d8", "#c0562b"],
+      "polices": ["Bodoni Moda", "Instrument Sans"],
+      "grille": {
+        "objet": "la bobine des rôles qu'on attrape et qu'on lance, avec élan ; la carte-portrait qui pivote à chaque rôle",
+        "fil": "la poursuite : un halo de projecteur cuivré qui suit la lecture et se pose sur le sujet de chaque section, de page en page",
+        "voile": "rideau de scène qui tombe depuis le clic et se relève sur la page suivante",
+        "forme_voile": "rideau",
+        "familles": ["typo-geante", "3d", "curseur-vivant"],
+        "signature": "typo-geante",
+        "modernes": ["liste géante des rôles en Bodoni, axe optique animé au défilement", "carte-portrait en 3D qui pivote d'un visage à l'autre", "curseur en petit halo de poursuite qui éclaire les rôles"]
+      },
+      "modules": ["objet-a-faire-tourner", "intro-vers-l-objet"],
+      "sections": [
+        { "role": "ouverture", "reprend": "les-plus-hautes-eaux-maquette/haut", "plus": "au lieu d'une photo et d'un titre, la liste géante de ses rôles réels se manipule, et son portrait change avec eux" },
+        { "role": "portfolio", "reprend": "agence-ae-maquette/plein-cadre", "plus": "chaque portrait s'ouvre en grand avec le nom du photographe" },
+        { "role": "outil-interactif", "reprend": "will-midoux-maquette/ecouter", "plus": "ses quatre extraits de voix, « En mai » de Victor Hugo en tête, sous la poursuite" },
+        { "role": "contact", "reprend": "instinct-aventure-maquette/contact", "plus": "le message part comme une feuille de service qui file dans le dossier de casting" }
+      ],
+      "ancrage": [
+        { "element": "la liste des rôles tenus au cinéma et au théâtre (la servante, Katia, Wanda, l'infirmière, la femme du maire, Yerma, Juliette)", "source": "site:/actualit" },
+        { "element": "portraits sur fond noir de studio, pull noir, cheveux auburn (Roka production, Laurent Bouillard)", "source": "photo:comedienne-2.jpg" },
+        { "element": "Yerma, 24 représentations dont Avignon", "source": "releve:Théâtre" },
+        { "element": "téléphone et e-mail directs, pas d'agent", "source": "site:/contact" }
+      ],
+      "invente": ["la bobine des rôles qu'on lance (les portraits ne sont pas des photos de ces rôles : chacun garde son crédit)", "le halo de poursuite comme fil"]
+    },
+    {
+      "nom": "La planche-contact",
+      "idee": "Sa vraie matière, ce sont ses portraits. L'accueil est une planche-contact posée sur une table lumineuse : on promène un compte-fils sur les vignettes, on entoure au crayon gras rouge celle qui parle, et on plonge dedans jusqu'à la section suivante. La planche se recompose par photographe ou par registre.",
+      "plan": "galerie",
+      "palette": ["#f2efe8", "#1b1a18", "#d23a22"],
+      "polices": ["Instrument Serif", "Fragment Mono", "Instrument Sans"],
+      "grille": {
+        "objet": "le compte-fils qu'on promène sur la planche ; le cercle au crayon gras qu'on trace au clic",
+        "fil": "le trait de crayon gras rouge qui entoure, à chaque section, la chose à regarder",
+        "voile": "diaphragme d'objectif qui se ferme depuis le clic et s'ouvre sur la page suivante",
+        "forme_voile": "iris",
+        "familles": ["plongee", "lumiere-pointeur", "recomposition"],
+        "signature": "plongee",
+        "modernes": ["plongée dans le portrait entouré jusqu'à la scène suivante", "lumière de la table qui suit le compte-fils", "planche qui se recompose par photographe ou par registre"]
+      },
+      "modules": ["mur-de-portraits", "catalogue-filtres-flip", "transition-iris"],
+      "sections": [
+        { "role": "ouverture", "reprend": "loeilsingulier-maquette/hero", "plus": "une vraie planche de ses portraits avec une loupe qui agrandit et révèle le photographe" },
+        { "role": "portfolio", "reprend": "les-plus-hautes-eaux-maquette/repertoire", "plus": "on plonge dans le portrait choisi au lieu de faire défiler une galerie" },
+        { "role": "agenda", "reprend": "les-plus-hautes-eaux-maquette/agenda-t-venir", "plus": "dates passées et à venir triées seules, la prochaine mise en avant" },
+        { "role": "contact", "reprend": "instinct-aventure-maquette/contact", "plus": "le message est tamponné et glissé dans la pochette de tirages" }
+      ],
+      "ancrage": [
+        { "element": "treize portraits de cinq photographes (Roka production, Laurent Bouillard, Ana Slk, Fabrice Robin, Lisa Fougereux)", "source": "site:/portraits" },
+        { "element": "le rire franc, mains sur les joues", "source": "photo:contact-sarah-chaperon.jpg" },
+        { "element": "séances en studio sur fond gris et en extérieur dans la verdure", "source": "photo:photos-5.jpg" },
+        { "element": "crédits photographes affichés sur son site", "source": "releve:Photographes" }
+      ],
+      "invente": ["la planche-contact et le compte-fils (ses photos sont numériques)", "le crayon gras rouge comme fil"]
+    },
+    {
+      "nom": "Les deux masques",
+      "idee": "Son parcours va de Lorca, Duras et Delbo aux clowns de la Cie PILE et à Pat'mouille (70 représentations). L'écran est partagé : à gauche son visage, coupé par une ligne qu'on fait glisser du drame au rire ; à droite la page défile. La lumière de tout le site suit la ligne : nuit bleue côté tragédie, jaune soleil des affiches de la Cie PILE côté comédie.",
+      "plan": "ecran-partage",
+      "palette": ["#14182b", "#f4cc2e", "#f6f0e4", "#a5341f"],
+      "polices": ["Bricolage Grotesque", "Instrument Sans"],
+      "grille": {
+        "objet": "la ligne de partage qu'on fait glisser sur son visage, du drame au rire, avec élan",
+        "fil": "la ligne de partage elle-même, qui reste à l'écran et porte le registre de chaque section",
+        "voile": "la poursuite qui se referme en cercle depuis le clic, puis s'ouvre sur la page suivante",
+        "forme_voile": "iris",
+        "familles": ["ambiance-qui-change", "3d", "curseur-vivant"],
+        "signature": "ambiance-qui-change",
+        "modernes": ["couleur de tout le site qui suit la ligne, de la nuit au soleil", "affiches de la Cie PILE posées en profondeur 3D", "curseur qui devient masque triste ou rieur selon le côté"]
+      },
+      "modules": ["avant-apres", "lecteur-reactif-au-son", "intro-vers-l-objet"],
+      "sections": [
+        { "role": "ouverture", "reprend": "francis-gerardin-maquette/hero", "plus": "la ligne se manipule et change l'ambiance de toute la page, pas seulement l'image" },
+        { "role": "outil-interactif", "reprend": "will-midoux-maquette/ecouter", "plus": "« En mai » de Victor Hugo lu par elle, le visuel suit sa voix" },
+        { "role": "agenda", "reprend": "les-plus-hautes-eaux-maquette/agenda-t-venir", "plus": "chaque date prend la couleur de son registre" },
+        { "role": "contact", "reprend": "instinct-aventure-maquette/contact", "plus": "le message envoyé fait basculer la ligne côté rire" }
+      ],
+      "ancrage": [
+        { "element": "répertoire du drame (Yerma de Lorca, Duras, Delbo, Horace) à la comédie jeune public (Pat'mouille, 70 représentations ; Cie PILE)", "source": "site:/actualit" },
+        { "element": "affiches jaunes et colorées de la Cie PILE (Veni Vidi Bibi, Sacrées Championnes, Les Lombricontes)", "source": "photo:maxresdefault.webp" },
+        { "element": "un portrait pensif, main sous le menton, et un portrait au grand rire", "source": "photo:photos-6.jpg" },
+        { "element": "quatre extraits de voix, dont « En mai » de Victor Hugo en studio", "source": "site:/voix" }
+      ],
+      "invente": ["la ligne de partage tragédie et comédie", "le visage coupé en deux (deux séances différentes, crédits conservés)"]
+    }
+  ]
+}

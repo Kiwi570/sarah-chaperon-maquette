@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portraits : Sarah Chaperon, comédienne</title>
+<meta name="description" content="Douze portraits de Sarah Chaperon par Roka production, Laurent Bouillard, Ana Slk, Fabrice Robin et Lisa Fougereux.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://sarah-chaperon-maquette.vercel.app/portraits">
+<style>:root{--fond:#f2efe8;--texte:#1b1a18;--voile-fond:#141312;--ouverture-fond:#141312;--menu-fond:#f2efe8}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/instrument-serif.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f2efe8">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sarah Chaperon">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Portraits : Sarah Chaperon, comédienne">
+<meta property="og:description" content="Douze portraits de Sarah Chaperon par Roka production, Laurent Bouillard, Ana Slk, Fabrice Robin et Lisa Fougereux.">
+<meta property="og:url" content="https://sarah-chaperon-maquette.vercel.app/portraits">
+<meta property="og:image" content="https://sarah-chaperon-maquette.vercel.app/assets/partage/portraits-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Portrait de Sarah Chaperon sur fond noir">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Sarah Chaperon","jobTitle":"Comédienne","email":"mailto:sarahchaperon93@gmail.com","telephone":"+33611626541","url":"https://sarah-chaperon-maquette.vercel.app"}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="56" height="56"><span data-voile-libelle>Portraits</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <p class="ouverture-nom">Sarah Chaperon</p>
+  <svg class="ouverture-cercle" data-ouverture-objet viewBox="0 0 220 270" width="150" height="184" aria-hidden="true"><path d="M112 14 C 168 12, 206 62, 204 136 C 202 214, 160 258, 106 256 C 50 254, 14 206, 16 132 C 18 62, 58 18, 120 20" fill="none" stroke="#e2553a" stroke-width="7" stroke-linecap="round"/></svg>
+  <p class="ouverture-ligne">Comédienne</p>
+</div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><filter id="gras-fil" x="-10%" y="-20%" width="120%" height="140%"><feTurbulence type="fractalNoise" baseFrequency="1.4" numOctaves="2" seed="7" result="b"/><feDisplacementMap in="SourceGraphic" in2="b" scale="2.4"/></filter></svg>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo.svg" alt="" width="40" height="40"><span>Sarah Chaperon</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/parcours" data-libelle="Parcours">Parcours</a></li><li><a href="/portraits" data-libelle="Portraits" aria-current="page">Portraits</a></li><li><a href="/demo-et-voix" data-libelle="Démo &amp; voix">Démo &amp; voix</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton entete-action" href="/contact" data-libelle="Contact" data-envol-cible>La contacter</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/parcours" class="menu-lien" data-libelle="Parcours">Parcours</a></li><li style="--i:2"><a href="/portraits" class="menu-lien" data-libelle="Portraits" aria-current="page">Portraits</a></li><li style="--i:3"><a href="/demo-et-voix" class="menu-lien" data-libelle="Démo &amp; voix">Démo &amp; voix</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33611626541">Appeler 06 11 62 65 41</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="po2-ouverture" id="debut">
+  <div class="po2-texte">
+    <p class="surtitre mono ouvre" data-anime="gsap">Portraits</p>
+    <h1 class="po2-titre" data-grille="typo"><span>Douze</span> <span class="rouge">visages</span></h1>
+    <p class="ouvre" data-anime="gsap">Cinq photographes, des séances en studio et en plein air. Touchez un tirage pour l&#39;ouvrir en grand.</p>
+    <p class="mono ouvre po2-info" data-info-cle data-anime="gsap">Photographies Roka production, Laurent Bouillard, Ana Slk, Fabrice Robin, Lisa Fougereux</p>
+    <p class="ouvre" data-anime="gsap"><a class="bouton bouton--clair" href="#planche" data-action-principale>Voir la planche</a></p>
+  </div>
+  <div class="po2-bac" data-iris-centre>
+    <figure class="media po2-tirage" data-effet="tirage" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/roka-buste-1120.webp" srcset="/assets/images/roka-buste-480.webp 480w, /assets/images/roka-buste-800.webp 800w, /assets/images/roka-buste-1120.webp 1120w" sizes="(max-width: 760px) 70vw, 30vw" alt="Sarah Chaperon souriante, pull noir et boucles d&#39;oreilles, sur fond noir" width="1120" height="1991" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+    <p class="po2-credit mono">Photo Roka production</p>
+  </div>
+</section>
+<section class="po2-planche" id="planche">
+  <div class="conteneur">
+    <div class="po2-tete">
+      <p class="surtitre mono" data-anime>La planche</p>
+      <h2 data-anime="lignes">Tous les tirages<svg class="crayon crayon-titre" viewBox="0 0 320 120" preserveAspectRatio="none" aria-hidden="true" data-superpose data-effet="crayon" data-grille="fil"><path d="M60 10 C 180 -2, 312 8, 316 56 C 320 102, 220 116, 140 112 C 50 108, 2 92, 4 58 C 6 26, 60 10, 120 6" pathLength="1" filter="url(#gras-fil)"/></svg></h2>
+      <div class="filtres filtres--clair" role="group" aria-label="Filtrer par photographe ou par lumière">
+        <button type="button" class="filtre" data-filtre="tous" aria-pressed="true">Tous</button>
+        <button type="button" class="filtre" data-filtre="roka-production" aria-pressed="false">Roka production</button><button type="button" class="filtre" data-filtre="laurent-bouillard" aria-pressed="false">Laurent Bouillard</button><button type="button" class="filtre" data-filtre="ana-slk" aria-pressed="false">Ana Slk</button><button type="button" class="filtre" data-filtre="lisa-fougereux" aria-pressed="false">Lisa Fougereux</button><button type="button" class="filtre" data-filtre="fabrice-robin" aria-pressed="false">Fabrice Robin</button>
+        <button type="button" class="filtre" data-filtre="noir" aria-pressed="false">Fond noir</button><button type="button" class="filtre" data-filtre="gris" aria-pressed="false">Fond gris</button><button type="button" class="filtre" data-filtre="dehors" aria-pressed="false">Plein air</button>
+      </div>
+    </div>
+    <ul class="po2-grille" data-effet="recomposition">
+      <li class="po2-item" id="portrait-1" data-cles="tous roka-production noir">
+        <a class="po2-lien" href="#portrait-1" data-sans-transition data-grand="/assets/images/roka-buste-1120.webp" data-titre="Le sourire posé" data-credit="Photo Roka production" aria-label="Le sourire posé : ouvrir en grand">
+          <figure class="media po2-media" style="--cadrage:50% 50%;aspect-ratio:4/5">
+  <picture>
+    <img src="/assets/images/roka-buste-1120.webp" srcset="/assets/images/roka-buste-480.webp 480w, /assets/images/roka-buste-800.webp 800w, /assets/images/roka-buste-1120.webp 1120w" sizes="(max-width: 760px) 45vw, 22vw" alt="Sarah Chaperon souriante, pull noir et boucles d&#39;oreilles, sur fond noir" width="1120" height="1991" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </a>
+        <p class="po2-legende"><b>Le sourire posé</b> Photo Roka production</p>
+      </li><li class="po2-item" id="portrait-2" data-cles="tous laurent-bouillard noir">
+        <a class="po2-lien" href="#portrait-2" data-sans-transition data-grand="/assets/images/bouillard-sourire-1120.webp" data-titre="Face à la lumière" data-credit="Photo Laurent Bouillard" aria-label="Face à la lumière : ouvrir en grand">
+          <figure class="media po2-media" style="--cadrage:50% 50%;aspect-ratio:4/5">
+  <picture>
+    <img src="/assets/images/bouillard-sourire-1120.webp" srcset="/assets/images/bouillard-sourire-480.webp 480w, /assets/images/bouillard-sourire-800.webp 800w, /assets/images/bouillard-sourire-1120.webp 1120w" sizes="(max-width: 760px) 45vw, 22vw" alt="Sarah Chaperon souriante, haut noir en V, sur fond sombre" width="1120" height="746" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </a>
+        <p class="po2-legende"><b>Face à la lumière</b> Photo Laurent Bouillard</p>
+      </li><li class="po2-item" id="portrait-3" data-cles="tous ana-slk dehors">
+        <a class="po2-lien" href="#portrait-3" data-sans-transition data-grand="/assets/images/slk-menton-1120.webp" data-titre="La rêveuse" data-credit="Photo Ana Slk" aria-label="La rêveuse : ouvrir en grand">
+          <figure class="media po2-media" style="--cadrage:50% 50%;aspect-ratio:4/5">
+  <picture>
+    <img src="/assets/images/slk-menton-1120.webp" srcset="/assets/images/slk-menton-480.webp 480w, /assets/images/slk-menton-800.webp 800w, /assets/images/slk-menton-1120.webp 1120w" sizes="(max-width: 760px) 45vw, 22vw" alt="Sarah Chaperon pensive, la main sous le menton, dans la verdure" width="1120" height="1680" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </a>
+        <p class="po2-legende"><b>La rêveuse</b> Photo Ana Slk</p>
+      </li><li class="po2-item" id="portrait-4" data-cles="tous laurent-bouillard noir">
+        <a class="po2-lien" href="#portrait-4" data-sans-transition data-grand="/assets/images/bouillard-noir-1120.webp" data-titre="Col roulé" data-credit="Photo Laurent Bouillard" aria-label="Col roulé : ouvrir en grand">
+          <figure class="media po2-media" style="--cadrage:50% 50%;aspect-ratio:4/5">
+  <picture>
+    <img src="/assets/images/bouillard-noir-1120.webp" srcset="/assets/images/bouillard-noir-480.webp 480w, /assets/images/bouillard-noir-800.webp 800w, /assets/images/bouillard-noir-1120.webp 1120w" sizes="(max-width: 760px) 45vw, 22vw" alt="Sarah Chaperon en col roulé noir, sourire franc, sur fond noir" width="1120" height="1400" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </a>
+        <p class="po2-legende"><b>Col roulé</b> Photo Laurent Bouillard</p>
+      </li><li class="po2-item" id="portrait-5" data-cles="tous ana-slk dehors">
+        <a class="po2-lien" href="#portrait-5" data-sans-transition data-grand="/assets/images/slk-jardin-1120.webp" data-titre="Plein air" data-credit="Photo Ana Slk" aria-label="Plein air : ouvrir en grand">
+          <figure class="media po2-media" style="--cadrage:50% 50%;aspect-ratio:4/5">
+  <picture>
+    <img src="/assets/images/slk-jardin-1120.webp" srcset="/assets/images/slk-jardin-480.webp 480w, /assets/images/slk-jardin-800.webp 800w, /assets/images/slk-jardin-1120.webp 1120w" sizes="(max-width: 760px) 45vw, 22vw" alt="Sarah Chaperon souriante en extérieur, feuillage vert derrière elle" width="1120" height="1680" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </a>
+        <p class="po2-legende"><b>Plein air</b> Photo Ana Slk</p>
+      </li><li class="po2-item" id="portrait-6" data-cles="tous  gris">
+        <a class="po2-lien" href="#portrait-6" data-sans-transition data-grand="/assets/images/rire-1920.webp" data-titre="Le rire, en grand" data-credit="Photographe non crédité" aria-label="Le rire, en grand : ouvrir en grand">
+          <figure class="media po2-media" style="--cadrage:50% 50%;aspect-ratio:4/5">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/rire-mobile-640.webp 640w, /assets/images/rire-mobile-1080.webp 1080w" sizes="(max-width: 760px) 45vw, 22vw">
+    <img src="/assets/images/rire-1280.webp" srcset="/assets/images/rire-640.webp 640w, /assets/images/rire-1280.webp 1280w, /assets/images/rire-1920.webp 1920w" sizes="(max-width: 760px) 45vw, 22vw" alt="Sarah Chaperon éclate de rire, les mains sur les joues, sur fond gris bleu" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </a>
+        <p class="po2-legende"><b>Le rire, en grand</b> Photographe non crédité</p>
+      </li><li class="po2-item" id="portrait-7" data-cles="tous laurent-bouillard gris">
+        <a class="po2-lien" href="#portrait-7" data-sans-transition data-grand="/assets/images/bouillard-lunettes-1120.webp" data-titre="Les lunettes à la main" data-credit="Photo Laurent Bouillard" aria-label="Les lunettes à la main : ouvrir en grand">
+          <figure class="media po2-media" style="--cadrage:50% 50%;aspect-ratio:4/5">
+  <picture>
+    <img src="/assets/images/bouillard-lunettes-1120.webp" srcset="/assets/images/bouillard-lunettes-480.webp 480w, /assets/images/bouillard-lunettes-800.webp 800w, /assets/images/bouillard-lunettes-1120.webp 1120w" sizes="(max-width: 760px) 45vw, 22vw" alt="Sarah Chaperon sourit, une paire de lunettes à la main, sur fond gris" width="1120" height="746" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </a>
+        <p class="po2-legende"><b>Les lunettes à la main</b> Photo Laurent Bouillard</p>
+      </li><li class="po2-item" id="portrait-8" data-cles="tous roka-production noir">
+        <a class="po2-lien" href="#portrait-8" data-sans-transition data-grand="/assets/images/roka-pied-1120.webp" data-titre="En pied" data-credit="Photo Roka production" aria-label="En pied : ouvrir en grand">
+          <figure class="media po2-media" style="--cadrage:50% 50%;aspect-ratio:4/5">
+  <picture>
+    <img src="/assets/images/roka-pied-1120.webp" srcset="/assets/images/roka-pied-480.webp 480w, /assets/images/roka-pied-800.webp 800w, /assets/images/roka-pied-1120.webp 1120w" sizes="(max-width: 760px) 45vw, 22vw" alt="Sarah Chaperon debout, les mains jointes, robe noire à manches de dentelle, sur fond noir" width="1120" height="1991" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </a>
+        <p class="po2-legende"><b>En pied</b> Photo Roka production</p>
+      </li><li class="po2-item" id="portrait-9" data-cles="tous lisa-fougereux dehors">
+        <a class="po2-lien" href="#portrait-9" data-sans-transition data-grand="/assets/images/fougereux-manteau-1120.webp" data-titre="Manteau bleu" data-credit="Photo Lisa Fougereux" aria-label="Manteau bleu : ouvrir en grand">
+          <figure class="media po2-media" style="--cadrage:50% 50%;aspect-ratio:4/5">
+  <picture>
+    <img src="/assets/images/fougereux-manteau-1120.webp" srcset="/assets/images/fougereux-manteau-480.webp 480w, /assets/images/fougereux-manteau-800.webp 800w, /assets/images/fougereux-manteau-1120.webp 1120w" sizes="(max-width: 760px) 45vw, 22vw" alt="Sarah Chaperon rieuse en manteau de fourrure bleue, les mains derrière la tête" width="1120" height="1680" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </a>
+        <p class="po2-legende"><b>Manteau bleu</b> Photo Lisa Fougereux</p>
+      </li><li class="po2-item" id="portrait-10" data-cles="tous laurent-bouillard gris">
+        <a class="po2-lien" href="#portrait-10" data-sans-transition data-grand="/assets/images/bouillard-pied-1120.webp" data-titre="Trois quarts" data-credit="Photo Laurent Bouillard" aria-label="Trois quarts : ouvrir en grand">
+          <figure class="media po2-media" style="--cadrage:50% 50%;aspect-ratio:4/5">
+  <picture>
+    <img src="/assets/images/bouillard-pied-1120.webp" srcset="/assets/images/bouillard-pied-480.webp 480w, /assets/images/bouillard-pied-800.webp 800w, /assets/images/bouillard-pied-1120.webp 1120w" sizes="(max-width: 760px) 45vw, 22vw" alt="Sarah Chaperon debout de trois quarts, sur fond gris" width="1120" height="1680" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </a>
+        <p class="po2-legende"><b>Trois quarts</b> Photo Laurent Bouillard</p>
+      </li><li class="po2-item" id="portrait-11" data-cles="tous fabrice-robin gris">
+        <a class="po2-lien" href="#portrait-11" data-sans-transition data-grand="/assets/images/robin-1120.webp" data-titre="De face" data-credit="Photo Fabrice Robin" aria-label="De face : ouvrir en grand">
+          <figure class="media po2-media" style="--cadrage:50% 50%;aspect-ratio:4/5">
+  <picture>
+    <img src="/assets/images/robin-1120.webp" srcset="/assets/images/robin-480.webp 480w, /assets/images/robin-800.webp 800w, /assets/images/robin-1120.webp 1120w" sizes="(max-width: 760px) 45vw, 22vw" alt="Sarah Chaperon de face, cheveux auburn, sur fond gris" width="1120" height="1400" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </a>
+        <p class="po2-legende"><b>De face</b> Photo Fabrice Robin</p>
+      </li><li class="po2-item" id="portrait-12" data-cles="tous laurent-bouillard noir">
+        <a class="po2-lien" href="#portrait-12" data-sans-transition data-grand="/assets/images/bouillard-hanches-1120.webp" data-titre="Les mains sur les hanches" data-credit="Photo Laurent Bouillard" aria-label="Les mains sur les hanches : ouvrir en grand">
+          <figure class="media po2-media" style="--cadrage:50% 50%;aspect-ratio:4/5">
+  <picture>
+    <img src="/assets/images/bouillard-hanches-1120.webp" srcset="/assets/images/bouillard-hanches-480.webp 480w, /assets/images/bouillard-hanches-800.webp 800w, /assets/images/bouillard-hanches-1120.webp 1120w" sizes="(max-width: 760px) 45vw, 22vw" alt="Sarah Chaperon en lunettes, les mains sur les hanches, regard direct" width="1120" height="746" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </a>
+        <p class="po2-legende"><b>Les mains sur les hanches</b> Photo Laurent Bouillard</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<dialog class="visionneuse" data-recouvrement aria-label="Portrait en grand">
+  <figure class="vis-figure"><img class="vis-img" src="/assets/images/roka-buste-480.webp" alt="" width="480" height="600"><figcaption class="vis-legende"><b data-vis-titre></b> <span data-vis-credit></span></figcaption></figure>
+  <button type="button" class="vis-bouton vis-prec" aria-label="Portrait précédent">←</button>
+  <button type="button" class="vis-bouton vis-suiv" aria-label="Portrait suivant">→</button>
+  <button type="button" class="vis-bouton vis-fermer">Fermer</button>
+</dialog>
+<section class="po2-demande" id="demande">
+  <div class="conteneur po2-demande-grille">
+    <figure class="media po2-demande-media" data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/coulisses-mobile-640.webp 640w, /assets/images/grok/coulisses-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 45vw">
+    <img src="/assets/images/grok/coulisses-1280.webp" srcset="/assets/images/grok/coulisses-640.webp 640w, /assets/images/grok/coulisses-1280.webp 1280w, /assets/images/grok/coulisses-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 45vw" alt="Un couloir de coulisses, une porte de loge entrouverte" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div>
+      <h2 data-anime="lignes">Besoin d&#39;une photo en haute définition ?</h2>
+      <p data-anime>Pour un dossier de casting ou un programme, Sarah vous envoie les fichiers originaux avec le crédit du photographe.</p>
+      <p data-anime><a href="/contact?sujet=cv#message" class="bouton bouton--clair" data-libelle="Contact">Demander les fichiers</a></p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-nom">Sarah Chaperon</p>
+      <p>Comédienne · théâtre, tournages, voix<br><a href="tel:+33611626541">06 11 62 65 41</a><br><a href="mailto:sarahchaperon93@gmail.com">sarahchaperon93@gmail.com</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/parcours" data-libelle="Parcours">Parcours</a></li><li><a href="/portraits" data-libelle="Portraits" aria-current="page">Portraits</a></li><li><a href="/demo-et-voix" data-libelle="Démo &amp; voix">Démo &amp; voix</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Photographies</strong></p>
+      <p class="pied-credits">Roka production, Laurent Bouillard, Ana Slk, Fabrice Robin, Lisa Fougereux.</p>
+      <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales : à compléter</p><p>Politique de confidentialité : à compléter</p><p>Maquette de présentation.</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33611626541">Appeler</a>
+  <a class="bouton" href="/contact" data-libelle="Contact">La contacter</a>
+</div>
+</body>
+</html>

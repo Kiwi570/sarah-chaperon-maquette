@@ -1,0 +1,19 @@
+… mesures
+  14/234
+  42/234
+  72/234
+  98/234
+  127/234
+  156/234
+  175/234
+  201/234
+  228/234
+  fait en 281 s
+… mesures:balayage
+  fait en 48 s
+… ecran
+  fait en 13 s
+
+Échecs : 5 · À regarder : 0 · Non lancé : 0
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --complet --pages=/,/404,/portraits --seulement=fichiers,mesures
+Rapport : /home/claude/sarah-chaperon-maquette/_audit/rapport/rapport.md (passe 20261113-165611-complet-partiel)

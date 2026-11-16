@@ -1,0 +1,38 @@
+… fichiers
+  fait en 0 s
+… grille
+  fait en 7 s
+… mesures
+  fait en 15 s
+… mesures:balayage
+  fait en 0 s
+… films
+  fait en 35 s
+… bords
+  fait en 11 s
+… parcours:intro
+  fait en 20 s
+… parcours:menu
+  fait en 4 s
+… parcours:liens
+  fait en 56 s
+… parcours:hauteur
+  fait en 17 s
+… parcours:projet
+  fait en 0 s
+… ecran
+  fait en 8 s
+… fluidite
+  fait en 50 s
+… mouvement
+  fait en 48 s
+… vitesse
+  fait en 4 s
+… captures
+  fait en 30 s
+… safari
+  fait en 0 s
+
+Échecs : 37 · À regarder : 12 · Non lancé : 1
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --rapide --seulement=fichiers,grille,mesures,films,parcours,ecran
+Rapport : /home/claude/sarah-chaperon-maquette/_audit/rapport/rapport.md (passe 20261113-140548-rapide-cible)

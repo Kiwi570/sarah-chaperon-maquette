@@ -1,0 +1,1528 @@
+{
+  "dossier": "/Users/paul/Downloads/sarah-chaperon-recu",
+  "date": "2026-11-13T13:41:36.603Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "comedienne.jpg",
+      "nom": "comedienne",
+      "drapeau": "autre",
+      "largeur": 1126,
+      "hauteur": 2000,
+      "ratio": "9:16",
+      "ratio_valeur": 0.563,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 143587,
+      "transparence": false,
+      "sujet": {
+        "x": 20.1,
+        "y": 1.3,
+        "l": 67.1,
+        "h": 49.9,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        54,
+        23
+      ],
+      "cadrage_css": "54% 23%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.75,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.72,
+          "ton": "sombre",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "droite",
+          "score": 0.7,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "haut",
+          "score": 0.38,
+          "ton": "sombre",
+          "recouvre_sujet": 0.65
+        }
+      ],
+      "qualite": {
+        "nettete": 15,
+        "bruit": 0.37,
+        "compression": 0.93,
+        "faible": true,
+        "raisons": [
+          "1126 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "9a39708b718ed0c2",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite",
+        "calme bas/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "comedienne-2.jpg",
+      "nom": "comedienne-2",
+      "drapeau": "autre",
+      "largeur": 1126,
+      "hauteur": 2000,
+      "ratio": "9:16",
+      "ratio_valeur": 0.563,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 162734,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 5.8,
+        "l": 100,
+        "h": 67.4,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        55,
+        42
+      ],
+      "cadrage_css": "55% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.85,
+          "ton": "sombre",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.57,
+          "ton": "sombre",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "droite",
+          "score": 0.4,
+          "ton": "sombre",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "sombre",
+          "recouvre_sujet": 0.83
+        }
+      ],
+      "qualite": {
+        "nettete": 15.5,
+        "bruit": 0.43,
+        "compression": 0.96,
+        "faible": true,
+        "raisons": [
+          "1126 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "267978e8d904d4ca",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "contact-sarah-chaperon.jpg",
+      "nom": "contact-sarah-chaperon",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 221645,
+      "transparence": false,
+      "sujet": {
+        "x": 35.1,
+        "y": 0,
+        "l": 41.6,
+        "h": 66.5,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        56,
+        35
+      ],
+      "cadrage_css": "56% 35%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.74,
+          "ton": "sombre",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "haut",
+          "score": 0.49,
+          "ton": "sombre",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "sombre",
+          "recouvre_sujet": 0.28
+        }
+      ],
+      "qualite": {
+        "nettete": 18.2,
+        "bruit": 0.56,
+        "compression": 1.33,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "e4d0f0f0f0e4e4e4",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "maxresdefault.webp",
+      "nom": "maxresdefault",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 46366,
+      "transparence": false,
+      "sujet": {
+        "x": 28.4,
+        "y": 5.8,
+        "l": 42.8,
+        "h": 94,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        46
+      ],
+      "cadrage_css": "49% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "sombre",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "sombre",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.43
+        }
+      ],
+      "qualite": {
+        "nettete": 60.7,
+        "bruit": 0.28,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "La Cie Pile présente · VENI VIDI BIBI · ROSE · MARGAUX · BLANCHE · Une conférence théâtravinée · à/consommer sans modération · 'abul · d'alcool esti · ange · ux",
+        "blocs": 11,
+        "surface": 4.6,
+        "details": [
+          {
+            "texte": "La Cie Pile présente",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "VENI VIDI BIBI",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ROSE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MARGAUX",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BLANCHE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Une conférence théâtravinée",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "à/consommer sans modération",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "'abul",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "d'alcool esti",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ange",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ux por la sal",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "7169696969617171",
+      "drapeaux": [
+        "autre",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "maxresdefault-2.webp",
+      "nom": "maxresdefault-2",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 44572,
+      "transparence": false,
+      "sujet": {
+        "x": 27.3,
+        "y": 0.6,
+        "l": 42.2,
+        "h": 98.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        45
+      ],
+      "cadrage_css": "48% 45%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.43,
+          "ton": "sombre",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.42,
+          "ton": "sombre",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "bas",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.41
+        }
+      ],
+      "qualite": {
+        "nettete": 78,
+        "bruit": 0.3,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "LES CIES PILE ET POLSATILLE PRESENTENT · SACREES · CHAMPIONNES · Des exoloits féminins de l'antiquité et d'aujourd'hui · racontes par Sarah Chaperon et Caroline",
+        "blocs": 8,
+        "surface": 5.7,
+        "details": [
+          {
+            "texte": "LES CIES PILE ET POLSATILLE PRESENTENT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SACREES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CHAMPIONNES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Des exoloits féminins de l'antiquité et d'aujourd'hui",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "racontes par Sarah Chaperon et Caroline Mattei",
+            "niveau": "marque"
+          },
+          {
+            "texte": "avec humour et engagement",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Pour un public familial à partir de 9 ans",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CIE PILE: CIEPILF@GMAIL.COM /CIE PULSATILLE : 0631143218",
+            "niveau": "document"
+          }
+        ]
+      },
+      "empreinte": "6971716969696969",
+      "drapeaux": [
+        "autre",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "maxresdefault-3.webp",
+      "nom": "maxresdefault-3",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 79832,
+      "transparence": false,
+      "sujet": {
+        "x": 27.8,
+        "y": 7.3,
+        "l": 46,
+        "h": 92.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        46
+      ],
+      "cadrage_css": "51% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.66,
+          "ton": "sombre",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.64,
+          "ton": "sombre",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "bas",
+          "score": 0.5,
+          "ton": "sombre",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "haut",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0.36
+        }
+      ],
+      "qualite": {
+        "nettete": 62.6,
+        "bruit": 0.64,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "7071717169716969",
+      "drapeaux": [
+        "autre",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "voix-sarah-chaperon.jpg",
+      "nom": "voix-sarah-chaperon",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 227397,
+      "transparence": false,
+      "sujet": {
+        "x": 14.4,
+        "y": 39.8,
+        "l": 34.7,
+        "h": 37.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        39,
+        55
+      ],
+      "cadrage_css": "39% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.77,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0.12
+        }
+      ],
+      "qualite": {
+        "nettete": 18.8,
+        "bruit": 0.43,
+        "compression": 1.29,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "manion · 13177.",
+        "blocs": 2,
+        "surface": 0.5,
+        "details": [
+          {
+            "texte": "manion",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "13177.",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "b09cda63ac9648d8",
+      "drapeaux": [
+        "autre",
+        "texte décoratif",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "voix-sarah-chaperon-2.jpg",
+      "nom": "voix-sarah-chaperon-2",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1312,
+      "ratio": "3:2",
+      "ratio_valeur": 1.524,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 136228,
+      "transparence": false,
+      "sujet": {
+        "x": 14,
+        "y": 51.6,
+        "l": 31.3,
+        "h": 33.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        32,
+        62
+      ],
+      "cadrage_css": "32% 62%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.7,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.54,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        }
+      ],
+      "qualite": {
+        "nettete": 10.1,
+        "bruit": 0.18,
+        "compression": 1.51,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "7060634f23272402",
+      "drapeaux": [
+        "autre",
+        "compression visible",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "voix-sarah-chaperon-3.jpg",
+      "nom": "voix-sarah-chaperon-3",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1285,
+      "ratio": "1.56",
+      "ratio_valeur": 1.556,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 151852,
+      "transparence": false,
+      "sujet": {
+        "x": 44.7,
+        "y": 31.5,
+        "l": 46.5,
+        "h": 42.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        63,
+        51
+      ],
+      "cadrage_css": "63% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.72,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.71,
+          "ton": "moyen",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.33
+        }
+      ],
+      "qualite": {
+        "nettete": 10,
+        "bruit": 0.38,
+        "compression": 1.39,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "070086c727c35971",
+      "drapeaux": [
+        "autre",
+        "calme gauche/haut"
+      ]
+    },
+    {
+      "fichier": "voix-sarah-chaperon-4.jpg",
+      "nom": "voix-sarah-chaperon-4",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 202529,
+      "transparence": false,
+      "sujet": {
+        "x": 30.5,
+        "y": 29,
+        "l": 64.9,
+        "h": 37.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        47
+      ],
+      "cadrage_css": "54% 47%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.72,
+          "ton": "sombre",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.71,
+          "ton": "sombre",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "haut",
+          "score": 0.56,
+          "ton": "sombre",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "sombre",
+          "recouvre_sujet": 0.33
+        }
+      ],
+      "qualite": {
+        "nettete": 19,
+        "bruit": 0.53,
+        "compression": 1.45,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "724ab2f1f7b2b3b3",
+      "drapeaux": [
+        "autre",
+        "calme bas/gauche"
+      ]
+    },
+    {
+      "fichier": "dande-demo-sarah-chaperon.jpg",
+      "nom": "dande-demo-sarah-chaperon",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 24701,
+      "transparence": false,
+      "sujet": {
+        "x": 39.7,
+        "y": 27.9,
+        "l": 20.6,
+        "h": 29.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        42
+      ],
+      "cadrage_css": "50% 42%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 1,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 1,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 1,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.99,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        }
+      ],
+      "qualite": {
+        "nettete": 0,
+        "bruit": 0,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "floue"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0000000000000000",
+      "drapeaux": [
+        "autre",
+        "floue",
+        "calme gauche/droite/bas/haut"
+      ]
+    },
+    {
+      "fichier": "photos.jpg",
+      "nom": "photos",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 77937,
+      "transparence": false,
+      "sujet": {
+        "x": 19.8,
+        "y": 0,
+        "l": 35.4,
+        "h": 56.9,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        38,
+        26
+      ],
+      "cadrage_css": "38% 26%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.92,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.85,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.7,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "gauche",
+          "score": 0.66,
+          "ton": "sombre",
+          "recouvre_sujet": 0.29
+        }
+      ],
+      "qualite": {
+        "nettete": 7.6,
+        "bruit": 0.18,
+        "compression": 1.46,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "b0a8b018383c3c18",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "compression visible",
+        "calme droite/bas/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "photos-2.jpg",
+      "nom": "photos-2",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 86112,
+      "transparence": false,
+      "sujet": {
+        "x": 28.1,
+        "y": 0,
+        "l": 42.7,
+        "h": 68.4,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        49,
+        35
+      ],
+      "cadrage_css": "49% 35%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.91,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.87,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "gauche",
+          "score": 0.84,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "haut",
+          "score": 0.64,
+          "ton": "sombre",
+          "recouvre_sujet": 0.43
+        }
+      ],
+      "qualite": {
+        "nettete": 8.2,
+        "bruit": 0.26,
+        "compression": 1.52,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e8f0b0f0b4b29c34",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "compression visible",
+        "calme droite/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "photos-3.jpg",
+      "nom": "photos-3",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 70657,
+      "transparence": false,
+      "sujet": {
+        "x": 32.7,
+        "y": 0,
+        "l": 34.8,
+        "h": 55.7,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        50,
+        29
+      ],
+      "cadrage_css": "50% 29%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.9,
+          "ton": "sombre",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.86,
+          "ton": "sombre",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "bas",
+          "score": 0.85,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.72,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 6,
+        "bruit": 0.17,
+        "compression": 1.7,
+        "faible": true,
+        "raisons": [
+          "floue",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "f0f0f0b49232cd69",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "floue",
+        "compression visible",
+        "calme droite/gauche/bas/haut"
+      ]
+    },
+    {
+      "fichier": "photos-4.jpg",
+      "nom": "photos-4",
+      "drapeau": "autre",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 88657,
+      "transparence": false,
+      "sujet": {
+        "x": 24,
+        "y": 13.2,
+        "l": 52.1,
+        "h": 45.8,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        50,
+        33
+      ],
+      "cadrage_css": "50% 33%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.79,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.79,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.78,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "haut",
+          "score": 0.74,
+          "ton": "sombre",
+          "recouvre_sujet": 0.32
+        }
+      ],
+      "qualite": {
+        "nettete": 8.2,
+        "bruit": 0.2,
+        "compression": 0.95,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "e8dc94b4363e370e",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "calme droite/bas/gauche/haut"
+      ]
+    },
+    {
+      "fichier": "photos-5.jpg",
+      "nom": "photos-5",
+      "drapeau": "autre",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 299070,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 82.3,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        43,
+        34
+      ],
+      "cadrage_css": "43% 34%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.35,
+          "ton": "moyen",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "droite",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "gauche",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 10.2,
+        "bruit": 0.46,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "0c26636362d0f172",
+      "drapeaux": [
+        "autre",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "photos-6.jpg",
+      "nom": "photos-6",
+      "drapeau": "autre",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 261475,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 67.9,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        46,
+        36
+      ],
+      "cadrage_css": "46% 36%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.5,
+          "ton": "sombre",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "sombre",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 8.3,
+        "bruit": 0.44,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "0ca7a32d6436360e",
+      "drapeaux": [
+        "autre",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "photos-7.jpg",
+      "nom": "photos-7",
+      "drapeau": "autre",
+      "largeur": 1636,
+      "hauteur": 2000,
+      "ratio": "4:5",
+      "ratio_valeur": 0.818,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 159638,
+      "transparence": false,
+      "sujet": {
+        "x": 5.5,
+        "y": 0.9,
+        "l": 74.4,
+        "h": 65.1,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        43,
+        36
+      ],
+      "cadrage_css": "43% 36%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.97,
+          "ton": "sombre",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.84,
+          "ton": "sombre",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "gauche",
+          "score": 0.67,
+          "ton": "sombre",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "haut",
+          "score": 0.54,
+          "ton": "sombre",
+          "recouvre_sujet": 0.72
+        }
+      ],
+      "qualite": {
+        "nettete": 7.5,
+        "bruit": 0.36,
+        "compression": 0.93,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "1820627068d0c084",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "calme bas/droite/gauche"
+      ]
+    },
+    {
+      "fichier": "photos-8.jpg",
+      "nom": "photos-8",
+      "drapeau": "autre",
+      "largeur": 1250,
+      "hauteur": 1750,
+      "ratio": "0.71",
+      "ratio_valeur": 0.714,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 347884,
+      "transparence": false,
+      "sujet": {
+        "x": 12.6,
+        "y": 3.6,
+        "l": 85.4,
+        "h": 65.1,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        55,
+        38
+      ],
+      "cadrage_css": "55% 38%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.79,
+          "ton": "sombre",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "gauche",
+          "score": 0.66,
+          "ton": "sombre",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "droite",
+          "score": 0.54,
+          "ton": "sombre",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "haut",
+          "score": 0.49,
+          "ton": "sombre",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 20.5,
+        "bruit": 1.23,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "1250 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "ec92b2b271794975",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite",
+        "calme bas/gauche"
+      ]
+    },
+    {
+      "fichier": "photos-9.jpg",
+      "nom": "photos-9",
+      "drapeau": "autre",
+      "largeur": 1066,
+      "hauteur": 1600,
+      "ratio": "2:3",
+      "ratio_valeur": 0.666,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 469812,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 73.6,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        45,
+        37
+      ],
+      "cadrage_css": "45% 37%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 40.3,
+        "bruit": 1.43,
+        "compression": 1.03,
+        "faible": true,
+        "raisons": [
+          "1066 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "ccf3f3f23839b153",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "photos-10.jpg",
+      "nom": "photos-10",
+      "drapeau": "autre",
+      "largeur": 672,
+      "hauteur": 1259,
+      "ratio": "0.53",
+      "ratio_valeur": 0.534,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 233165,
+      "transparence": false,
+      "sujet": {
+        "x": 33.6,
+        "y": 0.1,
+        "l": 36.1,
+        "h": 25.5,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        52,
+        11
+      ],
+      "cadrage_css": "52% 11%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.51,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "droite",
+          "score": 0.51,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        }
+      ],
+      "qualite": {
+        "nettete": 20.8,
+        "bruit": 1.13,
+        "compression": 1.12,
+        "faible": true,
+        "raisons": [
+          "672 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c6c7cf0f4f46960c",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    }
+  ]
+}

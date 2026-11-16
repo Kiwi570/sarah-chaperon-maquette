@@ -1,0 +1,242 @@
+{
+  "agenda": [
+    {
+      "titre": "Les voix de l'eau",
+      "auteurs": "Thomas Delaporte et Christy Simon",
+      "mes": "mise en scène Christy Simon",
+      "debut": "2026-12",
+      "quand": "Décembre 2026",
+      "lieu": "Lieu et dates à venir"
+    },
+    {
+      "titre": "Yerma",
+      "auteurs": "Federico García Lorca",
+      "mes": "Cie Rugir l'art",
+      "debut": "2026-10-09",
+      "fin": "2026-10-11",
+      "quand": "9, 10 et 11 octobre 2026",
+      "lieu": "Carré Rondelet, Montpellier"
+    },
+    {
+      "titre": "Veni Vidi Bibi",
+      "auteurs": "Cie PILE",
+      "mes": "",
+      "debut": "2026-10-02",
+      "fin": "2026-10-04",
+      "quand": "2, 3 et 4 octobre 2026",
+      "lieu": "Dijon"
+    },
+    {
+      "titre": "CUT",
+      "auteurs": "Emmanuelle Marie",
+      "mes": "mise en scène Brigitte Lo Cicero",
+      "debut": "2026-09-18",
+      "fin": "2026-09-27",
+      "quand": "18, 19, 20, 25, 26 et 27 septembre 2026",
+      "lieu": "Local des autrices, Paris"
+    },
+    {
+      "titre": "Veni Vidi Bibi",
+      "auteurs": "Cie PILE",
+      "mes": "",
+      "debut": "2026-08-15",
+      "quand": "15 août 2026",
+      "lieu": "Sancerre"
+    }
+  ],
+  "chiffres": [
+    {
+      "valeur": 70,
+      "titre": "Pat'mouille et ses Mouillettes",
+      "texte": "représentations"
+    },
+    {
+      "valeur": 35,
+      "titre": "Le caddie sucré",
+      "texte": "représentations"
+    },
+    {
+      "valeur": 29,
+      "titre": "Envole-toi Papillon",
+      "texte": "représentations, dont Avignon"
+    },
+    {
+      "valeur": 24,
+      "titre": "Yerma",
+      "texte": "représentations, dont Avignon"
+    },
+    {
+      "valeur": 11,
+      "titre": "Roméo et Juliette",
+      "texte": "représentations, La Pépinière"
+    }
+  ],
+  "theatre": [
+    {
+      "titre": "Yerma",
+      "detail": "Federico García Lorca · Cie Rugir l'art · 24 représentations, dont le festival d'Avignon",
+      "registre": "classique"
+    },
+    {
+      "titre": "Les voix de l'eau",
+      "detail": "Thomas Delaporte et Christy Simon · mise en scène Christy Simon",
+      "registre": "contemporain"
+    },
+    {
+      "titre": "CUT",
+      "detail": "Emmanuelle Marie · mise en scène Brigitte Lo Cicero",
+      "registre": "contemporain"
+    },
+    {
+      "titre": "Envole-toi Papillon",
+      "detail": "Cie Rugir l'art · 29 représentations, dont Avignon",
+      "registre": "jeune-public"
+    },
+    {
+      "titre": "Roméo et Juliette",
+      "detail": "Shakespeare · mise en scène Maud Buquet · La Pépinière · 11 représentations",
+      "registre": "classique"
+    },
+    {
+      "titre": "Pat'mouille et ses Mouillettes",
+      "detail": "70 représentations",
+      "registre": "jeune-public"
+    },
+    {
+      "titre": "Le caddie sucré",
+      "detail": "35 représentations",
+      "registre": "jeune-public"
+    },
+    {
+      "titre": "Veni Vidi Bibi",
+      "detail": "Cie PILE",
+      "registre": "jeune-public"
+    },
+    {
+      "titre": "Les Lombricontes",
+      "detail": "Cie PILE",
+      "registre": "jeune-public"
+    },
+    {
+      "titre": "Sacrées Championnes",
+      "detail": "Cie PILE",
+      "registre": "jeune-public"
+    },
+    {
+      "titre": "Les Farces · Dom Juan · Les Précieuses ridicules",
+      "detail": "Molière",
+      "registre": "classique"
+    },
+    {
+      "titre": "Horace",
+      "detail": "Corneille",
+      "registre": "classique"
+    },
+    {
+      "titre": "Textes de Desnos, Duras, Ovide et Charlotte Delbo",
+      "detail": "Lectures et spectacles",
+      "registre": "contemporain"
+    }
+  ],
+  "compagnies": "Rugir l'art · PILE · TIC TAC · SOKOL · KOSHKA LUNA · Progéniture",
+  "tournages": [
+    {
+      "annee": 2024,
+      "titre": "Publicité interne Renault",
+      "real": "Fabrice Robin",
+      "role": ""
+    },
+    {
+      "annee": 2024,
+      "titre": "Recovery",
+      "real": "Sarah Gaston et Benjamin Chamarre",
+      "role": ""
+    },
+    {
+      "annee": 2023,
+      "titre": "Clindindin",
+      "real": "Florian Delorme",
+      "role": "L'infirmière (Charlotte Nakache)"
+    },
+    {
+      "annee": 2022,
+      "titre": "Vive la république",
+      "real": "Juliette Chenais de Busscher",
+      "role": "La femme du maire"
+    },
+    {
+      "annee": 2022,
+      "titre": "Le samouraï qui aimait trop les orties",
+      "real": "Rahma Rarchdi",
+      "role": "La dragueuse",
+      "format": "court métrage"
+    },
+    {
+      "annee": 2021,
+      "titre": "Tournant casaque",
+      "real": "Corentin Petit",
+      "role": "Wanda",
+      "format": "court métrage"
+    },
+    {
+      "annee": 2020,
+      "titre": "Une déclaration d'amour",
+      "real": "Huseyin Ozveren",
+      "role": "L'amoureuse heureuse"
+    },
+    {
+      "annee": 2015,
+      "titre": "Une rencontre",
+      "real": "Coralie Coscas",
+      "role": "La DRH",
+      "format": "court métrage"
+    },
+    {
+      "annee": 2009,
+      "titre": "Le couperet",
+      "real": "Deux films pour l'ESEC",
+      "role": "Marlène"
+    },
+    {
+      "annee": 1997,
+      "titre": "L'éveil du toucher",
+      "real": "Francis Grosjean",
+      "role": "Maman",
+      "format": "film promotionnel"
+    },
+    {
+      "annee": 1992,
+      "titre": "Le bâtard de dieu",
+      "real": "Christian Fechner",
+      "role": "La servante",
+      "format": "long métrage"
+    },
+    {
+      "annee": 1991,
+      "titre": "Le songe Titania",
+      "real": "Pierre Kriedel",
+      "role": "Katia",
+      "format": "moyen métrage"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Veni Vidi Bibi",
+      "image": "affiche-veni-vidi-bibi",
+      "url": "https://www.youtube.com/watch?v=c_-WWkegUUo",
+      "accroche": "« Une conférence théâtravinée », Cie PILE"
+    },
+    {
+      "titre": "Sacrées Championnes",
+      "image": "affiche-sacrees-championnes",
+      "url": "https://www.youtube.com/watch?v=26eZMxqoAQs",
+      "accroche": "Exploits féminins racontés par Sarah Chaperon et Caroline Mattei"
+    },
+    {
+      "titre": "Les Lombricontes",
+      "image": "affiche-lombricontes",
+      "url": "https://www.youtube.com/watch?v=FAnm90GaVI0",
+      "accroche": "Cie PILE"
+    }
+  ]
+}
